@@ -1,0 +1,360 @@
+{
+ "record_id": "INV-26-5751",
+ "fields": {
+  "invoice_no": "INV-26-5751"
+ },
+ "trace": [
+  {
+   "step": 1,
+   "goal": "Click on the Invoices link to view the list of invoices.",
+   "kind": "click",
+   "url": "http://localhost:5180/",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/invoices"
+    },
+    "text": "Invoices",
+    "xpath": "html/body/header/nav/a[2]"
+   },
+   "page_text": "Dashboard \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nDashboard\nInvoices waiting for a decision need to be matched against their purchase order and goods receipts.\n100\nPending\n0\nApproved\n0\nOn hold\n0\nRejected\nGo to invoices"
+  },
+  {
+   "step": 2,
+   "goal": "Type INV-26-5751 into the invoice number search input and click Search.",
+   "kind": "input",
+   "url": "http://localhost:5180/invoices",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "name": "q",
+     "value": "",
+     "placeholder": "Invoice number"
+    },
+    "text": "Invoice number",
+    "xpath": "html/body/main/form/input"
+   },
+   "value": "INV-26-5751",
+   "page_text": "Invoices \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nInvoices\nAll statuses\nPending\nApproved\nOn hold\nRejected\nSearch\n100 invoices\nInvoice no.\nVendor\nPO\nQty\nAmount\nDue date\nStatus\nINV-26-1172\nHimalaya Leather Tannery\nPO-4245\n150\n\u20b91,20,150\n09 Oct 2026\nPending\nINV-26-1287\nRoyal Hide Traders\nPO-4325\n340\n\u20b91,65,580\n11 Oct 2026\nPending\nINV-26-1309\nShree Canvas Mills\nPO-4538\n530\n\u20b93,62,520\n15 Oct 2026\nPending\nINV-26-1571\nBombay Heel Makers\nPO-4860\n270\n\u20b92,04,660\n11 Oct 2026\nPending\nINV-26-1610\nNair Insole Supplies\nPO-4597\n450\n\u20b93,58,200\n05 Nov 2026\nPending\nINV-26-1782\nApex Buckles & Hardware\nPO-4418\n970\n\u20b96,92,580\n07 Nov 2026\nPending\nINV-26-1792\nApex Buckles & Hardware\nPO-4249\n970\n\u20b99,51,570\n16 Oct 2026\nPending\nINV-26-1836\nGupta Adhesives\nPO-4114\n460\n\u20b93,01,300\n22 Sept 2026\nPending\nINV-26-2365\nKapoor Polish & Wax\nPO-4342\n1000\n\u20b96,49,000\n19 Sept 2026\nPending\nINV-26-2367\nSaraswati Cotton Lining\nPO-4371\n480\n\u20b94,70,400\n06 Nov 2026\nPending\nPage\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
+  },
+  {
+   "step": 2,
+   "goal": "Type INV-26-5751 into the invoice number search input and click Search.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit"
+    },
+    "text": "Search",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 3,
+   "goal": "Click on Vendors link to check vendor payment status.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices?status=&q=INV-26-5751",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/vendors"
+    },
+    "text": "Vendors",
+    "xpath": "html/body/header/nav/a[5]"
+   },
+   "page_text": "Invoices \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nInvoices\nAll statuses\nPending\nApproved\nOn hold\nRejected\nSearch\n1 invoice\nInvoice no.\nVendor\nPO\nQty\nAmount\nDue date\nStatus\nINV-26-5751\nRoyal Hide Traders\nPO-4314\n740\n\u20b95,27,620\n26 Sept 2026\nPending"
+  },
+  {
+   "step": 4,
+   "goal": "Search for vendor 'Royal Hide Traders' on the Vendors page.",
+   "kind": "input",
+   "url": "http://localhost:5180/vendors",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "name": "q",
+     "value": "",
+     "placeholder": "Vendor name"
+    },
+    "text": "Vendor name",
+    "xpath": "html/body/main/form/input"
+   },
+   "value": "Royal Hide Traders",
+   "page_text": "Vendors \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nVendors\nSearch\nName\nCity\nAnand Cartons\nLudhiana\nApex Buckles & Hardware\nJaipur\nBharat Rubber Co\nSurat\nBombay Heel Makers\nLudhiana\nDeccan Foam Industries\nKolkata\nEastern Zip Fasteners\nKolkata\nGanga Laces\nJaipur\nGupta Adhesives\nKanpur\nHimalaya Leather Tannery\nPune\nKalyani Leather Works\nKolkata\nPage\n1\n2\n3"
+  },
+  {
+   "step": 4,
+   "goal": "Search for vendor 'Royal Hide Traders' on the Vendors page.",
+   "kind": "click",
+   "url": "http://localhost:5180/vendors",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit"
+    },
+    "text": "Search",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 5,
+   "goal": "Click on vendor 'Royal Hide Traders' (index 693) to check its payment status.",
+   "kind": "click",
+   "url": "http://localhost:5180/vendors?q=Royal+Hide+Traders",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/vendors/V-108"
+    },
+    "text": "Royal Hide Traders",
+    "xpath": "html/body/main/table/tbody/tr/td[1]/a"
+   },
+   "page_text": "Vendors \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nVendors\nSearch\nName\nCity\nRoyal Hide Traders\nLudhiana"
+  },
+  {
+   "step": 6,
+   "goal": "Click on Purchase orders link to look up PO-4314.",
+   "kind": "click",
+   "url": "http://localhost:5180/vendors/V-108",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/purchase-orders"
+    },
+    "text": "Purchase orders",
+    "xpath": "html/body/header/nav/a[3]"
+   },
+   "page_text": "Royal Hide Traders \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nVendors\n/ Royal Hide Traders\nRoyal Hide Traders\nVendor ID\nV-108\nCity\nLudhiana\nPayment status\nActive"
+  },
+  {
+   "step": 7,
+   "goal": "Type PO-4314 into the PO search input and click Search.",
+   "kind": "input",
+   "url": "http://localhost:5180/purchase-orders",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "name": "q",
+     "value": "",
+     "placeholder": "PO number"
+    },
+    "text": "PO number",
+    "xpath": "html/body/main/form/input"
+   },
+   "value": "PO-4314",
+   "page_text": "Purchase orders \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nPurchase orders\nSearch\n113 purchase orders\nPO number\nVendor\nItem\nOrdered qty\nAgreed unit price\nStatus\nPO-4004\nKalyani Leather Works\nVelcro strips\n1900\n\u20b9700\nOpen\nPO-4010\nModern Sole Press\nHeel blocks\n400\n\u20b9550\nClosed\nPO-4024\nOrion Footwear Parts\nVelcro strips\n250\n\u20b9700\nClosed\nPO-4025\nApex Buckles & Hardware\nCanvas fabric rolls\n250\n\u20b9750\nOpen\nPO-4033\nGanga Laces\nFoam insole rolls\n650\n\u20b9900\nOpen\nPO-4038\nGupta Adhesives\nMetal eyelets box\n900\n\u20b91,000\nOpen\nPO-4044\nVerma Dyes & Chemicals\nCanvas fabric rolls\n950\n\u20b9450\nOpen\nPO-4048\nNair Insole Supplies\nCotton lining rolls\n1400\n\u20b9250\nOpen\nPO-4051\nGupta Adhesives\nRubber sole sheets\n1300\n\u20b9100\nOpen\nPO-4076\nGanga Laces\nMetal eyelets box\n700\n\u20b9350\nOpen\nPage\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12"
+  },
+  {
+   "step": 7,
+   "goal": "Type PO-4314 into the PO search input and click Search.",
+   "kind": "click",
+   "url": "http://localhost:5180/purchase-orders",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit"
+    },
+    "text": "Search",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 8,
+   "goal": "Click on Goods receipts link to look up PO-4314.",
+   "kind": "click",
+   "url": "http://localhost:5180/purchase-orders?q=PO-4314",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/receipts"
+    },
+    "text": "Goods receipts",
+    "xpath": "html/body/header/nav/a[4]"
+   },
+   "page_text": "Purchase orders \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nPurchase orders\nSearch\n1 purchase orders\nPO number\nVendor\nItem\nOrdered qty\nAgreed unit price\nStatus\nPO-4314\nRoyal Hide Traders\nShoe laces bundle\n1500\n\u20b9750\nOpen"
+  },
+  {
+   "step": 9,
+   "goal": "Search for PO-4314 on Goods receipts page to sum quantities received.",
+   "kind": "input",
+   "url": "http://localhost:5180/receipts",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "name": "q",
+     "value": "",
+     "placeholder": "PO or GRN number"
+    },
+    "text": "PO or GRN number",
+    "xpath": "html/body/main/form/input"
+   },
+   "value": "PO-4314",
+   "page_text": "Goods receipts \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nGoods receipts\nSearch\n187 receipts. A purchase order can have several partial deliveries.\nGRN\nPO number\nReceived on\nQuantity received\nGRN-70107\nPO-4559\n21 Aug 2026\n810\nGRN-70181\nPO-4919\n12 Aug 2026\n490\nGRN-70305\nPO-4552\n14 Aug 2026\n1297\nGRN-70333\nPO-4091\n25 Sept 2026\n156\nGRN-70339\nPO-4867\n21 Sept 2026\n163\nGRN-70382\nPO-4453\n25 Aug 2026\n622\nGRN-70416\nPO-4291\n19 Sept 2026\n48\nGRN-70473\nPO-4159\n13 Aug 2026\n512\nGRN-70486\nPO-4823\n01 Sept 2026\n108\nGRN-70492\nPO-4134\n19 Sept 2026\n360\nPage\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19"
+  },
+  {
+   "step": 9,
+   "goal": "Search for PO-4314 on Goods receipts page to sum quantities received.",
+   "kind": "click",
+   "url": "http://localhost:5180/receipts",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit"
+    },
+    "text": "Search",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 10,
+   "goal": "Navigate back to the Invoices page to fill out the decision form for invoice INV-26-5751.",
+   "kind": "click",
+   "url": "http://localhost:5180/receipts?q=PO-4314",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/invoices"
+    },
+    "text": "Invoices",
+    "xpath": "html/body/header/nav/a[2]"
+   },
+   "page_text": "Goods receipts \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nGoods receipts\nSearch\n2 receipts. A purchase order can have several partial deliveries.\nGRN\nPO number\nReceived on\nQuantity received\nGRN-72118\nPO-4314\n07 Aug 2026\n491\nGRN-74971\nPO-4314\n16 Sept 2026\n247"
+  },
+  {
+   "step": 11,
+   "goal": "Type INV-26-5751 into the invoice search box and click Search.",
+   "kind": "input",
+   "url": "http://localhost:5180/invoices",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "name": "q",
+     "value": "",
+     "placeholder": "Invoice number"
+    },
+    "text": "Invoice number",
+    "xpath": "html/body/main/form/input"
+   },
+   "value": "INV-26-5751"
+  },
+  {
+   "step": 11,
+   "goal": "Type INV-26-5751 into the invoice search box and click Search.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit"
+    },
+    "text": "Search",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 12,
+   "goal": "Click on the invoice link INV-26-5751 to open its page.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices?status=&q=INV-26-5751",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/invoices/e57b1a67"
+    },
+    "text": "INV-26-5751",
+    "xpath": "html/body/main/table/tbody/tr/td[1]/a"
+   }
+  },
+  {
+   "step": 13,
+   "goal": "Select 'Place on hold' from the decision dropdown.",
+   "kind": "select",
+   "url": "http://localhost:5180/invoices/e57b1a67",
+   "el": {
+    "node": "select",
+    "attrs": {
+     "id": "status",
+     "name": "status"
+    },
+    "text": "Decision",
+    "xpath": "html/body/main/form/div[1]/select"
+   },
+   "value": "Place on hold",
+   "page_text": "INV-26-5751 \u00b7 AP Desk\nAP Desk\nAccounts payable\nDashboard\nInvoices\nPurchase orders\nGoods receipts\nVendors\nInvoices\n/ INV-26-5751\nInvoice INV-26-5751\nVendor\nRoyal Hide Traders\nPO number\nPO-4314\nQuantity invoiced\n740\nUnit price\n\u20b9713\nInvoice amount\n\u20b95,27,620\nInvoice date\n27 Aug 2026\nDue date\n26 Sept 2026\nStatus\nPending\nYour decision\nDecision\nChoose\u2026\nApprove for payment\nPlace on hold\nReject\nPayment date\nReason\nChoose\u2026\nNote to the approver\nSave decision\nConfirm decision\nGo back\nConfirm"
+  },
+  {
+   "step": 14,
+   "goal": "Select 'Short receipt' from reason dropdown, fill note, save decision, and confirm.",
+   "kind": "select",
+   "url": "http://localhost:5180/invoices/e57b1a67",
+   "el": {
+    "node": "select",
+    "attrs": {
+     "id": "reason",
+     "name": "reason",
+     "required": ""
+    },
+    "text": "Reason",
+    "xpath": "html/body/main/form/div[3]/select"
+   },
+   "value": "Short receipt"
+  },
+  {
+   "step": 14,
+   "goal": "Select 'Short receipt' from reason dropdown, fill note, save decision, and confirm.",
+   "kind": "input",
+   "url": "http://localhost:5180/invoices/e57b1a67",
+   "el": {
+    "node": "textarea",
+    "attrs": {
+     "id": "note",
+     "name": "note",
+     "rows": "3",
+     "required": ""
+    },
+    "text": "Note to the approver",
+    "xpath": "html/body/main/form/div[4]/textarea"
+   },
+   "value": "Invoiced 740, received 738"
+  },
+  {
+   "step": 14,
+   "goal": "Select 'Short receipt' from reason dropdown, fill note, save decision, and confirm.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices/e57b1a67",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit",
+     "id": "save",
+     "class": "primary"
+    },
+    "text": "Save decision",
+    "xpath": "html/body/main/form/button"
+   }
+  },
+  {
+   "step": 15,
+   "goal": "Click the Confirm button in the confirmation dialog to finalize the decision.",
+   "kind": "click",
+   "url": "http://localhost:5180/invoices/e57b1a67",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "id": "confirm-yes",
+     "class": "primary"
+    },
+    "text": "Confirm",
+    "xpath": "html/body/main/dialog/div/button[2]"
+   }
+  }
+ ]
+}

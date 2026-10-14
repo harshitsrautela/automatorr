@@ -1,0 +1,14 @@
+{
+  "name": "v4-stagehand",
+  "private": true,
+  "type": "module",
+  "description": "Stagehand contender for the terminautomator tool comparison (AP Desk bench)",
+  "scripts": {
+    "run": "tsx run.ts"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^3.7.3",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  }
+}

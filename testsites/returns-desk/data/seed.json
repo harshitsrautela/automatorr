@@ -1,0 +1,3286 @@
+{
+ "today": "2026-10-08",
+ "returns": [
+  {
+   "id": "c7616889",
+   "rma": "RMA-74592",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-54368",
+   "sku": "SKU-1167",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-20",
+   "pickup_slot": "2026-10-20"
+  },
+  {
+   "id": "129e84e1",
+   "rma": "RMA-76115",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-74090",
+   "sku": "SKU-8258",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-19",
+   "pickup_slot": "2026-11-02"
+  },
+  {
+   "id": "73faa8dd",
+   "rma": "RMA-71763",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-74265",
+   "sku": "SKU-2611",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-12",
+   "pickup_slot": "2026-11-08"
+  },
+  {
+   "id": "1367d099",
+   "rma": "RMA-74146",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-72375",
+   "sku": "SKU-7036",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-23",
+   "pickup_slot": "2026-10-19"
+  },
+  {
+   "id": "9327b827",
+   "rma": "RMA-74957",
+   "customer": "Dev Chauhan",
+   "order_no": "ORD-58036",
+   "sku": "SKU-1717",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-01",
+   "pickup_slot": "2026-12-19"
+  },
+  {
+   "id": "2cb79197",
+   "rma": "RMA-78993",
+   "customer": "Arjun Patel",
+   "order_no": "ORD-11403",
+   "sku": "SKU-1782",
+   "qty": 5,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-30",
+   "pickup_slot": "2026-10-14"
+  },
+  {
+   "id": "fc34643a",
+   "rma": "RMA-79828",
+   "customer": "Navya Menon",
+   "order_no": "ORD-58926",
+   "sku": "SKU-7603",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-10-04",
+   "pickup_slot": "2026-10-27"
+  },
+  {
+   "id": "24dab6ba",
+   "rma": "RMA-77394",
+   "customer": "Meera Iyer",
+   "order_no": "ORD-55572",
+   "sku": "SKU-6391",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-16",
+   "pickup_slot": "2026-10-22"
+  },
+  {
+   "id": "73eb1ec3",
+   "rma": "RMA-78447",
+   "customer": "Dev Chauhan",
+   "order_no": "ORD-50012",
+   "sku": "SKU-5278",
+   "qty": 2,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-10-03",
+   "pickup_slot": "2026-11-03"
+  },
+  {
+   "id": "ed085f4d",
+   "rma": "RMA-79539",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-95443",
+   "sku": "SKU-2131",
+   "qty": 6,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-10-04",
+   "pickup_slot": "2026-11-03"
+  },
+  {
+   "id": "289a28de",
+   "rma": "RMA-75991",
+   "customer": "Saanvi Joshi",
+   "order_no": "ORD-71118",
+   "sku": "SKU-3857",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-18",
+   "pickup_slot": "2026-10-27"
+  },
+  {
+   "id": "7afda364",
+   "rma": "RMA-71827",
+   "customer": "Reyansh Das",
+   "order_no": "ORD-22840",
+   "sku": "SKU-1048",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-08",
+   "pickup_slot": "2026-10-14"
+  },
+  {
+   "id": "654f7b76",
+   "rma": "RMA-75413",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-11292",
+   "sku": "SKU-8941",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-22",
+   "pickup_slot": "2026-10-20"
+  },
+  {
+   "id": "70c85eda",
+   "rma": "RMA-76977",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-66521",
+   "sku": "SKU-1907",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-08",
+   "pickup_slot": "2026-11-09"
+  },
+  {
+   "id": "ea11dc0e",
+   "rma": "RMA-70595",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-21650",
+   "sku": "SKU-2830",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-08",
+   "pickup_slot": "2026-12-13"
+  },
+  {
+   "id": "197ecb2f",
+   "rma": "RMA-72749",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-88512",
+   "sku": "SKU-9178",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-23",
+   "pickup_slot": "2026-10-26"
+  },
+  {
+   "id": "75997eff",
+   "rma": "RMA-78808",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-95570",
+   "sku": "SKU-3756",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-11",
+   "pickup_slot": "2026-12-20"
+  },
+  {
+   "id": "09756158",
+   "rma": "RMA-72142",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-45344",
+   "sku": "SKU-4317",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-26",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "6ccb68a2",
+   "rma": "RMA-71175",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-41859",
+   "sku": "SKU-5823",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-07-30",
+   "pickup_slot": "2026-11-04"
+  },
+  {
+   "id": "1df6af26",
+   "rma": "RMA-72417",
+   "customer": "Dev Chauhan",
+   "order_no": "ORD-92418",
+   "sku": "SKU-1429",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-14",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "4ee2e308",
+   "rma": "RMA-73236",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-70982",
+   "sku": "SKU-4693",
+   "qty": 4,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-08-09",
+   "pickup_slot": "2026-12-03"
+  },
+  {
+   "id": "e7b5ffbb",
+   "rma": "RMA-75352",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-44498",
+   "sku": "SKU-7438",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-06",
+   "pickup_slot": "2026-11-11"
+  },
+  {
+   "id": "27113757",
+   "rma": "RMA-70611",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-99666",
+   "sku": "SKU-8101",
+   "qty": 1,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-24",
+   "pickup_slot": "2026-11-22"
+  },
+  {
+   "id": "6f42f29c",
+   "rma": "RMA-71660",
+   "customer": "Diya Kapoor",
+   "order_no": "ORD-44809",
+   "sku": "SKU-8296",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-30",
+   "pickup_slot": "2026-12-19"
+  },
+  {
+   "id": "041685ba",
+   "rma": "RMA-74168",
+   "customer": "Reyansh Das",
+   "order_no": "ORD-65597",
+   "sku": "SKU-8774",
+   "qty": 4,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-12",
+   "pickup_slot": "2026-10-29"
+  },
+  {
+   "id": "09083d61",
+   "rma": "RMA-74111",
+   "customer": "Ishita Nair",
+   "order_no": "ORD-61231",
+   "sku": "SKU-6729",
+   "qty": 6,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-09",
+   "pickup_slot": "2026-10-28"
+  },
+  {
+   "id": "83b1aa5d",
+   "rma": "RMA-74799",
+   "customer": "Navya Menon",
+   "order_no": "ORD-88174",
+   "sku": "SKU-2649",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-03",
+   "pickup_slot": "2026-12-07"
+  },
+  {
+   "id": "38547058",
+   "rma": "RMA-77710",
+   "customer": "Arjun Patel",
+   "order_no": "ORD-38764",
+   "sku": "SKU-2522",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-16",
+   "pickup_slot": "2026-12-18"
+  },
+  {
+   "id": "b1df4862",
+   "rma": "RMA-73823",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-74812",
+   "sku": "SKU-7943",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-30",
+   "pickup_slot": "2026-11-08"
+  },
+  {
+   "id": "43782e80",
+   "rma": "RMA-72089",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-42471",
+   "sku": "SKU-9130",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-24",
+   "pickup_slot": "2026-12-01"
+  },
+  {
+   "id": "c5fe70ae",
+   "rma": "RMA-75619",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-99806",
+   "sku": "SKU-9865",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-16",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "711dcde5",
+   "rma": "RMA-72878",
+   "customer": "Vihaan Shah",
+   "order_no": "ORD-82869",
+   "sku": "SKU-9204",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-03",
+   "pickup_slot": "2026-12-04"
+  },
+  {
+   "id": "08d553c5",
+   "rma": "RMA-79470",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-84165",
+   "sku": "SKU-3516",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-18",
+   "pickup_slot": "2026-11-08"
+  },
+  {
+   "id": "fe2fe9ac",
+   "rma": "RMA-70197",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-64968",
+   "sku": "SKU-1668",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-08-16",
+   "pickup_slot": "2026-11-30"
+  },
+  {
+   "id": "ccbc217a",
+   "rma": "RMA-75892",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-29924",
+   "sku": "SKU-3130",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-24",
+   "pickup_slot": "2026-10-25"
+  },
+  {
+   "id": "c6b483cb",
+   "rma": "RMA-76973",
+   "customer": "Saanvi Joshi",
+   "order_no": "ORD-41751",
+   "sku": "SKU-8079",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-23",
+   "pickup_slot": "2026-11-03"
+  },
+  {
+   "id": "7718cec3",
+   "rma": "RMA-78681",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-79737",
+   "sku": "SKU-5260",
+   "qty": 6,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-10-03",
+   "pickup_slot": "2026-12-20"
+  },
+  {
+   "id": "bf8df140",
+   "rma": "RMA-70524",
+   "customer": "Vihaan Shah",
+   "order_no": "ORD-13484",
+   "sku": "SKU-1996",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-10-05",
+   "pickup_slot": "2026-11-14"
+  },
+  {
+   "id": "afc18fac",
+   "rma": "RMA-70212",
+   "customer": "Vihaan Shah",
+   "order_no": "ORD-65656",
+   "sku": "SKU-3808",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-07-10",
+   "pickup_slot": "2026-11-24"
+  },
+  {
+   "id": "cfdcdd2b",
+   "rma": "RMA-75817",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-18292",
+   "sku": "SKU-1084",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-05-01",
+   "pickup_slot": "2026-11-17"
+  },
+  {
+   "id": "29b7104f",
+   "rma": "RMA-78024",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-63718",
+   "sku": "SKU-9861",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-14",
+   "pickup_slot": "2026-10-26"
+  },
+  {
+   "id": "80914048",
+   "rma": "RMA-76094",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-78379",
+   "sku": "SKU-1621",
+   "qty": 6,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-28",
+   "pickup_slot": "2026-12-11"
+  },
+  {
+   "id": "0be8b902",
+   "rma": "RMA-73470",
+   "customer": "Reyansh Das",
+   "order_no": "ORD-17716",
+   "sku": "SKU-1383",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-01-27",
+   "pickup_slot": "2026-11-21"
+  },
+  {
+   "id": "d7bdf1ac",
+   "rma": "RMA-76495",
+   "customer": "Navya Menon",
+   "order_no": "ORD-77089",
+   "sku": "SKU-7286",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-10-02",
+   "pickup_slot": "2026-11-10"
+  },
+  {
+   "id": "9e76e03a",
+   "rma": "RMA-79682",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-87840",
+   "sku": "SKU-7058",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2025-09-16",
+   "pickup_slot": "2026-12-17"
+  },
+  {
+   "id": "79f39882",
+   "rma": "RMA-75329",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-87149",
+   "sku": "SKU-2079",
+   "qty": 1,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-10-02",
+   "pickup_slot": "2026-11-26"
+  },
+  {
+   "id": "4a6e87b8",
+   "rma": "RMA-76510",
+   "customer": "Navya Menon",
+   "order_no": "ORD-93898",
+   "sku": "SKU-4047",
+   "qty": 4,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-09",
+   "pickup_slot": "2026-12-12"
+  },
+  {
+   "id": "37dd4fb0",
+   "rma": "RMA-79257",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-30567",
+   "sku": "SKU-9176",
+   "qty": 4,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-10-01",
+   "pickup_slot": "2026-11-08"
+  },
+  {
+   "id": "4e2c7ef7",
+   "rma": "RMA-73735",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-20240",
+   "sku": "SKU-1836",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-06-16",
+   "pickup_slot": "2026-12-12"
+  },
+  {
+   "id": "88637011",
+   "rma": "RMA-74757",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-10128",
+   "sku": "SKU-8649",
+   "qty": 1,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-21",
+   "pickup_slot": "2026-11-27"
+  },
+  {
+   "id": "53c05cc9",
+   "rma": "RMA-71519",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-19298",
+   "sku": "SKU-3564",
+   "qty": 6,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-05",
+   "pickup_slot": "2026-11-28"
+  },
+  {
+   "id": "d5b9b972",
+   "rma": "RMA-70317",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-76540",
+   "sku": "SKU-1357",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-18",
+   "pickup_slot": "2026-11-04"
+  },
+  {
+   "id": "6f6b7054",
+   "rma": "RMA-72994",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-72494",
+   "sku": "SKU-8852",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-10-06",
+   "pickup_slot": "2026-12-06"
+  },
+  {
+   "id": "444326f0",
+   "rma": "RMA-70596",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-65493",
+   "sku": "SKU-3369",
+   "qty": 6,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-23",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "55b63918",
+   "rma": "RMA-78518",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-80836",
+   "sku": "SKU-3146",
+   "qty": 3,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-08-21",
+   "pickup_slot": "2026-10-13"
+  },
+  {
+   "id": "d74f7025",
+   "rma": "RMA-76277",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-24036",
+   "sku": "SKU-7242",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-10-02",
+   "pickup_slot": "2026-10-18"
+  },
+  {
+   "id": "4d90281a",
+   "rma": "RMA-74586",
+   "customer": "Arjun Patel",
+   "order_no": "ORD-73742",
+   "sku": "SKU-2006",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-03",
+   "pickup_slot": "2026-10-27"
+  },
+  {
+   "id": "56829ede",
+   "rma": "RMA-72977",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-83904",
+   "sku": "SKU-6413",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-05",
+   "pickup_slot": "2026-10-28"
+  },
+  {
+   "id": "185fa7e2",
+   "rma": "RMA-78775",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-76163",
+   "sku": "SKU-8907",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-29",
+   "pickup_slot": "2026-10-23"
+  },
+  {
+   "id": "99d3b446",
+   "rma": "RMA-72352",
+   "customer": "Saanvi Joshi",
+   "order_no": "ORD-94520",
+   "sku": "SKU-8001",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-29",
+   "pickup_slot": "2026-11-16"
+  },
+  {
+   "id": "7b2aceec",
+   "rma": "RMA-72157",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-59635",
+   "sku": "SKU-3503",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-04-06",
+   "pickup_slot": "2026-11-24"
+  },
+  {
+   "id": "42b876d8",
+   "rma": "RMA-78390",
+   "customer": "Reyansh Das",
+   "order_no": "ORD-76649",
+   "sku": "SKU-5409",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-08-14",
+   "pickup_slot": "2026-10-26"
+  },
+  {
+   "id": "544e386a",
+   "rma": "RMA-78911",
+   "customer": "Diya Kapoor",
+   "order_no": "ORD-16929",
+   "sku": "SKU-9682",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-13",
+   "pickup_slot": "2026-11-18"
+  },
+  {
+   "id": "e10b78cc",
+   "rma": "RMA-72082",
+   "customer": "Kiara Bose",
+   "order_no": "ORD-13487",
+   "sku": "SKU-7634",
+   "qty": 2,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-01-11",
+   "pickup_slot": "2026-11-13"
+  },
+  {
+   "id": "6223b994",
+   "rma": "RMA-77501",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-14847",
+   "sku": "SKU-4286",
+   "qty": 2,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-02",
+   "pickup_slot": "2026-12-07"
+  },
+  {
+   "id": "911e91f9",
+   "rma": "RMA-74225",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-50942",
+   "sku": "SKU-3139",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-26",
+   "pickup_slot": "2026-10-18"
+  },
+  {
+   "id": "56b21392",
+   "rma": "RMA-76167",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-28388",
+   "sku": "SKU-6835",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-07-22",
+   "pickup_slot": "2026-12-18"
+  },
+  {
+   "id": "23ad085e",
+   "rma": "RMA-78522",
+   "customer": "Reyansh Das",
+   "order_no": "ORD-98565",
+   "sku": "SKU-8641",
+   "qty": 4,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-07-16",
+   "pickup_slot": "2026-11-01"
+  },
+  {
+   "id": "9d0389fb",
+   "rma": "RMA-77946",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-69744",
+   "sku": "SKU-6446",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-21",
+   "pickup_slot": "2026-11-22"
+  },
+  {
+   "id": "623da3f4",
+   "rma": "RMA-74485",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-28155",
+   "sku": "SKU-1588",
+   "qty": 6,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-23",
+   "pickup_slot": "2026-11-16"
+  },
+  {
+   "id": "254b4789",
+   "rma": "RMA-73313",
+   "customer": "Saanvi Joshi",
+   "order_no": "ORD-20213",
+   "sku": "SKU-6707",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-03-26",
+   "pickup_slot": "2026-10-15"
+  },
+  {
+   "id": "ec6e7d59",
+   "rma": "RMA-79000",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-49888",
+   "sku": "SKU-9264",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-10-02",
+   "pickup_slot": "2026-12-01"
+  },
+  {
+   "id": "850a2779",
+   "rma": "RMA-79039",
+   "customer": "Arjun Patel",
+   "order_no": "ORD-11118",
+   "sku": "SKU-1442",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-05-24",
+   "pickup_slot": "2026-12-11"
+  },
+  {
+   "id": "2114936c",
+   "rma": "RMA-74122",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-25833",
+   "sku": "SKU-8019",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-09-25",
+   "pickup_slot": "2026-11-28"
+  },
+  {
+   "id": "8c43d191",
+   "rma": "RMA-75802",
+   "customer": "Dev Chauhan",
+   "order_no": "ORD-68049",
+   "sku": "SKU-4756",
+   "qty": 5,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-11",
+   "pickup_slot": "2026-11-09"
+  },
+  {
+   "id": "3638e633",
+   "rma": "RMA-79103",
+   "customer": "Navya Menon",
+   "order_no": "ORD-90086",
+   "sku": "SKU-9436",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-20",
+   "pickup_slot": "2026-10-29"
+  },
+  {
+   "id": "ec2e876a",
+   "rma": "RMA-70208",
+   "customer": "Krish Malhotra",
+   "order_no": "ORD-55340",
+   "sku": "SKU-6125",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-14",
+   "pickup_slot": "2026-11-05"
+  },
+  {
+   "id": "cd1adc0e",
+   "rma": "RMA-76206",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-89384",
+   "sku": "SKU-4167",
+   "qty": 6,
+   "reason": "Changed mind",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-24",
+   "pickup_slot": "2026-11-18"
+  },
+  {
+   "id": "d8a7de1a",
+   "rma": "RMA-74074",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-60647",
+   "sku": "SKU-7060",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-07-29",
+   "pickup_slot": "2026-12-02"
+  },
+  {
+   "id": "5cdfbd8f",
+   "rma": "RMA-79540",
+   "customer": "Vihaan Shah",
+   "order_no": "ORD-75707",
+   "sku": "SKU-4904",
+   "qty": 3,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2025-04-21",
+   "pickup_slot": "2026-11-17"
+  },
+  {
+   "id": "49d3f509",
+   "rma": "RMA-79197",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-69941",
+   "sku": "SKU-6770",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-16",
+   "pickup_slot": "2026-11-11"
+  },
+  {
+   "id": "110ed6e6",
+   "rma": "RMA-78107",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-85764",
+   "sku": "SKU-4546",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2025-12-20",
+   "pickup_slot": "2026-11-07"
+  },
+  {
+   "id": "20963cf8",
+   "rma": "RMA-71752",
+   "customer": "Navya Menon",
+   "order_no": "ORD-76083",
+   "sku": "SKU-7078",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-07-15",
+   "pickup_slot": "2026-10-23"
+  },
+  {
+   "id": "0a4b0e7d",
+   "rma": "RMA-78151",
+   "customer": "Rohan Gupta",
+   "order_no": "ORD-54738",
+   "sku": "SKU-6678",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-11",
+   "pickup_slot": "2026-11-16"
+  },
+  {
+   "id": "db3ebb96",
+   "rma": "RMA-71196",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-30928",
+   "sku": "SKU-4356",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-09-18",
+   "pickup_slot": "2026-11-09"
+  },
+  {
+   "id": "a8dce574",
+   "rma": "RMA-76455",
+   "customer": "Ananya Rao",
+   "order_no": "ORD-60594",
+   "sku": "SKU-4521",
+   "qty": 5,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-10-06",
+   "pickup_slot": "2026-11-08"
+  },
+  {
+   "id": "c102e706",
+   "rma": "RMA-77011",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-60937",
+   "sku": "SKU-3329",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2025-08-13",
+   "pickup_slot": "2026-10-18"
+  },
+  {
+   "id": "41e945b8",
+   "rma": "RMA-70904",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-33659",
+   "sku": "SKU-6177",
+   "qty": 1,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2025-08-02",
+   "pickup_slot": "2026-12-07"
+  },
+  {
+   "id": "220e7b8f",
+   "rma": "RMA-78068",
+   "customer": "Meera Iyer",
+   "order_no": "ORD-45472",
+   "sku": "SKU-1713",
+   "qty": 3,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-14",
+   "pickup_slot": "2026-11-19"
+  },
+  {
+   "id": "27582b90",
+   "rma": "RMA-78595",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-26147",
+   "sku": "SKU-2823",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Damaged",
+   "delivered_on": "2025-10-08",
+   "pickup_slot": "2026-10-19"
+  },
+  {
+   "id": "0c72325e",
+   "rma": "RMA-75968",
+   "customer": "Diya Kapoor",
+   "order_no": "ORD-56090",
+   "sku": "SKU-7435",
+   "qty": 5,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2024-10-08",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "1ae90b52",
+   "rma": "RMA-76602",
+   "customer": "Arjun Patel",
+   "order_no": "ORD-51787",
+   "sku": "SKU-2124",
+   "qty": 5,
+   "reason": "Wrong item",
+   "condition": "Opened",
+   "delivered_on": "2026-09-18",
+   "pickup_slot": "2026-11-27"
+  },
+  {
+   "id": "b19d874c",
+   "rma": "RMA-74016",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-77272",
+   "sku": "SKU-8174",
+   "qty": 5,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-19",
+   "pickup_slot": "2026-12-07"
+  },
+  {
+   "id": "a277a123",
+   "rma": "RMA-72565",
+   "customer": "Riya Khanna",
+   "order_no": "ORD-10147",
+   "sku": "SKU-6530",
+   "qty": 4,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-09-21",
+   "pickup_slot": "2026-10-14"
+  },
+  {
+   "id": "7617a7b8",
+   "rma": "RMA-71683",
+   "customer": "Tara Sethi",
+   "order_no": "ORD-99751",
+   "sku": "SKU-4456",
+   "qty": 2,
+   "reason": "Wrong item",
+   "condition": "Damaged",
+   "delivered_on": "2026-09-25",
+   "pickup_slot": "2026-10-19"
+  },
+  {
+   "id": "36622628",
+   "rma": "RMA-72447",
+   "customer": "Kabir Singh",
+   "order_no": "ORD-42165",
+   "sku": "SKU-7827",
+   "qty": 2,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-10-04",
+   "pickup_slot": "2026-11-01"
+  },
+  {
+   "id": "ac332a40",
+   "rma": "RMA-70579",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-62483",
+   "sku": "SKU-1888",
+   "qty": 3,
+   "reason": "Changed mind",
+   "condition": "Unopened",
+   "delivered_on": "2026-10-02",
+   "pickup_slot": "2026-10-13"
+  },
+  {
+   "id": "036ad83b",
+   "rma": "RMA-71751",
+   "customer": "Aditya Verma",
+   "order_no": "ORD-90001",
+   "sku": "SKU-8363",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2026-02-22",
+   "pickup_slot": "2026-11-06"
+  },
+  {
+   "id": "34429aa1",
+   "rma": "RMA-72633",
+   "customer": "Aarav Mehta",
+   "order_no": "ORD-15965",
+   "sku": "SKU-5124",
+   "qty": 6,
+   "reason": "Changed mind",
+   "condition": "Opened",
+   "delivered_on": "2026-08-01",
+   "pickup_slot": "2026-10-24"
+  },
+  {
+   "id": "4b6efb3c",
+   "rma": "RMA-72508",
+   "customer": "Dev Chauhan",
+   "order_no": "ORD-71364",
+   "sku": "SKU-9826",
+   "qty": 6,
+   "reason": "Defective",
+   "condition": "Opened",
+   "delivered_on": "2025-10-26",
+   "pickup_slot": "2026-10-26"
+  }
+ ],
+ "orders": [
+  {
+   "order_no": "ORD-99751",
+   "ordered_sku": "SKU-5621",
+   "shipped_sku": "SKU-4456",
+   "unit_price": 340,
+   "qty": 2,
+   "delivered_on": "2026-09-25",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-84165",
+   "ordered_sku": "SKU-3074",
+   "shipped_sku": "SKU-3516",
+   "unit_price": 1740,
+   "qty": 2,
+   "delivered_on": "2026-09-18",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-54368",
+   "ordered_sku": "SKU-3056",
+   "shipped_sku": "SKU-1167",
+   "unit_price": 240,
+   "qty": 3,
+   "delivered_on": "2026-09-20",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-13487",
+   "ordered_sku": "SKU-7634",
+   "shipped_sku": "SKU-7634",
+   "unit_price": 1780,
+   "qty": 2,
+   "delivered_on": "2026-01-11",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-79737",
+   "ordered_sku": "SKU-7448",
+   "shipped_sku": "SKU-5260",
+   "unit_price": 220,
+   "qty": 6,
+   "delivered_on": "2026-10-03",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-60937",
+   "ordered_sku": "SKU-3329",
+   "shipped_sku": "SKU-3329",
+   "unit_price": 2540,
+   "qty": 1,
+   "delivered_on": "2025-08-13",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-80836",
+   "ordered_sku": "SKU-3146",
+   "shipped_sku": "SKU-3146",
+   "unit_price": 1420,
+   "qty": 3,
+   "delivered_on": "2026-08-21",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-18292",
+   "ordered_sku": "SKU-1084",
+   "shipped_sku": "SKU-1084",
+   "unit_price": 2880,
+   "qty": 5,
+   "delivered_on": "2026-05-01",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-66521",
+   "ordered_sku": "SKU-1907",
+   "shipped_sku": "SKU-1907",
+   "unit_price": 2340,
+   "qty": 1,
+   "delivered_on": "2026-09-08",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-25833",
+   "ordered_sku": "SKU-8019",
+   "shipped_sku": "SKU-8019",
+   "unit_price": 1280,
+   "qty": 5,
+   "delivered_on": "2026-09-25",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-68049",
+   "ordered_sku": "SKU-4756",
+   "shipped_sku": "SKU-4756",
+   "unit_price": 1100,
+   "qty": 5,
+   "delivered_on": "2026-08-11",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-61231",
+   "ordered_sku": "SKU-6729",
+   "shipped_sku": "SKU-6729",
+   "unit_price": 680,
+   "qty": 6,
+   "delivered_on": "2026-09-09",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-76083",
+   "ordered_sku": "SKU-7078",
+   "shipped_sku": "SKU-7078",
+   "unit_price": 1560,
+   "qty": 5,
+   "delivered_on": "2026-07-15",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-56090",
+   "ordered_sku": "SKU-7435",
+   "shipped_sku": "SKU-7435",
+   "unit_price": 560,
+   "qty": 5,
+   "delivered_on": "2024-10-08",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-70982",
+   "ordered_sku": "SKU-4693",
+   "shipped_sku": "SKU-4693",
+   "unit_price": 2060,
+   "qty": 4,
+   "delivered_on": "2026-08-09",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-89384",
+   "ordered_sku": "SKU-4167",
+   "shipped_sku": "SKU-4167",
+   "unit_price": 660,
+   "qty": 6,
+   "delivered_on": "2026-09-24",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-58036",
+   "ordered_sku": "SKU-1717",
+   "shipped_sku": "SKU-1717",
+   "unit_price": 2220,
+   "qty": 4,
+   "delivered_on": "2026-10-01",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-76649",
+   "ordered_sku": "SKU-5409",
+   "shipped_sku": "SKU-5409",
+   "unit_price": 2600,
+   "qty": 6,
+   "delivered_on": "2026-08-14",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-85764",
+   "ordered_sku": "SKU-4546",
+   "shipped_sku": "SKU-4546",
+   "unit_price": 1120,
+   "qty": 6,
+   "delivered_on": "2025-12-20",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-69941",
+   "ordered_sku": "SKU-6770",
+   "shipped_sku": "SKU-6770",
+   "unit_price": 2860,
+   "qty": 3,
+   "delivered_on": "2026-09-16",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-77089",
+   "ordered_sku": "SKU-1734",
+   "shipped_sku": "SKU-7286",
+   "unit_price": 2160,
+   "qty": 3,
+   "delivered_on": "2026-10-02",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-88174",
+   "ordered_sku": "SKU-2649",
+   "shipped_sku": "SKU-2649",
+   "unit_price": 2120,
+   "qty": 5,
+   "delivered_on": "2026-10-03",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-26147",
+   "ordered_sku": "SKU-2823",
+   "shipped_sku": "SKU-2823",
+   "unit_price": 260,
+   "qty": 5,
+   "delivered_on": "2025-10-08",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-44809",
+   "ordered_sku": "SKU-8296",
+   "shipped_sku": "SKU-8296",
+   "unit_price": 1340,
+   "qty": 2,
+   "delivered_on": "2026-09-30",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-16929",
+   "ordered_sku": "SKU-3392",
+   "shipped_sku": "SKU-9682",
+   "unit_price": 1300,
+   "qty": 2,
+   "delivered_on": "2026-09-13",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-20213",
+   "ordered_sku": "SKU-6707",
+   "shipped_sku": "SKU-6707",
+   "unit_price": 760,
+   "qty": 1,
+   "delivered_on": "2026-03-26",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-95570",
+   "ordered_sku": "SKU-3756",
+   "shipped_sku": "SKU-3756",
+   "unit_price": 2320,
+   "qty": 1,
+   "delivered_on": "2026-09-11",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-74090",
+   "ordered_sku": "SKU-8258",
+   "shipped_sku": "SKU-8258",
+   "unit_price": 2880,
+   "qty": 5,
+   "delivered_on": "2026-09-19",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-92418",
+   "ordered_sku": "SKU-2853",
+   "shipped_sku": "SKU-1429",
+   "unit_price": 1260,
+   "qty": 3,
+   "delivered_on": "2026-09-14",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-42165",
+   "ordered_sku": "SKU-7827",
+   "shipped_sku": "SKU-7827",
+   "unit_price": 340,
+   "qty": 2,
+   "delivered_on": "2026-10-04",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-59635",
+   "ordered_sku": "SKU-3503",
+   "shipped_sku": "SKU-3503",
+   "unit_price": 840,
+   "qty": 6,
+   "delivered_on": "2026-04-06",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-45472",
+   "ordered_sku": "SKU-8791",
+   "shipped_sku": "SKU-1713",
+   "unit_price": 2920,
+   "qty": 3,
+   "delivered_on": "2026-09-14",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-90001",
+   "ordered_sku": "SKU-8363",
+   "shipped_sku": "SKU-8363",
+   "unit_price": 380,
+   "qty": 6,
+   "delivered_on": "2026-02-22",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-78379",
+   "ordered_sku": "SKU-5596",
+   "shipped_sku": "SKU-1621",
+   "unit_price": 360,
+   "qty": 6,
+   "delivered_on": "2026-09-28",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-41751",
+   "ordered_sku": "SKU-8079",
+   "shipped_sku": "SKU-8079",
+   "unit_price": 2000,
+   "qty": 4,
+   "delivered_on": "2026-09-23",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-15965",
+   "ordered_sku": "SKU-5124",
+   "shipped_sku": "SKU-5124",
+   "unit_price": 2240,
+   "qty": 6,
+   "delivered_on": "2026-08-01",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-75707",
+   "ordered_sku": "SKU-4904",
+   "shipped_sku": "SKU-4904",
+   "unit_price": 520,
+   "qty": 3,
+   "delivered_on": "2025-04-21",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-87149",
+   "ordered_sku": "SKU-9444",
+   "shipped_sku": "SKU-2079",
+   "unit_price": 860,
+   "qty": 1,
+   "delivered_on": "2026-10-02",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-82869",
+   "ordered_sku": "SKU-9204",
+   "shipped_sku": "SKU-9204",
+   "unit_price": 2120,
+   "qty": 1,
+   "delivered_on": "2026-10-03",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-62483",
+   "ordered_sku": "SKU-1888",
+   "shipped_sku": "SKU-1888",
+   "unit_price": 1400,
+   "qty": 3,
+   "delivered_on": "2026-10-02",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-44498",
+   "ordered_sku": "SKU-7438",
+   "shipped_sku": "SKU-7438",
+   "unit_price": 2080,
+   "qty": 3,
+   "delivered_on": "2026-10-06",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-87840",
+   "ordered_sku": "SKU-7058",
+   "shipped_sku": "SKU-7058",
+   "unit_price": 2640,
+   "qty": 6,
+   "delivered_on": "2025-09-16",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-10147",
+   "ordered_sku": "SKU-6530",
+   "shipped_sku": "SKU-6530",
+   "unit_price": 480,
+   "qty": 4,
+   "delivered_on": "2026-09-21",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-60647",
+   "ordered_sku": "SKU-7060",
+   "shipped_sku": "SKU-7060",
+   "unit_price": 480,
+   "qty": 1,
+   "delivered_on": "2026-07-29",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-50942",
+   "ordered_sku": "SKU-3139",
+   "shipped_sku": "SKU-3139",
+   "unit_price": 2740,
+   "qty": 3,
+   "delivered_on": "2026-08-26",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-74265",
+   "ordered_sku": "SKU-2611",
+   "shipped_sku": "SKU-2611",
+   "unit_price": 2840,
+   "qty": 4,
+   "delivered_on": "2026-09-12",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-22840",
+   "ordered_sku": "SKU-1048",
+   "shipped_sku": "SKU-1048",
+   "unit_price": 2260,
+   "qty": 5,
+   "delivered_on": "2026-09-08",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-60594",
+   "ordered_sku": "SKU-8643",
+   "shipped_sku": "SKU-4521",
+   "unit_price": 740,
+   "qty": 5,
+   "delivered_on": "2026-10-06",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-42471",
+   "ordered_sku": "SKU-9130",
+   "shipped_sku": "SKU-9130",
+   "unit_price": 840,
+   "qty": 3,
+   "delivered_on": "2026-09-24",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-30567",
+   "ordered_sku": "SKU-8784",
+   "shipped_sku": "SKU-9176",
+   "unit_price": 620,
+   "qty": 4,
+   "delivered_on": "2026-10-01",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-10128",
+   "ordered_sku": "SKU-8649",
+   "shipped_sku": "SKU-8649",
+   "unit_price": 1700,
+   "qty": 1,
+   "delivered_on": "2026-09-21",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-76163",
+   "ordered_sku": "SKU-8907",
+   "shipped_sku": "SKU-8907",
+   "unit_price": 1020,
+   "qty": 3,
+   "delivered_on": "2026-09-29",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-49888",
+   "ordered_sku": "SKU-9264",
+   "shipped_sku": "SKU-9264",
+   "unit_price": 1440,
+   "qty": 3,
+   "delivered_on": "2026-10-02",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-54738",
+   "ordered_sku": "SKU-6678",
+   "shipped_sku": "SKU-6678",
+   "unit_price": 1740,
+   "qty": 2,
+   "delivered_on": "2026-09-11",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-74812",
+   "ordered_sku": "SKU-7943",
+   "shipped_sku": "SKU-7943",
+   "unit_price": 1960,
+   "qty": 2,
+   "delivered_on": "2026-09-30",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-99666",
+   "ordered_sku": "SKU-2292",
+   "shipped_sku": "SKU-8101",
+   "unit_price": 1520,
+   "qty": 1,
+   "delivered_on": "2026-09-24",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-71364",
+   "ordered_sku": "SKU-9826",
+   "shipped_sku": "SKU-9826",
+   "unit_price": 1840,
+   "qty": 6,
+   "delivered_on": "2025-10-26",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-41859",
+   "ordered_sku": "SKU-5823",
+   "shipped_sku": "SKU-5823",
+   "unit_price": 420,
+   "qty": 2,
+   "delivered_on": "2026-07-30",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-29924",
+   "ordered_sku": "SKU-7421",
+   "shipped_sku": "SKU-3130",
+   "unit_price": 2520,
+   "qty": 3,
+   "delivered_on": "2026-09-24",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-55572",
+   "ordered_sku": "SKU-6391",
+   "shipped_sku": "SKU-6391",
+   "unit_price": 1460,
+   "qty": 5,
+   "delivered_on": "2026-08-16",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-98565",
+   "ordered_sku": "SKU-8641",
+   "shipped_sku": "SKU-8641",
+   "unit_price": 2000,
+   "qty": 4,
+   "delivered_on": "2026-07-16",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-76540",
+   "ordered_sku": "SKU-1357",
+   "shipped_sku": "SKU-1357",
+   "unit_price": 720,
+   "qty": 4,
+   "delivered_on": "2026-08-18",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-45344",
+   "ordered_sku": "SKU-4317",
+   "shipped_sku": "SKU-4317",
+   "unit_price": 1040,
+   "qty": 5,
+   "delivered_on": "2026-09-26",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-71118",
+   "ordered_sku": "SKU-3857",
+   "shipped_sku": "SKU-3857",
+   "unit_price": 1680,
+   "qty": 3,
+   "delivered_on": "2026-09-18",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-55340",
+   "ordered_sku": "SKU-6125",
+   "shipped_sku": "SKU-6125",
+   "unit_price": 620,
+   "qty": 4,
+   "delivered_on": "2026-09-14",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-72375",
+   "ordered_sku": "SKU-7036",
+   "shipped_sku": "SKU-7036",
+   "unit_price": 1320,
+   "qty": 4,
+   "delivered_on": "2026-09-23",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-38764",
+   "ordered_sku": "SKU-2522",
+   "shipped_sku": "SKU-2522",
+   "unit_price": 2660,
+   "qty": 1,
+   "delivered_on": "2026-09-16",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-63718",
+   "ordered_sku": "SKU-9861",
+   "shipped_sku": "SKU-9861",
+   "unit_price": 1420,
+   "qty": 2,
+   "delivered_on": "2026-09-14",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-65656",
+   "ordered_sku": "SKU-3808",
+   "shipped_sku": "SKU-3808",
+   "unit_price": 2580,
+   "qty": 1,
+   "delivered_on": "2026-07-10",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-72494",
+   "ordered_sku": "SKU-7365",
+   "shipped_sku": "SKU-8852",
+   "unit_price": 2900,
+   "qty": 2,
+   "delivered_on": "2026-10-06",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-83904",
+   "ordered_sku": "SKU-6413",
+   "shipped_sku": "SKU-6413",
+   "unit_price": 200,
+   "qty": 3,
+   "delivered_on": "2026-09-05",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-93898",
+   "ordered_sku": "SKU-6769",
+   "shipped_sku": "SKU-4047",
+   "unit_price": 1080,
+   "qty": 4,
+   "delivered_on": "2026-09-09",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-33659",
+   "ordered_sku": "SKU-6177",
+   "shipped_sku": "SKU-6177",
+   "unit_price": 320,
+   "qty": 1,
+   "delivered_on": "2025-08-02",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-99806",
+   "ordered_sku": "SKU-9865",
+   "shipped_sku": "SKU-9865",
+   "unit_price": 900,
+   "qty": 2,
+   "delivered_on": "2026-09-16",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-65597",
+   "ordered_sku": "SKU-7004",
+   "shipped_sku": "SKU-8774",
+   "unit_price": 1880,
+   "qty": 4,
+   "delivered_on": "2026-09-12",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-94520",
+   "ordered_sku": "SKU-8001",
+   "shipped_sku": "SKU-8001",
+   "unit_price": 2180,
+   "qty": 2,
+   "delivered_on": "2026-09-29",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-73742",
+   "ordered_sku": "SKU-2006",
+   "shipped_sku": "SKU-2006",
+   "unit_price": 1680,
+   "qty": 5,
+   "delivered_on": "2026-10-03",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-88512",
+   "ordered_sku": "SKU-9178",
+   "shipped_sku": "SKU-9178",
+   "unit_price": 220,
+   "qty": 4,
+   "delivered_on": "2026-09-23",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-69744",
+   "ordered_sku": "SKU-8124",
+   "shipped_sku": "SKU-6446",
+   "unit_price": 1840,
+   "qty": 3,
+   "delivered_on": "2026-09-21",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-20240",
+   "ordered_sku": "SKU-1836",
+   "shipped_sku": "SKU-1836",
+   "unit_price": 2540,
+   "qty": 5,
+   "delivered_on": "2026-06-16",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-64968",
+   "ordered_sku": "SKU-1668",
+   "shipped_sku": "SKU-1668",
+   "unit_price": 2260,
+   "qty": 6,
+   "delivered_on": "2026-08-16",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-65493",
+   "ordered_sku": "SKU-3369",
+   "shipped_sku": "SKU-3369",
+   "unit_price": 1420,
+   "qty": 6,
+   "delivered_on": "2026-09-23",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-90086",
+   "ordered_sku": "SKU-9436",
+   "shipped_sku": "SKU-9436",
+   "unit_price": 2520,
+   "qty": 2,
+   "delivered_on": "2026-08-20",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-77272",
+   "ordered_sku": "SKU-1405",
+   "shipped_sku": "SKU-8174",
+   "unit_price": 2440,
+   "qty": 5,
+   "delivered_on": "2026-09-19",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-14847",
+   "ordered_sku": "SKU-4286",
+   "shipped_sku": "SKU-4286",
+   "unit_price": 660,
+   "qty": 2,
+   "delivered_on": "2026-09-02",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-30928",
+   "ordered_sku": "SKU-4356",
+   "shipped_sku": "SKU-4356",
+   "unit_price": 1860,
+   "qty": 4,
+   "delivered_on": "2026-09-18",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-17716",
+   "ordered_sku": "SKU-1383",
+   "shipped_sku": "SKU-1383",
+   "unit_price": 2280,
+   "qty": 1,
+   "delivered_on": "2026-01-27",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-95443",
+   "ordered_sku": "SKU-2750",
+   "shipped_sku": "SKU-2131",
+   "unit_price": 2020,
+   "qty": 6,
+   "delivered_on": "2026-10-04",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-28155",
+   "ordered_sku": "SKU-2015",
+   "shipped_sku": "SKU-1588",
+   "unit_price": 2600,
+   "qty": 6,
+   "delivered_on": "2026-09-23",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-11403",
+   "ordered_sku": "SKU-5399",
+   "shipped_sku": "SKU-1782",
+   "unit_price": 2240,
+   "qty": 5,
+   "delivered_on": "2026-09-30",
+   "payment": "Card"
+  },
+  {
+   "order_no": "ORD-50012",
+   "ordered_sku": "SKU-5278",
+   "shipped_sku": "SKU-5278",
+   "unit_price": 920,
+   "qty": 2,
+   "delivered_on": "2026-10-03",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-19298",
+   "ordered_sku": "SKU-3564",
+   "shipped_sku": "SKU-3564",
+   "unit_price": 560,
+   "qty": 6,
+   "delivered_on": "2026-10-05",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-58926",
+   "ordered_sku": "SKU-7603",
+   "shipped_sku": "SKU-7603",
+   "unit_price": 2080,
+   "qty": 3,
+   "delivered_on": "2026-10-04",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-11118",
+   "ordered_sku": "SKU-1442",
+   "shipped_sku": "SKU-1442",
+   "unit_price": 620,
+   "qty": 1,
+   "delivered_on": "2026-05-24",
+   "payment": "UPI"
+  },
+  {
+   "order_no": "ORD-21650",
+   "ordered_sku": "SKU-2830",
+   "shipped_sku": "SKU-2830",
+   "unit_price": 680,
+   "qty": 1,
+   "delivered_on": "2026-09-08",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-13484",
+   "ordered_sku": "SKU-1233",
+   "shipped_sku": "SKU-1996",
+   "unit_price": 960,
+   "qty": 2,
+   "delivered_on": "2026-10-05",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-24036",
+   "ordered_sku": "SKU-2531",
+   "shipped_sku": "SKU-7242",
+   "unit_price": 2900,
+   "qty": 2,
+   "delivered_on": "2026-10-02",
+   "payment": "Cash on delivery"
+  },
+  {
+   "order_no": "ORD-51787",
+   "ordered_sku": "SKU-5872",
+   "shipped_sku": "SKU-2124",
+   "unit_price": 1600,
+   "qty": 5,
+   "delivered_on": "2026-09-18",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-28388",
+   "ordered_sku": "SKU-6835",
+   "shipped_sku": "SKU-6835",
+   "unit_price": 1280,
+   "qty": 6,
+   "delivered_on": "2026-07-22",
+   "payment": "Net banking"
+  },
+  {
+   "order_no": "ORD-11292",
+   "ordered_sku": "SKU-8941",
+   "shipped_sku": "SKU-8941",
+   "unit_price": 2780,
+   "qty": 2,
+   "delivered_on": "2026-09-22",
+   "payment": "Net banking"
+  }
+ ],
+ "products": [
+  {
+   "sku": "SKU-4456",
+   "name": "Caps item 4456",
+   "category": "Caps",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-5621",
+   "name": "Watches - Analog item 5621",
+   "category": "Shin guards",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3516",
+   "name": "Resistance bands item 3516",
+   "category": "Resistance bands",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3074",
+   "name": "Compasses item 3074",
+   "category": "Scarves",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1167",
+   "name": "Swim caps item 1167",
+   "category": "Swim caps",
+   "final_sale": "Yes",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3056",
+   "name": "Sleeping bags item 3056",
+   "category": "Shorts",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7634",
+   "name": "Gloves item 7634",
+   "category": "Gloves",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-5260",
+   "name": "Football item 5260",
+   "category": "Football",
+   "final_sale": "Yes",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7448",
+   "name": "Watches - Analog item 7448",
+   "category": "Thermals",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3329",
+   "name": "Caps item 3329",
+   "category": "Caps",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3146",
+   "name": "Cricket ball item 3146",
+   "category": "Cricket ball",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-1084",
+   "name": "Tennis racket item 1084",
+   "category": "Tennis racket",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-1907",
+   "name": "Jackets item 1907",
+   "category": "Jackets",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8019",
+   "name": "Belts item 8019",
+   "category": "Belts",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-4756",
+   "name": "Watches - Analog item 4756",
+   "category": "Watches - Analog",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-6729",
+   "name": "Compasses item 6729",
+   "category": "Compasses",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-7078",
+   "name": "Footwear - Boots item 7078",
+   "category": "Footwear - Boots",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-7435",
+   "name": "Shoe care item 7435",
+   "category": "Shoe care",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-4693",
+   "name": "Back supports item 4693",
+   "category": "Back supports",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-4167",
+   "name": "Shoe care item 4167",
+   "category": "Shoe care",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1717",
+   "name": "Watches - Digital item 1717",
+   "category": "Watches - Digital",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-5409",
+   "name": "Badminton racket item 5409",
+   "category": "Badminton racket",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-4546",
+   "name": "Water bottles item 4546",
+   "category": "Water bottles",
+   "final_sale": "Yes",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-6770",
+   "name": "Shoe care item 6770",
+   "category": "Shoe care",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7286",
+   "name": "Towels item 7286",
+   "category": "Towels",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-1734",
+   "name": "Badminton racket item 1734",
+   "category": "Water bottles",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-2649",
+   "name": "Shorts item 2649",
+   "category": "Shorts",
+   "final_sale": "Yes",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-2823",
+   "name": "Cricket bat item 2823",
+   "category": "Cricket bat",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8296",
+   "name": "Footwear - Sandals item 8296",
+   "category": "Footwear - Sandals",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-9682",
+   "name": "Swim goggles item 9682",
+   "category": "Swim goggles",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-3392",
+   "name": "Footwear - Running item 3392",
+   "category": "Sunglasses",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6707",
+   "name": "Yoga mats item 6707",
+   "category": "Yoga mats",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-3756",
+   "name": "Back supports item 3756",
+   "category": "Back supports",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-8258",
+   "name": "Sleeping bags item 8258",
+   "category": "Sleeping bags",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-1429",
+   "name": "Badminton racket item 1429",
+   "category": "Badminton racket",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-2853",
+   "name": "Dumbbells item 2853",
+   "category": "Knee supports",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7827",
+   "name": "Insoles item 7827",
+   "category": "Insoles",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-3503",
+   "name": "Footwear - Sandals item 3503",
+   "category": "Footwear - Sandals",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-1713",
+   "name": "Water bottles item 1713",
+   "category": "Water bottles",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-8791",
+   "name": "Socks item 8791",
+   "category": "Belts",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8363",
+   "name": "Table tennis bat item 8363",
+   "category": "Table tennis bat",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-1621",
+   "name": "Swim goggles item 1621",
+   "category": "Swim goggles",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-5596",
+   "name": "Footwear - Sandals item 5596",
+   "category": "Belts",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8079",
+   "name": "Footwear - Boots item 8079",
+   "category": "Footwear - Boots",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-5124",
+   "name": "Headlamps item 5124",
+   "category": "Headlamps",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-4904",
+   "name": "Watches - Analog item 4904",
+   "category": "Watches - Analog",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-2079",
+   "name": "Thermals item 2079",
+   "category": "Thermals",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-9444",
+   "name": "Scarves item 9444",
+   "category": "Back supports",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9204",
+   "name": "Table tennis bat item 9204",
+   "category": "Table tennis bat",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1888",
+   "name": "Scarves item 1888",
+   "category": "Scarves",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7438",
+   "name": "Footwear - Sandals item 7438",
+   "category": "Footwear - Sandals",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-7058",
+   "name": "Cricket bat item 7058",
+   "category": "Cricket bat",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6530",
+   "name": "Footwear - Kids item 6530",
+   "category": "Footwear - Kids",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7060",
+   "name": "Socks item 7060",
+   "category": "Socks",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-3139",
+   "name": "Laces item 3139",
+   "category": "Laces",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-2611",
+   "name": "Tennis racket item 2611",
+   "category": "Tennis racket",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-1048",
+   "name": "Sweatbands item 1048",
+   "category": "Sweatbands",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-4521",
+   "name": "Shorts item 4521",
+   "category": "Shorts",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-8643",
+   "name": "Sunglasses item 8643",
+   "category": "Shuttlecocks",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9130",
+   "name": "Bags - Duffel item 9130",
+   "category": "Bags - Duffel",
+   "final_sale": "Yes",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-9176",
+   "name": "Binoculars item 9176",
+   "category": "Binoculars",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8784",
+   "name": "Sweatbands item 8784",
+   "category": "Compasses",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8649",
+   "name": "Hydration packs item 8649",
+   "category": "Hydration packs",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8907",
+   "name": "Ankle supports item 8907",
+   "category": "Ankle supports",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-9264",
+   "name": "Shoe care item 9264",
+   "category": "Shoe care",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-6678",
+   "name": "Track pants item 6678",
+   "category": "Track pants",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7943",
+   "name": "Footwear - Boots item 7943",
+   "category": "Footwear - Boots",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-8101",
+   "name": "Cricket ball item 8101",
+   "category": "Cricket ball",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-2292",
+   "name": "Bags - Backpack item 2292",
+   "category": "Bags - Backpack",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9826",
+   "name": "Watches - Analog item 9826",
+   "category": "Watches - Analog",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-5823",
+   "name": "Jerseys item 5823",
+   "category": "Jerseys",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-3130",
+   "name": "Cycling helmet item 3130",
+   "category": "Cycling helmet",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7421",
+   "name": "Camp stoves item 7421",
+   "category": "Football",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6391",
+   "name": "Sunglasses item 6391",
+   "category": "Sunglasses",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-8641",
+   "name": "Cricket ball item 8641",
+   "category": "Cricket ball",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-1357",
+   "name": "Tennis racket item 1357",
+   "category": "Tennis racket",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-4317",
+   "name": "Tents item 4317",
+   "category": "Tents",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-3857",
+   "name": "Bags - Duffel item 3857",
+   "category": "Bags - Duffel",
+   "final_sale": "Yes",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-6125",
+   "name": "Footwear - Formal item 6125",
+   "category": "Footwear - Formal",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7036",
+   "name": "Footwear - Formal item 7036",
+   "category": "Footwear - Formal",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-2522",
+   "name": "Tennis racket item 2522",
+   "category": "Tennis racket",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9861",
+   "name": "Insoles item 9861",
+   "category": "Insoles",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-3808",
+   "name": "Back supports item 3808",
+   "category": "Back supports",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-8852",
+   "name": "Badminton racket item 8852",
+   "category": "Badminton racket",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7365",
+   "name": "Table tennis bat item 7365",
+   "category": "Watches - Analog",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6413",
+   "name": "Water bottles item 6413",
+   "category": "Water bottles",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-4047",
+   "name": "Badminton racket item 4047",
+   "category": "Badminton racket",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-6769",
+   "name": "Dumbbells item 6769",
+   "category": "Resistance bands",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6177",
+   "name": "Towels item 6177",
+   "category": "Towels",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9865",
+   "name": "Trekking poles item 9865",
+   "category": "Trekking poles",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-8774",
+   "name": "Table tennis bat item 8774",
+   "category": "Table tennis bat",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-7004",
+   "name": "Water bottles item 7004",
+   "category": "Tents",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8001",
+   "name": "Laces item 8001",
+   "category": "Laces",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-2006",
+   "name": "Tents item 2006",
+   "category": "Tents",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-9178",
+   "name": "Bags - Backpack item 9178",
+   "category": "Bags - Backpack",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6446",
+   "name": "Footwear - Boots item 6446",
+   "category": "Footwear - Boots",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-8124",
+   "name": "Scarves item 8124",
+   "category": "Footwear - Formal",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1836",
+   "name": "Sweatbands item 1836",
+   "category": "Sweatbands",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-1668",
+   "name": "Swim caps item 1668",
+   "category": "Swim caps",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-3369",
+   "name": "Track pants item 3369",
+   "category": "Track pants",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-9436",
+   "name": "Shuttlecocks item 9436",
+   "category": "Shuttlecocks",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-8174",
+   "name": "Sweatbands item 8174",
+   "category": "Sweatbands",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-1405",
+   "name": "Skipping ropes item 1405",
+   "category": "Bags - Duffel",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-4286",
+   "name": "Footwear - Casual item 4286",
+   "category": "Footwear - Casual",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-4356",
+   "name": "Scarves item 4356",
+   "category": "Scarves",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-1383",
+   "name": "Bags - Wallet item 1383",
+   "category": "Bags - Wallet",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-2131",
+   "name": "Compasses item 2131",
+   "category": "Compasses",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-2750",
+   "name": "Camp stoves item 2750",
+   "category": "Sleeping bags",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1588",
+   "name": "Shorts item 1588",
+   "category": "Shorts",
+   "final_sale": "Yes",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-2015",
+   "name": "Binoculars item 2015",
+   "category": "Table tennis bat",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1782",
+   "name": "Swim caps item 1782",
+   "category": "Swim caps",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-5399",
+   "name": "Hydration packs item 5399",
+   "category": "Dumbbells",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-5278",
+   "name": "Shoe care item 5278",
+   "category": "Shoe care",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-3564",
+   "name": "Shorts item 3564",
+   "category": "Shorts",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7603",
+   "name": "Towels item 7603",
+   "category": "Towels",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1442",
+   "name": "Back supports item 1442",
+   "category": "Back supports",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-2830",
+   "name": "Cycling helmet item 2830",
+   "category": "Cycling helmet",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-1996",
+   "name": "Trekking poles item 1996",
+   "category": "Trekking poles",
+   "final_sale": "Yes",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-1233",
+   "name": "Insoles item 1233",
+   "category": "Camp stoves",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-7242",
+   "name": "Cycling helmet item 7242",
+   "category": "Cycling helmet",
+   "final_sale": "No",
+   "warranty_days": 730
+  },
+  {
+   "sku": "SKU-2531",
+   "name": "Binoculars item 2531",
+   "category": "Sunglasses",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-2124",
+   "name": "Camp stoves item 2124",
+   "category": "Camp stoves",
+   "final_sale": "No",
+   "warranty_days": 90
+  },
+  {
+   "sku": "SKU-5872",
+   "name": "Tennis balls item 5872",
+   "category": "Thermals",
+   "final_sale": "No",
+   "warranty_days": 365
+  },
+  {
+   "sku": "SKU-6835",
+   "name": "Jerseys item 6835",
+   "category": "Jerseys",
+   "final_sale": "No",
+   "warranty_days": 180
+  },
+  {
+   "sku": "SKU-8941",
+   "name": "Caps item 8941",
+   "category": "Caps",
+   "final_sale": "No",
+   "warranty_days": 730
+  }
+ ],
+ "policy_fees": [
+  {
+   "category": "Footwear - Running",
+   "opened": 10,
+   "damaged": 40
+  },
+  {
+   "category": "Footwear - Formal",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Footwear - Casual",
+   "opened": 10,
+   "damaged": 25
+  },
+  {
+   "category": "Footwear - Sandals",
+   "opened": 15,
+   "damaged": 40
+  },
+  {
+   "category": "Footwear - Boots",
+   "opened": 5,
+   "damaged": 30
+  },
+  {
+   "category": "Footwear - Kids",
+   "opened": 10,
+   "damaged": 40
+  },
+  {
+   "category": "Socks",
+   "opened": 25,
+   "damaged": 25
+  },
+  {
+   "category": "Insoles",
+   "opened": 20,
+   "damaged": 25
+  },
+  {
+   "category": "Laces",
+   "opened": 10,
+   "damaged": 50
+  },
+  {
+   "category": "Shoe care",
+   "opened": 5,
+   "damaged": 40
+  },
+  {
+   "category": "Bags - Backpack",
+   "opened": 20,
+   "damaged": 25
+  },
+  {
+   "category": "Bags - Duffel",
+   "opened": 15,
+   "damaged": 30
+  },
+  {
+   "category": "Bags - Wallet",
+   "opened": 15,
+   "damaged": 40
+  },
+  {
+   "category": "Belts",
+   "opened": 15,
+   "damaged": 25
+  },
+  {
+   "category": "Caps",
+   "opened": 15,
+   "damaged": 25
+  },
+  {
+   "category": "Gloves",
+   "opened": 25,
+   "damaged": 30
+  },
+  {
+   "category": "Scarves",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Sunglasses",
+   "opened": 20,
+   "damaged": 30
+  },
+  {
+   "category": "Watches - Analog",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Watches - Digital",
+   "opened": 5,
+   "damaged": 25
+  },
+  {
+   "category": "Fitness bands",
+   "opened": 25,
+   "damaged": 25
+  },
+  {
+   "category": "Water bottles",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Yoga mats",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Dumbbells",
+   "opened": 10,
+   "damaged": 40
+  },
+  {
+   "category": "Skipping ropes",
+   "opened": 20,
+   "damaged": 30
+  },
+  {
+   "category": "Resistance bands",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Gym bags",
+   "opened": 10,
+   "damaged": 30
+  },
+  {
+   "category": "Towels",
+   "opened": 25,
+   "damaged": 30
+  },
+  {
+   "category": "Sweatbands",
+   "opened": 25,
+   "damaged": 40
+  },
+  {
+   "category": "Shin guards",
+   "opened": 15,
+   "damaged": 50
+  },
+  {
+   "category": "Football",
+   "opened": 15,
+   "damaged": 30
+  },
+  {
+   "category": "Cricket bat",
+   "opened": 25,
+   "damaged": 50
+  },
+  {
+   "category": "Cricket ball",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Badminton racket",
+   "opened": 15,
+   "damaged": 25
+  },
+  {
+   "category": "Shuttlecocks",
+   "opened": 15,
+   "damaged": 30
+  },
+  {
+   "category": "Tennis racket",
+   "opened": 10,
+   "damaged": 25
+  },
+  {
+   "category": "Tennis balls",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Table tennis bat",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Swim goggles",
+   "opened": 5,
+   "damaged": 30
+  },
+  {
+   "category": "Swim caps",
+   "opened": 10,
+   "damaged": 40
+  },
+  {
+   "category": "Cycling helmet",
+   "opened": 20,
+   "damaged": 25
+  },
+  {
+   "category": "Cycling gloves",
+   "opened": 25,
+   "damaged": 30
+  },
+  {
+   "category": "Knee supports",
+   "opened": 25,
+   "damaged": 30
+  },
+  {
+   "category": "Ankle supports",
+   "opened": 15,
+   "damaged": 40
+  },
+  {
+   "category": "Back supports",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Jerseys",
+   "opened": 25,
+   "damaged": 50
+  },
+  {
+   "category": "Track pants",
+   "opened": 20,
+   "damaged": 30
+  },
+  {
+   "category": "Shorts",
+   "opened": 5,
+   "damaged": 40
+  },
+  {
+   "category": "Jackets",
+   "opened": 20,
+   "damaged": 25
+  },
+  {
+   "category": "Rain wear",
+   "opened": 5,
+   "damaged": 25
+  },
+  {
+   "category": "Thermals",
+   "opened": 5,
+   "damaged": 25
+  },
+  {
+   "category": "Tents",
+   "opened": 20,
+   "damaged": 40
+  },
+  {
+   "category": "Sleeping bags",
+   "opened": 25,
+   "damaged": 30
+  },
+  {
+   "category": "Trekking poles",
+   "opened": 5,
+   "damaged": 30
+  },
+  {
+   "category": "Headlamps",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Compasses",
+   "opened": 20,
+   "damaged": 50
+  },
+  {
+   "category": "Hydration packs",
+   "opened": 25,
+   "damaged": 50
+  },
+  {
+   "category": "Camp stoves",
+   "opened": 25,
+   "damaged": 50
+  },
+  {
+   "category": "Binoculars",
+   "opened": 10,
+   "damaged": 25
+  },
+  {
+   "category": "Knives",
+   "opened": 5,
+   "damaged": 50
+  }
+ ]
+}

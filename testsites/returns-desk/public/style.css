@@ -1,0 +1,26 @@
+:root { --ink: #22303a; --muted: #6a7882; --line: #d9e2e8; --accent: #0f766e; --bg: #f3f7f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); }
+header { background: #134e4a; color: #fff; display: flex; align-items: center; gap: 32px; padding: 0 24px; height: 52px; }
+.brand { font-weight: 700; font-size: 17px; } .brand span { font-weight: 400; font-size: 12px; opacity: .7; margin-left: 6px; }
+nav a { color: #c7e6e2; text-decoration: none; padding: 16px 12px; display: inline-block; } nav a.active, nav a:hover { color: #fff; box-shadow: inset 0 -3px #5eead4; }
+main { max-width: 960px; margin: 24px auto; padding: 0 24px 60px; }
+h1 { font-size: 22px; margin: 0 0 12px; } h2 { font-size: 17px; margin: 24px 0 8px; }
+a { color: var(--accent); } .muted { color: var(--muted); } .crumb { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line); }
+th, td { text-align: left; padding: 7px 12px; border-bottom: 1px solid var(--line); } th { background: #e6f0f1; font-size: 13px; } .num { text-align: right; }
+input, select, textarea, button { font: inherit; padding: 7px 10px; border: 1px solid #b4c3cb; border-radius: 4px; background: #fff; } button { cursor: pointer; }
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+.pager { margin: 14px 0; } .pager a, .pager .current { display: inline-block; min-width: 30px; text-align: center; padding: 4px 8px; margin-right: 4px; border: 1px solid var(--line); border-radius: 4px; background: #fff; text-decoration: none; }
+.pager .current { background: var(--accent); color: #fff; border-color: var(--accent); }
+.cards { display: flex; gap: 12px; margin: 16px 0; } .card { background: #fff; border: 1px solid var(--line); padding: 14px 18px; border-radius: 6px; min-width: 110px; } .card .n { font-size: 26px; font-weight: 700; }
+.facts { display: grid; grid-template-columns: 200px 1fr; gap: 6px 16px; background: #fff; border: 1px solid var(--line); padding: 16px; margin: 0; } .facts dt { color: var(--muted); } .facts dd { margin: 0; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; background: #e3e9ed; } .badge.refund { background: #d4f0e0; } .badge.replace { background: #dbe8fb; } .badge.reject { background: #f6d8d8; }
+.flash { background: #d4f0e0; border: 1px solid #a5d8b8; padding: 8px 12px; margin: 8px 0; } .error { background: #f6d8d8; border: 1px solid #e0a3a3; padding: 8px 12px; margin: 8px 0; }
+.decided { margin-top: 12px; padding: 10px 14px; background: #fff; border-left: 4px solid var(--accent); }
+form#decision-form { background: #fff; border: 1px solid var(--line); padding: 16px; max-width: 520px; } .field { margin-bottom: 12px; } .field label, .field .lbl { display: block; font-weight: 600; margin-bottom: 4px; } .field select, .field input[type=number], .field input[type=text], .field textarea { width: 100%; }
+.datepicker { position: relative; } .shown { margin-left: 8px; color: var(--muted); }
+.cal { position: absolute; z-index: 5; background: #fff; border: 1px solid #b4c3cb; border-radius: 6px; padding: 10px; width: 280px; box-shadow: 0 6px 20px rgba(0,0,0,.15); margin-top: 6px; }
+.cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; } .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; text-align: center; }
+.cal-grid .dow { font-size: 12px; color: var(--muted); } .cal-grid .day { padding: 4px 0; } .cal-grid .day.chosen { background: var(--accent); color: #fff; }
+dialog { border: 1px solid #b4c3cb; border-radius: 8px; padding: 20px 24px; max-width: 420px; } dialog::backdrop { background: rgba(0,0,0,.35); } dialog .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 16px; }

@@ -1,0 +1,487 @@
+{
+ "EXP-39101": {
+  "outcome": "approve",
+  "payable": 25180
+ },
+ "EXP-46657": {
+  "outcome": "sendback",
+  "missing": [
+   "Meals",
+   "Taxi"
+  ]
+ },
+ "EXP-52605": {
+  "outcome": "approve",
+  "payable": 23140
+ },
+ "EXP-44005": {
+  "outcome": "sendback",
+  "missing": [
+   "Hotel"
+  ]
+ },
+ "EXP-47317": {
+  "outcome": "approve",
+  "payable": 15170
+ },
+ "EXP-63536": {
+  "outcome": "deduct",
+  "deduction": 120,
+  "payable": 17130,
+  "hotel_over_limit": true
+ },
+ "EXP-12357": {
+  "outcome": "approve",
+  "payable": 9510
+ },
+ "EXP-98550": {
+  "outcome": "sendback",
+  "missing": [
+   "Flight"
+  ]
+ },
+ "EXP-14316": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-35083": {
+  "outcome": "approve",
+  "payable": 7510
+ },
+ "EXP-81249": {
+  "outcome": "approve",
+  "payable": 52188
+ },
+ "EXP-22220": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-20726": {
+  "outcome": "approve",
+  "payable": 22570
+ },
+ "EXP-52684": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-47669": {
+  "outcome": "deduct",
+  "deduction": 982,
+  "payable": 16434,
+  "hotel_over_limit": true
+ },
+ "EXP-45024": {
+  "outcome": "sendback",
+  "missing": [
+   "Taxi"
+  ]
+ },
+ "EXP-11444": {
+  "outcome": "approve",
+  "payable": 42183
+ },
+ "EXP-70069": {
+  "outcome": "approve",
+  "payable": 24483
+ },
+ "EXP-13497": {
+  "outcome": "deduct",
+  "deduction": 390,
+  "payable": 23400,
+  "hotel_over_limit": true
+ },
+ "EXP-98097": {
+  "outcome": "approve",
+  "payable": 65610
+ },
+ "EXP-89962": {
+  "outcome": "approve",
+  "payable": 21930
+ },
+ "EXP-86480": {
+  "outcome": "approve",
+  "payable": 21390
+ },
+ "EXP-59537": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-80905": {
+  "outcome": "deduct",
+  "deduction": 490,
+  "payable": 16870,
+  "hotel_over_limit": true
+ },
+ "EXP-84892": {
+  "outcome": "deduct",
+  "deduction": 210,
+  "payable": 14100,
+  "hotel_over_limit": true
+ },
+ "EXP-70067": {
+  "outcome": "deduct",
+  "deduction": 530,
+  "payable": 67390,
+  "hotel_over_limit": true
+ },
+ "EXP-45982": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-48515": {
+  "outcome": "approve",
+  "payable": 17990
+ },
+ "EXP-47037": {
+  "outcome": "approve",
+  "payable": 40265
+ },
+ "EXP-43080": {
+  "outcome": "deduct",
+  "deduction": 320,
+  "payable": 24280,
+  "hotel_over_limit": true
+ },
+ "EXP-70978": {
+  "outcome": "approve",
+  "payable": 2905
+ },
+ "EXP-43878": {
+  "outcome": "approve",
+  "payable": 21429
+ },
+ "EXP-40567": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-91782": {
+  "outcome": "approve",
+  "payable": 24740
+ },
+ "EXP-14037": {
+  "outcome": "approve",
+  "payable": 14800
+ },
+ "EXP-96879": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-54954": {
+  "outcome": "approve",
+  "payable": 24090
+ },
+ "EXP-99660": {
+  "outcome": "sendback",
+  "missing": [
+   "Train"
+  ]
+ },
+ "EXP-40976": {
+  "outcome": "deduct",
+  "deduction": 1118,
+  "payable": 19324,
+  "hotel_over_limit": true
+ },
+ "EXP-16547": {
+  "outcome": "deduct",
+  "deduction": 500,
+  "payable": 19410,
+  "hotel_over_limit": true
+ },
+ "EXP-74887": {
+  "outcome": "approve",
+  "payable": 58092
+ },
+ "EXP-21295": {
+  "outcome": "deduct",
+  "deduction": 1299,
+  "payable": 55742,
+  "hotel_over_limit": true
+ },
+ "EXP-47982": {
+  "outcome": "deduct",
+  "deduction": 1138,
+  "payable": 51472,
+  "hotel_over_limit": true
+ },
+ "EXP-10202": {
+  "outcome": "approve",
+  "payable": 22210
+ },
+ "EXP-45685": {
+  "outcome": "sendback",
+  "missing": [
+   "Flight",
+   "Hotel"
+  ]
+ },
+ "EXP-47869": {
+  "outcome": "approve",
+  "payable": 10830
+ },
+ "EXP-28996": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-80477": {
+  "outcome": "deduct",
+  "deduction": 90,
+  "payable": 22970,
+  "hotel_over_limit": true
+ },
+ "EXP-67849": {
+  "outcome": "approve",
+  "payable": 12890
+ },
+ "EXP-42772": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-99684": {
+  "outcome": "deduct",
+  "deduction": 90,
+  "payable": 20350,
+  "hotel_over_limit": true
+ },
+ "EXP-63637": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-35660": {
+  "outcome": "approve",
+  "payable": 21670
+ },
+ "EXP-82807": {
+  "outcome": "approve",
+  "payable": 62373
+ },
+ "EXP-96256": {
+  "outcome": "deduct",
+  "deduction": 340,
+  "payable": 45450,
+  "hotel_over_limit": true
+ },
+ "EXP-44766": {
+  "outcome": "approve",
+  "payable": 23570
+ },
+ "EXP-93437": {
+  "outcome": "approve",
+  "payable": 20840
+ },
+ "EXP-32547": {
+  "outcome": "sendback",
+  "missing": [
+   "Meals"
+  ]
+ },
+ "EXP-41142": {
+  "outcome": "approve",
+  "payable": 23900
+ },
+ "EXP-44570": {
+  "outcome": "approve",
+  "payable": 17300
+ },
+ "EXP-92231": {
+  "outcome": "sendback",
+  "missing": [
+   "Taxi"
+  ]
+ },
+ "EXP-77800": {
+  "outcome": "approve",
+  "payable": 22370
+ },
+ "EXP-78591": {
+  "outcome": "approve",
+  "payable": 17325
+ },
+ "EXP-52865": {
+  "outcome": "sendback",
+  "missing": [
+   "Flight"
+  ]
+ },
+ "EXP-72695": {
+  "outcome": "approve",
+  "payable": 10750
+ },
+ "EXP-38341": {
+  "outcome": "approve",
+  "payable": 20528
+ },
+ "EXP-16243": {
+  "outcome": "approve",
+  "payable": 55154
+ },
+ "EXP-92329": {
+  "outcome": "deduct",
+  "deduction": 310,
+  "payable": 19180,
+  "hotel_over_limit": true
+ },
+ "EXP-81940": {
+  "outcome": "approve",
+  "payable": 23440
+ },
+ "EXP-86576": {
+  "outcome": "sendback",
+  "missing": [
+   "Meals",
+   "Train"
+  ]
+ },
+ "EXP-24574": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-75595": {
+  "outcome": "approve",
+  "payable": 50702
+ },
+ "EXP-47802": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-38419": {
+  "outcome": "approve",
+  "payable": 5950
+ },
+ "EXP-57554": {
+  "outcome": "approve",
+  "payable": 16900
+ },
+ "EXP-53830": {
+  "outcome": "approve",
+  "payable": 3350
+ },
+ "EXP-19748": {
+  "outcome": "approve",
+  "payable": 48500
+ },
+ "EXP-32741": {
+  "outcome": "sendback",
+  "missing": [
+   "Flight",
+   "Hotel"
+  ]
+ },
+ "EXP-48527": {
+  "outcome": "approve",
+  "payable": 14610
+ },
+ "EXP-74935": {
+  "outcome": "deduct",
+  "deduction": 150,
+  "payable": 28200,
+  "hotel_over_limit": true
+ },
+ "EXP-59064": {
+  "outcome": "sendback",
+  "missing": [
+   "Hotel",
+   "Meals"
+  ]
+ },
+ "EXP-52442": {
+  "outcome": "deduct",
+  "deduction": 6015,
+  "payable": 19165,
+  "hotel_over_limit": true
+ },
+ "EXP-51482": {
+  "outcome": "sendback",
+  "missing": [
+   "Flight"
+  ]
+ },
+ "EXP-56374": {
+  "outcome": "approve",
+  "payable": 35610
+ },
+ "EXP-62865": {
+  "outcome": "deduct",
+  "deduction": 4210,
+  "payable": 34570,
+  "hotel_over_limit": true
+ },
+ "EXP-67017": {
+  "outcome": "sendback",
+  "missing": [
+   "Hotel"
+  ]
+ },
+ "EXP-88285": {
+  "outcome": "approve",
+  "payable": 28885
+ },
+ "EXP-30227": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-46692": {
+  "outcome": "deduct",
+  "deduction": 510,
+  "payable": 17000,
+  "hotel_over_limit": true
+ },
+ "EXP-28895": {
+  "outcome": "approve",
+  "payable": 6850
+ },
+ "EXP-67347": {
+  "outcome": "deduct",
+  "deduction": 550,
+  "payable": 19350,
+  "hotel_over_limit": true
+ },
+ "EXP-63003": {
+  "outcome": "deduct",
+  "deduction": 2774,
+  "payable": 41062,
+  "hotel_over_limit": true
+ },
+ "EXP-36367": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-59425": {
+  "outcome": "deduct",
+  "deduction": 300,
+  "payable": 20970,
+  "hotel_over_limit": true
+ },
+ "EXP-62226": {
+  "outcome": "sendback",
+  "missing": [
+   "Hotel"
+  ]
+ },
+ "EXP-64720": {
+  "outcome": "deduct",
+  "deduction": 4090,
+  "payable": 47795,
+  "hotel_over_limit": true
+ },
+ "EXP-66484": {
+  "outcome": "approve",
+  "payable": 21360
+ },
+ "EXP-27777": {
+  "outcome": "deduct",
+  "deduction": 560,
+  "payable": 23050,
+  "hotel_over_limit": true
+ },
+ "EXP-74722": {
+  "outcome": "reject",
+  "reason": "Late submission"
+ },
+ "EXP-57401": {
+  "outcome": "deduct",
+  "deduction": 301,
+  "payable": 30108,
+  "hotel_over_limit": true
+ }
+}

@@ -1,0 +1,546 @@
+{
+ "INV-26-5751": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   740,
+   738
+  ]
+ },
+ "INV-26-8583": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-3351": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   613,
+   600
+  ]
+ },
+ "INV-26-2820": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   440,
+   450
+  ]
+ },
+ "INV-26-6805": {
+  "status": "Approved",
+  "payment_date": "2026-10-23"
+ },
+ "INV-26-8114": {
+  "status": "Approved",
+  "payment_date": "2026-11-05"
+ },
+ "INV-26-3596": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-7783": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   379,
+   350
+  ]
+ },
+ "INV-26-5823": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-8502": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   300,
+   0
+  ]
+ },
+ "INV-26-6450": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-3570": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   220,
+   218
+  ]
+ },
+ "INV-26-7176": {
+  "status": "Approved",
+  "payment_date": "2026-10-09"
+ },
+ "INV-26-6607": {
+  "status": "Approved",
+  "payment_date": "2026-10-24"
+ },
+ "INV-26-7173": {
+  "status": "Approved",
+  "payment_date": "2026-10-15"
+ },
+ "INV-26-2584": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   1710,
+   1690
+  ]
+ },
+ "INV-26-7023": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   140,
+   120
+  ]
+ },
+ "INV-26-4916": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-7969": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-4753": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   541,
+   500
+  ]
+ },
+ "INV-26-6962": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   673,
+   650
+  ]
+ },
+ "INV-26-3058": {
+  "status": "Approved",
+  "payment_date": "2026-11-07"
+ },
+ "INV-26-3667": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   107,
+   100
+  ]
+ },
+ "INV-26-5850": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-6571": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-9025": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   270,
+   300
+  ]
+ },
+ "INV-26-9793": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-4741": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   410,
+   0
+  ]
+ },
+ "INV-26-5689": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   1290,
+   0
+  ]
+ },
+ "INV-26-6383": {
+  "status": "Approved",
+  "payment_date": "2026-09-15"
+ },
+ "INV-26-3609": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-2365": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   1000,
+   990
+  ]
+ },
+ "INV-26-4505": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   722,
+   750
+  ]
+ },
+ "INV-26-7750": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-9943": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-6263": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-8660": {
+  "status": "Approved",
+  "payment_date": "2026-10-07"
+ },
+ "INV-26-7464": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   805,
+   850
+  ]
+ },
+ "INV-26-1792": {
+  "status": "Approved",
+  "payment_date": "2026-10-16"
+ },
+ "INV-26-9827": {
+  "status": "Approved",
+  "payment_date": "2026-10-20"
+ },
+ "INV-26-5474": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-6864": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-5866": {
+  "status": "Approved",
+  "payment_date": "2026-10-12"
+ },
+ "INV-26-8063": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   490,
+   480
+  ]
+ },
+ "INV-26-1782": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-9966": {
+  "status": "Approved",
+  "payment_date": "2026-09-21"
+ },
+ "INV-26-9181": {
+  "status": "Approved",
+  "payment_date": "2026-10-24"
+ },
+ "INV-26-8825": {
+  "status": "Approved",
+  "payment_date": "2026-10-14"
+ },
+ "INV-26-7121": {
+  "status": "Approved",
+  "payment_date": "2026-10-11"
+ },
+ "INV-26-1309": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   530,
+   528
+  ]
+ },
+ "INV-26-7148": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-8741": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   378,
+   400
+  ]
+ },
+ "INV-26-3019": {
+  "status": "Approved",
+  "payment_date": "2026-11-11"
+ },
+ "INV-26-1571": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-3463": {
+  "status": "Approved",
+  "payment_date": "2026-10-02"
+ },
+ "INV-26-7822": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   1020,
+   1000
+  ]
+ },
+ "INV-26-6724": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   902,
+   950
+  ]
+ },
+ "INV-26-4446": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-6515": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   587,
+   550
+  ]
+ },
+ "INV-26-6460": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   832,
+   850
+  ]
+ },
+ "INV-26-9511": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-3728": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-5560": {
+  "status": "Approved",
+  "payment_date": "2026-09-29"
+ },
+ "INV-26-9844": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-3838": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-5774": {
+  "status": "Approved",
+  "payment_date": "2026-09-26"
+ },
+ "INV-26-1287": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   487,
+   450
+  ]
+ },
+ "INV-26-9273": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-9646": {
+  "status": "Approved",
+  "payment_date": "2026-09-11"
+ },
+ "INV-26-4385": {
+  "status": "Approved",
+  "payment_date": "2026-10-04"
+ },
+ "INV-26-3486": {
+  "status": "Approved",
+  "payment_date": "2026-09-12"
+ },
+ "INV-26-3901": {
+  "status": "Approved",
+  "payment_date": "2026-11-11"
+ },
+ "INV-26-6613": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   950,
+   0
+  ]
+ },
+ "INV-26-2587": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-6204": {
+  "status": "Approved",
+  "payment_date": "2026-11-04"
+ },
+ "INV-26-2367": {
+  "status": "Approved",
+  "payment_date": "2026-11-06"
+ },
+ "INV-26-2390": {
+  "status": "Approved",
+  "payment_date": "2026-09-27"
+ },
+ "INV-26-7050": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   340,
+   335
+  ]
+ },
+ "INV-26-5092": {
+  "status": "Approved",
+  "payment_date": "2026-10-30"
+ },
+ "INV-26-1172": {
+  "status": "Approved",
+  "payment_date": "2026-10-09"
+ },
+ "INV-26-7129": {
+  "status": "Approved",
+  "payment_date": "2026-09-09"
+ },
+ "INV-26-7171": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   840,
+   800
+  ]
+ },
+ "INV-26-4883": {
+  "status": "Approved",
+  "payment_date": "2026-10-19"
+ },
+ "INV-26-8150": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   480,
+   478
+  ]
+ },
+ "INV-26-4298": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-3258": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-5049": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   97,
+   100
+  ]
+ },
+ "INV-26-3248": {
+  "status": "Rejected",
+  "reason": "Vendor blocked"
+ },
+ "INV-26-9668": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   690,
+   685
+  ]
+ },
+ "INV-26-1610": {
+  "status": "Approved",
+  "payment_date": "2026-11-05"
+ },
+ "INV-26-2691": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   261,
+   250
+  ]
+ },
+ "INV-26-8921": {
+  "status": "Approved",
+  "payment_date": "2026-11-14"
+ },
+ "INV-26-5370": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   1890,
+   1888
+  ]
+ },
+ "INV-26-6557": {
+  "status": "Approved",
+  "payment_date": "2026-09-11"
+ },
+ "INV-26-8692": {
+  "status": "Approved",
+  "payment_date": "2026-10-08"
+ },
+ "INV-26-6227": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ },
+ "INV-26-7678": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   292,
+   250
+  ]
+ },
+ "INV-26-1836": {
+  "status": "On hold",
+  "reason": "Price variance",
+  "note_numbers": [
+   655,
+   700
+  ]
+ },
+ "INV-26-9189": {
+  "status": "On hold",
+  "reason": "Short receipt",
+  "note_numbers": [
+   180,
+   140
+  ]
+ },
+ "INV-26-9229": {
+  "status": "Rejected",
+  "reason": "No open PO"
+ }
+}

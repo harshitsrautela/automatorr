@@ -1,0 +1,18 @@
+# Secrets — never commit real credentials
+.env
+
+# Virtual environment (495MB of installed packages, not source code)
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated at runtime, not source
+storage/cache.sqlite3
+storage/results.json
+docs/Logs.md
+
+# Local editor/tooling
+.claude/
+.DS_Store

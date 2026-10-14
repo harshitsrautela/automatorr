@@ -1,0 +1,24 @@
+# Bench overlay for Webwright (stack after base.yaml):
+#   -c base.yaml -c /abs/path/config/bench_gemini.yaml
+#
+# Model: Gemini via the bench counting proxy, using Webwright's built-in
+# chat-completions backend (model_class "openrouter" = generic OpenAI
+# chat/completions client with a configurable endpoint). No source edits.
+# Key: read from env OPENROUTER_API_KEY, which run.sh sets to the literal
+# string "bench" (the proxy swaps in real keys).
+model:
+  model_class: openrouter
+  model_name: gemini-3.5-flash-lite
+  openrouter_endpoint: http://127.0.0.1:8899/webwright/v1beta/openai/chat/completions
+  provider_require_parameters: false   # OpenRouter-only field; off for Gemini
+  max_output_tokens: 8192              # base.yaml has 4000; room for long scripts in one JSON reply
+  request_timeout_seconds: 180
+
+environment:
+  browser_mode: local                  # local Playwright Chromium (base.yaml default too)
+  command_timeout_seconds: 240
+
+agent:
+  step_limit: 60                       # base.yaml default is 100
+  summary_every_n_steps: 20            # base.yaml default (context compaction)
+  require_self_reflection_success: true  # base.yaml default: done is gated on self_reflection PASS

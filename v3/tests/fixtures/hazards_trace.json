@@ -1,0 +1,544 @@
+{
+ "claim_no": "CLM-26-08936",
+ "fields": {
+  "claim_no": "CLM-26-08936"
+ },
+ "instructions": "Sign in to the Claims Desk as desk.auditor with the password audit-2026. For each claim, open the claims list, find the claim and open it, open its policy, and decide the claim in the decision form. The first rule that applies decides:\n1. The policy is not Active, or the date of loss is outside the policy's start and end dates: Decline, reason No cover on loss date.\n2. The claim's peril is not covered in the policy's coverage table: Decline, reason Peril not covered.\n3. The peril is Theft and there is no police report: Request information, document Police report.\n4. The amount claimed is more than the peril's limit: Approve partially, payout = limit - deductible.\n5. Otherwise Approve, payout = amount claimed - deductible.",
+ "trace": [
+  {
+   "step": 1,
+   "goal": "Accept the cookie banner so it does not cover the page.",
+   "kind": "click",
+   "url": "http://localhost:5183/login?next=%2Fclaims",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "data-c": "all"
+    },
+    "text": "Accept all",
+    "xpath": "el1:Accept all"
+   },
+   "page_text": "Claims Desk Property claims\nSign in to Claims Desk\nUsername\nPassword\nSign in\n\nCookies on Claims Desk. We use essential cookies to keep you signed in and, with your permission, analytics cookies to see how the desk is used.\n\nReject non-essential\nAccept all"
+  },
+  {
+   "step": 2,
+   "goal": "Type the username from the instructions.",
+   "kind": "input",
+   "url": "http://localhost:5183/login?next=%2Fclaims",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "id": "username",
+     "name": "username",
+     "autocomplete": "username",
+     "required": ""
+    },
+    "text": "Username",
+    "xpath": "el2:username"
+   },
+   "value": "desk.auditor"
+  },
+  {
+   "step": 3,
+   "goal": "Type the password from the instructions.",
+   "kind": "input",
+   "url": "http://localhost:5183/login?next=%2Fclaims",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "id": "password",
+     "name": "password",
+     "type": "password",
+     "autocomplete": "current-password",
+     "required": ""
+    },
+    "text": "Password",
+    "xpath": "el3:password"
+   },
+   "value": "audit-2026"
+  },
+  {
+   "step": 4,
+   "goal": "Sign in.",
+   "kind": "click",
+   "url": "http://localhost:5183/login?next=%2Fclaims",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit",
+     "class": "primary"
+    },
+    "text": "Sign in",
+    "xpath": "el4:Sign in"
+   }
+  },
+  {
+   "step": 5,
+   "goal": "Close the What's new box.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "data-act": "ok"
+    },
+    "text": "Got it",
+    "xpath": "el5:Got it"
+   },
+   "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\nClaims\n\nNewest first. Scroll down to see more claims.\n\nClaim\tClaimant\tPeril\tDate of loss\tAmount (₹)\tStatus\n\nSomething went wrong while loading claims.\n\nRetry\n×\nWhat's new\nClaims now load as you scroll: there is no need to page through the list.\nThe decision form saves without leaving the claim.\nNotes can be formatted with bold and lists.\nGot it"
+  },
+  {
+   "step": 6,
+   "goal": "The list failed to load: press Retry.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button"
+    },
+    "text": "Retry",
+    "xpath": "el6:Retry"
+   }
+  },
+  {
+   "step": 7,
+   "goal": "Load more claims to find CLM-26-08936.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "more"
+    },
+    "text": "Load more",
+    "xpath": "el7:Load more"
+   }
+  },
+  {
+   "step": 8,
+   "goal": "Open claim CLM-26-08936 from the list.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims",
+   "el": {
+    "node": "tr",
+    "attrs": {
+     "class": "row",
+     "tabindex": "0",
+     "data-r": "thji8r"
+    },
+    "text": "",
+    "xpath": "el8:tr",
+    "inner": "CLM-26-08936 Aditya Verma Earthquake 17 Aug 2026 1,40,000 Pending"
+   }
+  },
+  {
+   "step": 9,
+   "goal": "Open policy POL-4251351 to check its status, dates and coverage.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/policies/POL-4251351"
+    },
+    "text": "POL-4251351",
+    "xpath": "el9:POL-4251351"
+   },
+   "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / CLM-26-08936\n\nClaim CLM-26-08936\nPending\nClaimant\nAditya Verma\nPolicy\nPOL-4251351\nPeril\nEarthquake\nDate of loss\n17 Aug 2026\nReported on\n18 Aug 2026\nAmount claimed\n₹1,40,000\nPhotos attached\n7\nDescription\nWater tank and parapet fell during an earthquake\nYour decision\nOutcome\nApprove\nApprove partially\nDecline\nRequest information\nInternal note (optional)\nSubmit decision"
+  },
+  {
+   "step": 10,
+   "goal": "Go back to the claim to decide it.",
+   "kind": "back",
+   "url": "http://localhost:5183/policies/POL-4251351",
+   "el": null,
+   "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / POL-4251351\n\nPolicy POL-4251351\nPolicyholder\nAditya Verma\nProduct\nHome Shield\nStatus\nLapsed\nStart date\n09 Jun 2026\nEnd date\n08 Jun 2027\nAnnual premium\n₹61,200\nCoverage\n\nCover applies to losses that happen on or between the start date and the end date. Each claim is paid up to the limit for its peril, less the deductible.\n\nPeril\tCovered\tLimit (₹)\tDeductible (₹)\nFire\tYes\t15,50,000\t10,000\nTheft\tNo\t—\t—\nFlood\tYes\t9,90,000\t25,000\nStorm\tYes\t5,80,000\t25,000\nAccidental damage\tYes\t40,000\t7,500\nWater leak\tNo\t—\t—\nEarthquake\tYes\t7,65,000\t7,500\nRiot\tYes\t1,10,000\t1,000\nPremium payments\nDue date\tAmount (₹)\tPaid on\n09 Jun 2026\t15,300\t21 Jun 2026\n09 Sept 2026\t15,300\tUnpaid"
+  },
+  {
+   "step": 11,
+   "goal": "Choose Decline.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "div",
+    "attrs": {
+     "role": "radio",
+     "id": "cm94ksu4",
+     "class": "radio",
+     "data-v": "decline",
+     "aria-checked": "false",
+     "tabindex": "-1"
+    },
+    "text": "Decline",
+    "xpath": "el11:Decline",
+    "group": "Outcome"
+   }
+  },
+  {
+   "step": 12,
+   "goal": "Open the reason list.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "text",
+     "id": "c49yik8q",
+     "name": "reason",
+     "role": "combobox",
+     "aria-autocomplete": "list",
+     "aria-haspopup": "listbox",
+     "aria-expanded": "false",
+     "autocomplete": "off",
+     "spellcheck": "false",
+     "placeholder": "Type to search…",
+     "value": ""
+    },
+    "text": "Decline reason",
+    "xpath": "el12:reason"
+   }
+  },
+  {
+   "step": 13,
+   "goal": "Search the reason list.",
+   "kind": "input",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "text",
+     "id": "c49yik8q",
+     "name": "reason",
+     "role": "combobox",
+     "aria-autocomplete": "list",
+     "aria-haspopup": "listbox",
+     "aria-expanded": "true",
+     "autocomplete": "off",
+     "spellcheck": "false",
+     "placeholder": "Type to search…",
+     "value": "",
+     "aria-controls": "c6gcizom"
+    },
+    "text": "Decline reason",
+    "xpath": "el13:reason"
+   },
+   "value": "No cover"
+  },
+  {
+   "step": 14,
+   "goal": "Pick No cover on loss date.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "div",
+    "attrs": {
+     "class": "option",
+     "role": "option",
+     "id": "contw8v2",
+     "data-i": "0",
+     "aria-selected": "true"
+    },
+    "text": "No cover on loss date",
+    "xpath": "el14:No cover on loss date"
+   }
+  },
+  {
+   "step": 15,
+   "goal": "Write an internal note.",
+   "kind": "input",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "div",
+    "attrs": {
+     "class": "note",
+     "id": "c4u9hhvv",
+     "contenteditable": "true",
+     "role": "textbox",
+     "aria-multiline": "true",
+     "aria-labelledby": "ctslwa4n"
+    },
+    "text": "Internal note (optional)",
+    "xpath": "el15:Internal note (optional)"
+   },
+   "value": "Checked against the policy."
+  },
+  {
+   "step": 16,
+   "goal": "Submit the decision.",
+   "kind": "click",
+   "url": "http://localhost:5183/claims/053b2178",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit",
+     "class": "primary"
+    },
+    "text": "Submit decision",
+    "xpath": "el16:Submit decision"
+   }
+  }
+ ],
+ "other_branches": {
+  "CLM-26-06610": {
+   "fields": {
+    "claim_no": "CLM-26-06610"
+   },
+   "trace": [
+    {
+     "step": 1,
+     "goal": "Open claim CLM-26-06610 from the list.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims",
+     "el": {
+      "node": "tr",
+      "attrs": {
+       "class": "row",
+       "tabindex": "0",
+       "data-r": "iyaogz"
+      },
+      "text": "",
+      "xpath": "el1:tr",
+      "inner": "CLM-26-06610 Saanvi Joshi Fire 06 Oct 2026 1,35,050 Pending"
+     },
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\nClaims\n\nNewest first. Scroll down to see more claims.\n\nClaim\tClaimant\tPeril\tDate of loss\tAmount (₹)\tStatus\nCLM-26-01975\tYash Thakur\tFire\t03 Oct 2026\t10,29,700\tPending\nCLM-26-06610\tSaanvi Joshi\tFire\t06 Oct 2026\t1,35,050\tPending\nCLM-26-07403\tVihaan Shah\tTheft\t04 Oct 2026\t1,33,300\tPending\nCLM-26-08035\tDiya Kapoor\tAccidental damage\t30 Sept 2026\t66,300\tPending\nCLM-26-08588\tRiya Khanna\tFire\t02 Oct 2026\t2,81,850\tPending\nCLM-26-05542\tKrish Malhotra\tTheft\t30 Sept 2026\t49,200\tPending\nCLM-26-07571\tKiara Bose\tFire\t28 Sept 2026\t6,19,250\tPending\nCLM-26-09239\tVihaan Shah\tWater leak\t08 Oct 2026\t73,900\tPending\nCLM-26-04444\tRiya Khanna\tTheft\t04 Oct 2026\t1,20,650\tPending\nCLM-26-04872\tDiya Kapoor\tRiot\t01 Oct 2026\t85,900\tPending\nCLM-26-04950\tTara Sethi\tTheft\t04 Oct 2026\t1,62,650\tPending\nCLM-26-05332\tDev Chauhan\tWater leak\t28 Sept 2026\t65,000\tPending\nCLM-26-07536\tFarhan Ali\tTheft\t17 Sept 2026\t33,450\tPending\nCLM-26-08071\tAarav Mehta\tTheft\t25 Sept 2026\t3,80,800\tPending\nCLM-26-06042\tMyra Pillai\tRiot\t16 Sept 2026\t3,39,900\tPending\nCLM-26-06367\tMeera Iyer\tFire\t14 Sept 2026\t12,83,600\tPending\nCLM-26-01682\tAarav Mehta\tTheft\t15 Sept 2026\t1,48,450\tPending\nCLM-26-03395\tArjun Patel\tTheft\t11 Sept 2026\t2,36,000\tPending\nCLM-26-05121\tKabir Singh\tEarthquake\t13 Sept 2026\t2,12,450\tPending\nCLM-26-07996\tMeera Iyer\tTheft\t16 Sept 2026\t3,80,600\tPending\n\nShowing 20 of 100 claims.\n\nLoad more"
+    },
+    {
+     "step": 2,
+     "goal": "Open policy POL-8384396 to check its status, dates and coverage.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/399e2be4",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "/policies/POL-8384396"
+      },
+      "text": "POL-8384396",
+      "xpath": "el2:POL-8384396"
+     },
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / CLM-26-06610\n\nClaim CLM-26-06610\nPending\nClaimant\nSaanvi Joshi\nPolicy\nPOL-8384396\nPeril\nFire\nDate of loss\n06 Oct 2026\nReported on\n09 Oct 2026\nAmount claimed\n₹1,35,050\nPhotos attached\n5\nDescription\nKitchen fire damaged the cabinets and the chimney\nYour decision\nOutcome\nApprove\nApprove partially\nDecline\nRequest information\nInternal note (optional)\nSubmit decision"
+    },
+    {
+     "step": 3,
+     "goal": "Go back to the claim to decide it.",
+     "kind": "back",
+     "url": "http://localhost:5183/policies/POL-8384396",
+     "el": null,
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / POL-8384396\n\nPolicy POL-8384396\nPolicyholder\nSaanvi Joshi\nProduct\nHome Shield\nStatus\nActive\nStart date\n12 Aug 2026\nEnd date\n11 Aug 2027\nAnnual premium\n₹57,600\nCoverage\n\nCover applies to losses that happen on or between the start date and the end date. Each claim is paid up to the limit for its peril, less the deductible.\n\nPeril\tCovered\tLimit (₹)\tDeductible (₹)\nFire\tYes\t18,25,000\t25,000\nTheft\tYes\t2,85,000\t25,000\nFlood\tYes\t8,85,000\t25,000\nStorm\tYes\t1,70,000\t1,000\nAccidental damage\tYes\t1,30,000\t5,000\nWater leak\tYes\t85,000\t7,500\nEarthquake\tNo\t—\t—\nRiot\tNo\t—\t—\nPremium payments\nDue date\tAmount (₹)\tPaid on\n12 Aug 2026\t14,400\t19 Aug 2026"
+    },
+    {
+     "step": 4,
+     "goal": "Choose Approve.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/399e2be4",
+     "el": {
+      "node": "div",
+      "attrs": {
+       "role": "radio",
+       "id": "ctj1jcob",
+       "class": "radio",
+       "data-v": "approve",
+       "aria-checked": "false",
+       "tabindex": "0"
+      },
+      "text": "Approve",
+      "xpath": "el4:Approve",
+      "group": "Outcome"
+     }
+    },
+    {
+     "step": 5,
+     "goal": "Enter the payout.",
+     "kind": "input",
+     "url": "http://localhost:5183/claims/399e2be4",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "number",
+       "id": "cq4bctyj",
+       "name": "payout",
+       "min": "0",
+       "step": "1",
+       "inputmode": "numeric",
+       "value": ""
+      },
+      "text": "Payout (₹)",
+      "xpath": "el5:payout"
+     },
+     "value": "110050"
+    },
+    {
+     "step": 6,
+     "goal": "Submit the decision.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/399e2be4",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "submit",
+       "class": "primary"
+      },
+      "text": "Submit decision",
+      "xpath": "el6:Submit decision"
+     }
+    }
+   ]
+  },
+  "CLM-26-04950": {
+   "fields": {
+    "claim_no": "CLM-26-04950"
+   },
+   "trace": [
+    {
+     "step": 1,
+     "goal": "Open claim CLM-26-04950 from the list.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims",
+     "el": {
+      "node": "tr",
+      "attrs": {
+       "class": "row",
+       "tabindex": "0",
+       "data-r": "fqtvz6"
+      },
+      "text": "",
+      "xpath": "el1:tr",
+      "inner": "CLM-26-04950 Tara Sethi Theft 04 Oct 2026 1,62,650 Pending"
+     },
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\nClaims\n\nNewest first. Scroll down to see more claims.\n\nClaim\tClaimant\tPeril\tDate of loss\tAmount (₹)\tStatus\nCLM-26-01975\tYash Thakur\tFire\t03 Oct 2026\t10,29,700\tPending\nCLM-26-06610\tSaanvi Joshi\tFire\t06 Oct 2026\t1,35,050\tApproved\nCLM-26-07403\tVihaan Shah\tTheft\t04 Oct 2026\t1,33,300\tPending\nCLM-26-08035\tDiya Kapoor\tAccidental damage\t30 Sept 2026\t66,300\tPending\nCLM-26-08588\tRiya Khanna\tFire\t02 Oct 2026\t2,81,850\tPending\nCLM-26-05542\tKrish Malhotra\tTheft\t30 Sept 2026\t49,200\tPending\nCLM-26-07571\tKiara Bose\tFire\t28 Sept 2026\t6,19,250\tPending\nCLM-26-09239\tVihaan Shah\tWater leak\t08 Oct 2026\t73,900\tPending\nCLM-26-04444\tRiya Khanna\tTheft\t04 Oct 2026\t1,20,650\tPending\nCLM-26-04872\tDiya Kapoor\tRiot\t01 Oct 2026\t85,900\tPending\nCLM-26-04950\tTara Sethi\tTheft\t04 Oct 2026\t1,62,650\tPending\nCLM-26-05332\tDev Chauhan\tWater leak\t28 Sept 2026\t65,000\tPending\nCLM-26-07536\tFarhan Ali\tTheft\t17 Sept 2026\t33,450\tPending\nCLM-26-08071\tAarav Mehta\tTheft\t25 Sept 2026\t3,80,800\tPending\nCLM-26-06042\tMyra Pillai\tRiot\t16 Sept 2026\t3,39,900\tPending\nCLM-26-06367\tMeera Iyer\tFire\t14 Sept 2026\t12,83,600\tPending\nCLM-26-01682\tAarav Mehta\tTheft\t15 Sept 2026\t1,48,450\tPending\nCLM-26-03395\tArjun Patel\tTheft\t11 Sept 2026\t2,36,000\tPending\nCLM-26-05121\tKabir Singh\tEarthquake\t13 Sept 2026\t2,12,450\tPending\nCLM-26-07996\tMeera Iyer\tTheft\t16 Sept 2026\t3,80,600\tPending\n\nShowing 20 of 100 claims.\n\nLoad more"
+    },
+    {
+     "step": 2,
+     "goal": "Open policy POL-3848468 to check its status, dates and coverage.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "/policies/POL-3848468"
+      },
+      "text": "POL-3848468",
+      "xpath": "el2:POL-3848468"
+     },
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / CLM-26-04950\n\nClaim CLM-26-04950\nPending\nClaimant\nTara Sethi\nPolicy\nPOL-3848468\nPeril\nTheft\nDate of loss\n04 Oct 2026\nReported on\n05 Oct 2026\nAmount claimed\n₹1,62,650\nPolice report\nNo\nPhotos attached\n11\nDescription\nLaptop and jewellery taken during a break-in\nYour decision\nOutcome\nApprove\nApprove partially\nDecline\nRequest information\nInternal note (optional)\nSubmit decision"
+    },
+    {
+     "step": 3,
+     "goal": "Go back to the claim to decide it.",
+     "kind": "back",
+     "url": "http://localhost:5183/policies/POL-3848468",
+     "el": null,
+     "page_text": "Claims Desk Property claims\nDashboardClaims\ndesk.auditor · Sign out\n\nClaims / POL-3848468\n\nPolicy POL-3848468\nPolicyholder\nTara Sethi\nProduct\nHome and Contents\nStatus\nActive\nStart date\n25 Apr 2026\nEnd date\n24 Apr 2027\nAnnual premium\n₹52,400\nCoverage\n\nCover applies to losses that happen on or between the start date and the end date. Each claim is paid up to the limit for its peril, less the deductible.\n\nPeril\tCovered\tLimit (₹)\tDeductible (₹)\nFire\tYes\t6,80,000\t25,000\nTheft\tYes\t1,70,000\t25,000\nFlood\tYes\t8,40,000\t7,500\nStorm\tNo\t—\t—\nAccidental damage\tYes\t1,45,000\t15,000\nWater leak\tNo\t—\t—\nEarthquake\tNo\t—\t—\nRiot\tYes\t4,90,000\t2,500\nPremium payments\nDue date\tAmount (₹)\tPaid on\n25 Apr 2026\t13,100\t27 Apr 2026\n25 Jul 2026\t13,100\t25 Jul 2026"
+    },
+    {
+     "step": 4,
+     "goal": "Choose Request information.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "div",
+      "attrs": {
+       "role": "radio",
+       "id": "ctd7mdn5",
+       "class": "radio",
+       "data-v": "request_info",
+       "aria-checked": "false",
+       "tabindex": "-1"
+      },
+      "text": "Request information",
+      "xpath": "el4:Request information",
+      "group": "Outcome"
+     }
+    },
+    {
+     "step": 5,
+     "goal": "Open the document list.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "text",
+       "id": "cr9ghys0",
+       "name": "document",
+       "role": "combobox",
+       "aria-autocomplete": "list",
+       "aria-haspopup": "listbox",
+       "aria-expanded": "false",
+       "autocomplete": "off",
+       "spellcheck": "false",
+       "placeholder": "Type to search…",
+       "value": ""
+      },
+      "text": "Document needed",
+      "xpath": "el5:document"
+     }
+    },
+    {
+     "step": 6,
+     "goal": "Search the document list.",
+     "kind": "input",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "text",
+       "id": "cr9ghys0",
+       "name": "document",
+       "role": "combobox",
+       "aria-autocomplete": "list",
+       "aria-haspopup": "listbox",
+       "aria-expanded": "true",
+       "autocomplete": "off",
+       "spellcheck": "false",
+       "placeholder": "Type to search…",
+       "value": "",
+       "aria-controls": "ctd73fbh"
+      },
+      "text": "Document needed",
+      "xpath": "el6:document"
+     },
+     "value": "Police report"
+    },
+    {
+     "step": 7,
+     "goal": "Pick Police report.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "div",
+      "attrs": {
+       "class": "option",
+       "role": "option",
+       "id": "cxznpp70",
+       "data-i": "0",
+       "aria-selected": "true"
+      },
+      "text": "Police report",
+      "xpath": "el7:Police report"
+     }
+    },
+    {
+     "step": 8,
+     "goal": "Submit the decision.",
+     "kind": "click",
+     "url": "http://localhost:5183/claims/cea84df9",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "submit",
+       "class": "primary"
+      },
+      "text": "Submit decision",
+      "xpath": "el8:Submit decision"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,6539 @@
+{
+ "today": "2026-10-09",
+ "login": {
+  "username": "desk.auditor",
+  "password": "audit-2026"
+ },
+ "reasons": [
+  "No cover on loss date",
+  "Peril not covered",
+  "Duplicate claim"
+ ],
+ "documents": [
+  "Police report",
+  "Photos",
+  "Repair invoice"
+ ],
+ "claims": [
+  {
+   "key": "49117056",
+   "claim_no": "CLM-26-08494",
+   "policy_no": "POL-5022796",
+   "claimant": "Tara Sethi",
+   "peril": "Storm",
+   "loss_date": "2026-06-30",
+   "reported_on": "2026-07-03",
+   "amount": 512550,
+   "photos": 6,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "1ce00401",
+   "claim_no": "CLM-26-08293",
+   "policy_no": "POL-3133273",
+   "claimant": "Aditya Verma",
+   "peril": "Earthquake",
+   "loss_date": "2026-08-29",
+   "reported_on": "2026-08-31",
+   "amount": 292250,
+   "photos": 4,
+   "description": "Cracks in the walls after the tremor"
+  },
+  {
+   "key": "ac9e67f9",
+   "claim_no": "CLM-26-04208",
+   "policy_no": "POL-1766924",
+   "claimant": "Meera Iyer",
+   "peril": "Storm",
+   "loss_date": "2026-08-21",
+   "reported_on": "2026-08-30",
+   "amount": 36400,
+   "photos": 3,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "399e2be4",
+   "claim_no": "CLM-26-06610",
+   "policy_no": "POL-8384396",
+   "claimant": "Saanvi Joshi",
+   "peril": "Fire",
+   "loss_date": "2026-10-06",
+   "reported_on": "2026-10-09",
+   "amount": 135050,
+   "photos": 5,
+   "description": "Kitchen fire damaged the cabinets and the chimney"
+  },
+  {
+   "key": "55fd15c4",
+   "claim_no": "CLM-26-01149",
+   "policy_no": "POL-6383801",
+   "claimant": "Kabir Singh",
+   "peril": "Accidental damage",
+   "loss_date": "2026-06-19",
+   "reported_on": "2026-06-26",
+   "amount": 39950,
+   "photos": 6,
+   "description": "Glass dining table cracked while moving it"
+  },
+  {
+   "key": "59d68850",
+   "claim_no": "CLM-26-01991",
+   "policy_no": "POL-6132930",
+   "claimant": "Aarav Mehta",
+   "peril": "Riot",
+   "loss_date": "2026-07-06",
+   "reported_on": "2026-07-12",
+   "amount": 187950,
+   "photos": 11,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "b8f4efdb",
+   "claim_no": "CLM-26-01975",
+   "policy_no": "POL-1457347",
+   "claimant": "Yash Thakur",
+   "peril": "Fire",
+   "loss_date": "2026-10-03",
+   "reported_on": "2026-10-09",
+   "amount": 1029700,
+   "photos": 10,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "56a1d98c",
+   "claim_no": "CLM-26-05332",
+   "policy_no": "POL-6738635",
+   "claimant": "Dev Chauhan",
+   "peril": "Water leak",
+   "loss_date": "2026-09-28",
+   "reported_on": "2026-10-03",
+   "amount": 65000,
+   "photos": 1,
+   "description": "Washing machine hose split and soaked the floor"
+  },
+  {
+   "key": "59376f9c",
+   "claim_no": "CLM-26-09917",
+   "policy_no": "POL-7180365",
+   "claimant": "Tara Sethi",
+   "peril": "Riot",
+   "loss_date": "2026-07-15",
+   "reported_on": "2026-07-15",
+   "amount": 401000,
+   "photos": 2,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "38b2cd80",
+   "claim_no": "CLM-26-02554",
+   "policy_no": "POL-6482665",
+   "claimant": "Saanvi Joshi",
+   "peril": "Theft",
+   "loss_date": "2026-08-22",
+   "reported_on": "2026-08-24",
+   "amount": 12400,
+   "photos": 5,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "22aaa146",
+   "claim_no": "CLM-26-05542",
+   "policy_no": "POL-5950092",
+   "claimant": "Krish Malhotra",
+   "peril": "Theft",
+   "loss_date": "2026-09-30",
+   "reported_on": "2026-10-08",
+   "amount": 49200,
+   "photos": 1,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "Yes"
+  },
+  {
+   "key": "05b91c8e",
+   "claim_no": "CLM-26-02583",
+   "policy_no": "POL-8156742",
+   "claimant": "Riya Khanna",
+   "peril": "Fire",
+   "loss_date": "2026-06-12",
+   "reported_on": "2026-06-16",
+   "amount": 2420400,
+   "photos": 4,
+   "description": "Kitchen fire damaged the cabinets and the chimney"
+  },
+  {
+   "key": "c4306b41",
+   "claim_no": "CLM-26-01667",
+   "policy_no": "POL-6685412",
+   "claimant": "Tara Sethi",
+   "peril": "Theft",
+   "loss_date": "2026-07-17",
+   "reported_on": "2026-07-23",
+   "amount": 7500,
+   "photos": 10,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "346b10cd",
+   "claim_no": "CLM-26-07403",
+   "policy_no": "POL-2326056",
+   "claimant": "Vihaan Shah",
+   "peril": "Theft",
+   "loss_date": "2026-10-04",
+   "reported_on": "2026-10-09",
+   "amount": 133300,
+   "photos": 3,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "Yes"
+  },
+  {
+   "key": "e9560654",
+   "claim_no": "CLM-26-03214",
+   "policy_no": "POL-5786796",
+   "claimant": "Krish Malhotra",
+   "peril": "Accidental damage",
+   "loss_date": "2026-06-02",
+   "reported_on": "2026-06-09",
+   "amount": 128250,
+   "photos": 3,
+   "description": "Paint spilled on a new sofa"
+  },
+  {
+   "key": "9804dd79",
+   "claim_no": "CLM-26-03395",
+   "policy_no": "POL-1493103",
+   "claimant": "Arjun Patel",
+   "peril": "Theft",
+   "loss_date": "2026-09-11",
+   "reported_on": "2026-09-20",
+   "amount": 236000,
+   "photos": 7,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "Yes"
+  },
+  {
+   "key": "bd9878b4",
+   "claim_no": "CLM-26-04730",
+   "policy_no": "POL-2742833",
+   "claimant": "Reyansh Das",
+   "peril": "Accidental damage",
+   "loss_date": "2026-08-25",
+   "reported_on": "2026-09-04",
+   "amount": 141200,
+   "photos": 11,
+   "description": "Paint spilled on a new sofa"
+  },
+  {
+   "key": "1a31cc80",
+   "claim_no": "CLM-26-09615",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Storm",
+   "loss_date": "2026-08-11",
+   "reported_on": "2026-08-19",
+   "amount": 263700,
+   "photos": 8,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "16ecc181",
+   "claim_no": "CLM-26-06975",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Theft",
+   "loss_date": "2026-08-29",
+   "reported_on": "2026-09-02",
+   "amount": 12600,
+   "photos": 11,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "Yes"
+  },
+  {
+   "key": "071dc405",
+   "claim_no": "CLM-26-06014",
+   "policy_no": "POL-3008021",
+   "claimant": "Isha Desai",
+   "peril": "Fire",
+   "loss_date": "2026-08-03",
+   "reported_on": "2026-08-10",
+   "amount": 719700,
+   "photos": 2,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "ca4712a9",
+   "claim_no": "CLM-26-03219",
+   "policy_no": "POL-1930265",
+   "claimant": "Kunal Bajaj",
+   "peril": "Storm",
+   "loss_date": "2026-05-22",
+   "reported_on": "2026-05-26",
+   "amount": 339900,
+   "photos": 12,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "202f7dba",
+   "claim_no": "CLM-26-09710",
+   "policy_no": "POL-9206977",
+   "claimant": "Reyansh Das",
+   "peril": "Theft",
+   "loss_date": "2026-06-01",
+   "reported_on": "2026-06-12",
+   "amount": 220850,
+   "photos": 2,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "No"
+  },
+  {
+   "key": "b1984c7e",
+   "claim_no": "CLM-26-01492",
+   "policy_no": "POL-9206977",
+   "claimant": "Reyansh Das",
+   "peril": "Water leak",
+   "loss_date": "2026-08-27",
+   "reported_on": "2026-09-06",
+   "amount": 179900,
+   "photos": 11,
+   "description": "Burst pipe in the bathroom wall"
+  },
+  {
+   "key": "483d3cca",
+   "claim_no": "CLM-26-09270",
+   "policy_no": "POL-6510674",
+   "claimant": "Farhan Ali",
+   "peril": "Flood",
+   "loss_date": "2026-07-18",
+   "reported_on": "2026-07-23",
+   "amount": 143900,
+   "photos": 4,
+   "description": "Flood water damaged the furniture and the floor"
+  },
+  {
+   "key": "15b9c5be",
+   "claim_no": "CLM-26-09816",
+   "policy_no": "POL-2057643",
+   "claimant": "Anika Reddy",
+   "peril": "Earthquake",
+   "loss_date": "2026-09-04",
+   "reported_on": "2026-09-16",
+   "amount": 1794750,
+   "photos": 5,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "44097451",
+   "claim_no": "CLM-26-09026",
+   "policy_no": "POL-2342312",
+   "claimant": "Aditya Verma",
+   "peril": "Storm",
+   "loss_date": "2026-06-10",
+   "reported_on": "2026-06-14",
+   "amount": 169950,
+   "photos": 8,
+   "description": "Tree fell on the boundary wall in high winds"
+  },
+  {
+   "key": "2a8d8442",
+   "claim_no": "CLM-26-07401",
+   "policy_no": "POL-6001092",
+   "claimant": "Dev Chauhan",
+   "peril": "Riot",
+   "loss_date": "2026-09-13",
+   "reported_on": "2026-09-16",
+   "amount": 394650,
+   "photos": 6,
+   "description": "Shop front and shutters damaged in a riot"
+  },
+  {
+   "key": "d154706b",
+   "claim_no": "CLM-26-07536",
+   "policy_no": "POL-7647037",
+   "claimant": "Farhan Ali",
+   "peril": "Theft",
+   "loss_date": "2026-09-17",
+   "reported_on": "2026-09-26",
+   "amount": 33450,
+   "photos": 7,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "f20496a7",
+   "claim_no": "CLM-26-03354",
+   "policy_no": "POL-6060838",
+   "claimant": "Kunal Bajaj",
+   "peril": "Accidental damage",
+   "loss_date": "2026-07-18",
+   "reported_on": "2026-07-30",
+   "amount": 34100,
+   "photos": 8,
+   "description": "Television knocked off its stand"
+  },
+  {
+   "key": "15b47b7f",
+   "claim_no": "CLM-26-09261",
+   "policy_no": "POL-3234612",
+   "claimant": "Meera Iyer",
+   "peril": "Theft",
+   "loss_date": "2026-08-13",
+   "reported_on": "2026-08-23",
+   "amount": 297550,
+   "photos": 11,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "No"
+  },
+  {
+   "key": "a2480366",
+   "claim_no": "CLM-26-03836",
+   "policy_no": "POL-3684808",
+   "claimant": "Vihaan Shah",
+   "peril": "Storm",
+   "loss_date": "2026-08-02",
+   "reported_on": "2026-08-06",
+   "amount": 387850,
+   "photos": 3,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "8087fcf5",
+   "claim_no": "CLM-26-05750",
+   "policy_no": "POL-2782879",
+   "claimant": "Riya Khanna",
+   "peril": "Theft",
+   "loss_date": "2026-07-13",
+   "reported_on": "2026-07-16",
+   "amount": 181350,
+   "photos": 2,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "44b9d0a0",
+   "claim_no": "CLM-26-06064",
+   "policy_no": "POL-9675329",
+   "claimant": "Saanvi Joshi",
+   "peril": "Flood",
+   "loss_date": "2026-06-18",
+   "reported_on": "2026-06-23",
+   "amount": 87650,
+   "photos": 2,
+   "description": "Flood water damaged the furniture and the floor"
+  },
+  {
+   "key": "16e6ee2b",
+   "claim_no": "CLM-26-06042",
+   "policy_no": "POL-6239927",
+   "claimant": "Myra Pillai",
+   "peril": "Riot",
+   "loss_date": "2026-09-16",
+   "reported_on": "2026-09-25",
+   "amount": 339900,
+   "photos": 7,
+   "description": "Shop front and shutters damaged in a riot"
+  },
+  {
+   "key": "aeb57601",
+   "claim_no": "CLM-26-07571",
+   "policy_no": "POL-1873087",
+   "claimant": "Kiara Bose",
+   "peril": "Fire",
+   "loss_date": "2026-09-28",
+   "reported_on": "2026-10-08",
+   "amount": 619250,
+   "photos": 2,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "789c08c9",
+   "claim_no": "CLM-26-04543",
+   "policy_no": "POL-9668535",
+   "claimant": "Meera Iyer",
+   "peril": "Earthquake",
+   "loss_date": "2026-06-10",
+   "reported_on": "2026-06-21",
+   "amount": 951900,
+   "photos": 2,
+   "description": "Cracks in the walls after the tremor"
+  },
+  {
+   "key": "63eb6a89",
+   "claim_no": "CLM-26-06661",
+   "policy_no": "POL-1248444",
+   "claimant": "Dev Chauhan",
+   "peril": "Theft",
+   "loss_date": "2026-08-12",
+   "reported_on": "2026-08-13",
+   "amount": 64250,
+   "photos": 6,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "Yes"
+  },
+  {
+   "key": "02367f44",
+   "claim_no": "CLM-26-03795",
+   "policy_no": "POL-9867833",
+   "claimant": "Anika Reddy",
+   "peril": "Riot",
+   "loss_date": "2026-09-12",
+   "reported_on": "2026-09-13",
+   "amount": 174500,
+   "photos": 10,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "f548ff61",
+   "claim_no": "CLM-26-08802",
+   "policy_no": "POL-4787381",
+   "claimant": "Pari Saxena",
+   "peril": "Water leak",
+   "loss_date": "2026-09-03",
+   "reported_on": "2026-09-11",
+   "amount": 251050,
+   "photos": 8,
+   "description": "Overhead tank leaked into the bedroom ceiling"
+  },
+  {
+   "key": "7123e91b",
+   "claim_no": "CLM-26-01104",
+   "policy_no": "POL-6482665",
+   "claimant": "Saanvi Joshi",
+   "peril": "Accidental damage",
+   "loss_date": "2026-08-30",
+   "reported_on": "2026-09-01",
+   "amount": 28750,
+   "photos": 2,
+   "description": "Paint spilled on a new sofa"
+  },
+  {
+   "key": "053b2178",
+   "claim_no": "CLM-26-08936",
+   "policy_no": "POL-4251351",
+   "claimant": "Aditya Verma",
+   "peril": "Earthquake",
+   "loss_date": "2026-08-17",
+   "reported_on": "2026-08-18",
+   "amount": 140000,
+   "photos": 7,
+   "description": "Water tank and parapet fell during an earthquake"
+  },
+  {
+   "key": "9d9b41c9",
+   "claim_no": "CLM-26-01022",
+   "policy_no": "POL-5731290",
+   "claimant": "Isha Desai",
+   "peril": "Fire",
+   "loss_date": "2026-05-29",
+   "reported_on": "2026-05-31",
+   "amount": 2979800,
+   "photos": 9,
+   "description": "Kitchen fire damaged the cabinets and the chimney"
+  },
+  {
+   "key": "74208912",
+   "claim_no": "CLM-26-08588",
+   "policy_no": "POL-2782879",
+   "claimant": "Riya Khanna",
+   "peril": "Fire",
+   "loss_date": "2026-10-02",
+   "reported_on": "2026-10-09",
+   "amount": 281850,
+   "photos": 9,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "df1b543d",
+   "claim_no": "CLM-26-08071",
+   "policy_no": "POL-3935678",
+   "claimant": "Aarav Mehta",
+   "peril": "Theft",
+   "loss_date": "2026-09-25",
+   "reported_on": "2026-09-26",
+   "amount": 380800,
+   "photos": 7,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "No"
+  },
+  {
+   "key": "53865051",
+   "claim_no": "CLM-26-09526",
+   "policy_no": "POL-5731290",
+   "claimant": "Isha Desai",
+   "peril": "Theft",
+   "loss_date": "2026-09-10",
+   "reported_on": "2026-09-16",
+   "amount": 171900,
+   "photos": 7,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "f9123ad7",
+   "claim_no": "CLM-26-09634",
+   "policy_no": "POL-3481134",
+   "claimant": "Farhan Ali",
+   "peril": "Riot",
+   "loss_date": "2026-07-01",
+   "reported_on": "2026-07-05",
+   "amount": 168800,
+   "photos": 5,
+   "description": "Car port and gate damaged during unrest"
+  },
+  {
+   "key": "48fdb841",
+   "claim_no": "CLM-26-01528",
+   "policy_no": "POL-6482665",
+   "claimant": "Saanvi Joshi",
+   "peril": "Flood",
+   "loss_date": "2026-05-24",
+   "reported_on": "2026-06-03",
+   "amount": 58950,
+   "photos": 9,
+   "description": "Basement storage under water for two days"
+  },
+  {
+   "key": "f995eb76",
+   "claim_no": "CLM-26-02099",
+   "policy_no": "POL-5797419",
+   "claimant": "Navya Menon",
+   "peril": "Theft",
+   "loss_date": "2026-09-02",
+   "reported_on": "2026-09-08",
+   "amount": 39950,
+   "photos": 4,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "00e328dc",
+   "claim_no": "CLM-26-04442",
+   "policy_no": "POL-6256499",
+   "claimant": "Kabir Singh",
+   "peril": "Flood",
+   "loss_date": "2026-07-25",
+   "reported_on": "2026-07-25",
+   "amount": 35200,
+   "photos": 11,
+   "description": "Ground floor flooded after heavy rain"
+  },
+  {
+   "key": "6814d861",
+   "claim_no": "CLM-26-04909",
+   "policy_no": "POL-8156742",
+   "claimant": "Riya Khanna",
+   "peril": "Fire",
+   "loss_date": "2026-08-27",
+   "reported_on": "2026-08-28",
+   "amount": 3128400,
+   "photos": 5,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "7ce1a8b0",
+   "claim_no": "CLM-26-08175",
+   "policy_no": "POL-3481134",
+   "claimant": "Farhan Ali",
+   "peril": "Earthquake",
+   "loss_date": "2026-07-24",
+   "reported_on": "2026-07-30",
+   "amount": 141000,
+   "photos": 1,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "5da00678",
+   "claim_no": "CLM-26-04898",
+   "policy_no": "POL-9294428",
+   "claimant": "Meera Iyer",
+   "peril": "Water leak",
+   "loss_date": "2026-08-22",
+   "reported_on": "2026-08-30",
+   "amount": 218050,
+   "photos": 4,
+   "description": "Overhead tank leaked into the bedroom ceiling"
+  },
+  {
+   "key": "734fa83c",
+   "claim_no": "CLM-26-06963",
+   "policy_no": "POL-7630357",
+   "claimant": "Dev Chauhan",
+   "peril": "Storm",
+   "loss_date": "2026-06-05",
+   "reported_on": "2026-06-05",
+   "amount": 197000,
+   "photos": 4,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "e0023de2",
+   "claim_no": "CLM-26-03145",
+   "policy_no": "POL-6932757",
+   "claimant": "Anika Reddy",
+   "peril": "Earthquake",
+   "loss_date": "2026-07-16",
+   "reported_on": "2026-07-25",
+   "amount": 887500,
+   "photos": 7,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "4694575f",
+   "claim_no": "CLM-26-01045",
+   "policy_no": "POL-5786796",
+   "claimant": "Krish Malhotra",
+   "peril": "Storm",
+   "loss_date": "2026-07-11",
+   "reported_on": "2026-07-18",
+   "amount": 197500,
+   "photos": 6,
+   "description": "Tree fell on the boundary wall in high winds"
+  },
+  {
+   "key": "99c9b503",
+   "claim_no": "CLM-26-09681",
+   "policy_no": "POL-9074707",
+   "claimant": "Meera Iyer",
+   "peril": "Earthquake",
+   "loss_date": "2026-08-26",
+   "reported_on": "2026-08-30",
+   "amount": 560350,
+   "photos": 11,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "42645a32",
+   "claim_no": "CLM-26-01682",
+   "policy_no": "POL-3935678",
+   "claimant": "Aarav Mehta",
+   "peril": "Theft",
+   "loss_date": "2026-09-15",
+   "reported_on": "2026-09-20",
+   "amount": 148450,
+   "photos": 10,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "42ff941a",
+   "claim_no": "CLM-26-06114",
+   "policy_no": "POL-3481134",
+   "claimant": "Farhan Ali",
+   "peril": "Water leak",
+   "loss_date": "2026-08-26",
+   "reported_on": "2026-09-01",
+   "amount": 166500,
+   "photos": 3,
+   "description": "Overhead tank leaked into the bedroom ceiling"
+  },
+  {
+   "key": "e7e252cc",
+   "claim_no": "CLM-26-06367",
+   "policy_no": "POL-3234612",
+   "claimant": "Meera Iyer",
+   "peril": "Fire",
+   "loss_date": "2026-09-14",
+   "reported_on": "2026-09-25",
+   "amount": 1283600,
+   "photos": 3,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "ffeaa142",
+   "claim_no": "CLM-26-05287",
+   "policy_no": "POL-3133273",
+   "claimant": "Aditya Verma",
+   "peril": "Theft",
+   "loss_date": "2026-08-11",
+   "reported_on": "2026-08-19",
+   "amount": 240600,
+   "photos": 1,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "0a763ccc",
+   "claim_no": "CLM-26-07932",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Theft",
+   "loss_date": "2026-08-02",
+   "reported_on": "2026-08-11",
+   "amount": 137800,
+   "photos": 9,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "fc4cf3d8",
+   "claim_no": "CLM-26-02195",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Water leak",
+   "loss_date": "2026-09-02",
+   "reported_on": "2026-09-10",
+   "amount": 125950,
+   "photos": 11,
+   "description": "Burst pipe in the bathroom wall"
+  },
+  {
+   "key": "9badc5ac",
+   "claim_no": "CLM-26-01847",
+   "policy_no": "POL-4278562",
+   "claimant": "Neel Bhatt",
+   "peril": "Flood",
+   "loss_date": "2026-06-20",
+   "reported_on": "2026-06-24",
+   "amount": 78850,
+   "photos": 9,
+   "description": "Basement storage under water for two days"
+  },
+  {
+   "key": "fd3a59da",
+   "claim_no": "CLM-26-03030",
+   "policy_no": "POL-1248444",
+   "claimant": "Dev Chauhan",
+   "peril": "Riot",
+   "loss_date": "2026-06-04",
+   "reported_on": "2026-06-07",
+   "amount": 116250,
+   "photos": 3,
+   "description": "Shop front and shutters damaged in a riot"
+  },
+  {
+   "key": "9a50af92",
+   "claim_no": "CLM-26-07783",
+   "policy_no": "POL-5503520",
+   "claimant": "Zoya Qureshi",
+   "peril": "Theft",
+   "loss_date": "2026-09-02",
+   "reported_on": "2026-09-09",
+   "amount": 185300,
+   "photos": 10,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "c8c365b7",
+   "claim_no": "CLM-26-07511",
+   "policy_no": "POL-2613071",
+   "claimant": "Tara Sethi",
+   "peril": "Fire",
+   "loss_date": "2026-08-23",
+   "reported_on": "2026-09-01",
+   "amount": 860250,
+   "photos": 9,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "573cc6e0",
+   "claim_no": "CLM-26-07020",
+   "policy_no": "POL-1248444",
+   "claimant": "Dev Chauhan",
+   "peril": "Flood",
+   "loss_date": "2026-06-01",
+   "reported_on": "2026-06-10",
+   "amount": 499750,
+   "photos": 5,
+   "description": "Flood water damaged the furniture and the floor"
+  },
+  {
+   "key": "2675d69e",
+   "claim_no": "CLM-26-01068",
+   "policy_no": "POL-3729444",
+   "claimant": "Rohan Gupta",
+   "peril": "Theft",
+   "loss_date": "2026-07-13",
+   "reported_on": "2026-07-21",
+   "amount": 179300,
+   "photos": 12,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "No"
+  },
+  {
+   "key": "fb4f03ec",
+   "claim_no": "CLM-26-04753",
+   "policy_no": "POL-4534590",
+   "claimant": "Ananya Rao",
+   "peril": "Theft",
+   "loss_date": "2026-09-03",
+   "reported_on": "2026-09-08",
+   "amount": 88050,
+   "photos": 11,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "No"
+  },
+  {
+   "key": "ea0d566d",
+   "claim_no": "CLM-26-05120",
+   "policy_no": "POL-2739937",
+   "claimant": "Yash Thakur",
+   "peril": "Riot",
+   "loss_date": "2026-06-10",
+   "reported_on": "2026-06-22",
+   "amount": 27750,
+   "photos": 5,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "7cd26fd6",
+   "claim_no": "CLM-26-07996",
+   "policy_no": "POL-9668535",
+   "claimant": "Meera Iyer",
+   "peril": "Theft",
+   "loss_date": "2026-09-16",
+   "reported_on": "2026-09-17",
+   "amount": 380600,
+   "photos": 8,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "No"
+  },
+  {
+   "key": "d6ed8469",
+   "claim_no": "CLM-26-09239",
+   "policy_no": "POL-1568343",
+   "claimant": "Vihaan Shah",
+   "peril": "Water leak",
+   "loss_date": "2026-10-08",
+   "reported_on": "2026-10-08",
+   "amount": 73900,
+   "photos": 8,
+   "description": "Washing machine hose split and soaked the floor"
+  },
+  {
+   "key": "cea84df9",
+   "claim_no": "CLM-26-04950",
+   "policy_no": "POL-3848468",
+   "claimant": "Tara Sethi",
+   "peril": "Theft",
+   "loss_date": "2026-10-04",
+   "reported_on": "2026-10-05",
+   "amount": 162650,
+   "photos": 11,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "No"
+  },
+  {
+   "key": "06eec388",
+   "claim_no": "CLM-26-02336",
+   "policy_no": "POL-1374308",
+   "claimant": "Aarav Mehta",
+   "peril": "Theft",
+   "loss_date": "2026-08-18",
+   "reported_on": "2026-08-28",
+   "amount": 95750,
+   "photos": 11,
+   "description": "Bicycle and tools taken from the locked garage",
+   "police_report": "Yes"
+  },
+  {
+   "key": "94fa11e1",
+   "claim_no": "CLM-26-04444",
+   "policy_no": "POL-8156742",
+   "claimant": "Riya Khanna",
+   "peril": "Theft",
+   "loss_date": "2026-10-04",
+   "reported_on": "2026-10-06",
+   "amount": 120650,
+   "photos": 9,
+   "description": "Laptop and jewellery taken during a break-in",
+   "police_report": "Yes"
+  },
+  {
+   "key": "a00663c4",
+   "claim_no": "CLM-26-08616",
+   "policy_no": "POL-5578248",
+   "claimant": "Yash Thakur",
+   "peril": "Riot",
+   "loss_date": "2026-08-01",
+   "reported_on": "2026-08-08",
+   "amount": 294650,
+   "photos": 8,
+   "description": "Car port and gate damaged during unrest"
+  },
+  {
+   "key": "094fe90a",
+   "claim_no": "CLM-26-04872",
+   "policy_no": "POL-7749644",
+   "claimant": "Diya Kapoor",
+   "peril": "Riot",
+   "loss_date": "2026-10-01",
+   "reported_on": "2026-10-06",
+   "amount": 85900,
+   "photos": 2,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "ba9eb8cd",
+   "claim_no": "CLM-26-03322",
+   "policy_no": "POL-7629006",
+   "claimant": "Kiara Bose",
+   "peril": "Storm",
+   "loss_date": "2026-07-06",
+   "reported_on": "2026-07-13",
+   "amount": 287050,
+   "photos": 8,
+   "description": "Windows broken by a hailstorm"
+  },
+  {
+   "key": "531d3530",
+   "claim_no": "CLM-26-09431",
+   "policy_no": "POL-6126602",
+   "claimant": "Myra Pillai",
+   "peril": "Earthquake",
+   "loss_date": "2026-06-08",
+   "reported_on": "2026-06-08",
+   "amount": 348950,
+   "photos": 4,
+   "description": "Water tank and parapet fell during an earthquake"
+  },
+  {
+   "key": "673158d0",
+   "claim_no": "CLM-26-09555",
+   "policy_no": "POL-5786796",
+   "claimant": "Krish Malhotra",
+   "peril": "Water leak",
+   "loss_date": "2026-06-07",
+   "reported_on": "2026-06-13",
+   "amount": 165000,
+   "photos": 5,
+   "description": "Overhead tank leaked into the bedroom ceiling"
+  },
+  {
+   "key": "00fd2d7c",
+   "claim_no": "CLM-26-05951",
+   "policy_no": "POL-3008021",
+   "claimant": "Isha Desai",
+   "peril": "Theft",
+   "loss_date": "2026-06-29",
+   "reported_on": "2026-07-07",
+   "amount": 16900,
+   "photos": 11,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "No"
+  },
+  {
+   "key": "1ef75e68",
+   "claim_no": "CLM-26-05121",
+   "policy_no": "POL-2032840",
+   "claimant": "Kabir Singh",
+   "peril": "Earthquake",
+   "loss_date": "2026-09-13",
+   "reported_on": "2026-09-19",
+   "amount": 212450,
+   "photos": 1,
+   "description": "Water tank and parapet fell during an earthquake"
+  },
+  {
+   "key": "bf14f81d",
+   "claim_no": "CLM-26-08035",
+   "policy_no": "POL-5860869",
+   "claimant": "Diya Kapoor",
+   "peril": "Accidental damage",
+   "loss_date": "2026-09-30",
+   "reported_on": "2026-10-09",
+   "amount": 66300,
+   "photos": 2,
+   "description": "Glass dining table cracked while moving it"
+  },
+  {
+   "key": "622875e5",
+   "claim_no": "CLM-26-03024",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Accidental damage",
+   "loss_date": "2026-05-14",
+   "reported_on": "2026-05-15",
+   "amount": 36250,
+   "photos": 2,
+   "description": "Paint spilled on a new sofa"
+  },
+  {
+   "key": "12b90cc9",
+   "claim_no": "CLM-26-07369",
+   "policy_no": "POL-6588464",
+   "claimant": "Pari Saxena",
+   "peril": "Riot",
+   "loss_date": "2026-06-26",
+   "reported_on": "2026-06-28",
+   "amount": 285000,
+   "photos": 11,
+   "description": "Car port and gate damaged during unrest"
+  },
+  {
+   "key": "c5a625e6",
+   "claim_no": "CLM-26-05294",
+   "policy_no": "POL-2326056",
+   "claimant": "Vihaan Shah",
+   "peril": "Water leak",
+   "loss_date": "2026-07-14",
+   "reported_on": "2026-07-23",
+   "amount": 84300,
+   "photos": 6,
+   "description": "Burst pipe in the bathroom wall"
+  },
+  {
+   "key": "ee73c4c1",
+   "claim_no": "CLM-26-09985",
+   "policy_no": "POL-3008021",
+   "claimant": "Isha Desai",
+   "peril": "Accidental damage",
+   "loss_date": "2026-08-27",
+   "reported_on": "2026-08-31",
+   "amount": 26650,
+   "photos": 11,
+   "description": "Television knocked off its stand"
+  },
+  {
+   "key": "cf64c6bb",
+   "claim_no": "CLM-26-04475",
+   "policy_no": "POL-8677955",
+   "claimant": "Meera Iyer",
+   "peril": "Riot",
+   "loss_date": "2026-08-23",
+   "reported_on": "2026-09-02",
+   "amount": 304000,
+   "photos": 5,
+   "description": "Car port and gate damaged during unrest"
+  },
+  {
+   "key": "af3ad594",
+   "claim_no": "CLM-26-09829",
+   "policy_no": "POL-1174563",
+   "claimant": "Vihaan Shah",
+   "peril": "Fire",
+   "loss_date": "2026-07-25",
+   "reported_on": "2026-07-31",
+   "amount": 518650,
+   "photos": 9,
+   "description": "Short circuit fire in the living room"
+  },
+  {
+   "key": "8b95e758",
+   "claim_no": "CLM-26-08487",
+   "policy_no": "POL-3558045",
+   "claimant": "Arjun Patel",
+   "peril": "Riot",
+   "loss_date": "2026-08-05",
+   "reported_on": "2026-08-15",
+   "amount": 504500,
+   "photos": 1,
+   "description": "Shop front and shutters damaged in a riot"
+  },
+  {
+   "key": "d114449d",
+   "claim_no": "CLM-26-09006",
+   "policy_no": "POL-3133273",
+   "claimant": "Aditya Verma",
+   "peril": "Theft",
+   "loss_date": "2026-09-04",
+   "reported_on": "2026-09-07",
+   "amount": 16200,
+   "photos": 8,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  },
+  {
+   "key": "0b0f8fcb",
+   "claim_no": "CLM-26-04889",
+   "policy_no": "POL-6482665",
+   "claimant": "Saanvi Joshi",
+   "peril": "Riot",
+   "loss_date": "2026-08-23",
+   "reported_on": "2026-08-26",
+   "amount": 697350,
+   "photos": 9,
+   "description": "Car port and gate damaged during unrest"
+  },
+  {
+   "key": "8bcc0e13",
+   "claim_no": "CLM-26-02497",
+   "policy_no": "POL-9367923",
+   "claimant": "Kunal Bajaj",
+   "peril": "Fire",
+   "loss_date": "2026-08-06",
+   "reported_on": "2026-08-12",
+   "amount": 1894500,
+   "photos": 8,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "936e182a",
+   "claim_no": "CLM-26-06701",
+   "policy_no": "POL-5130282",
+   "claimant": "Krish Malhotra",
+   "peril": "Fire",
+   "loss_date": "2026-06-08",
+   "reported_on": "2026-06-09",
+   "amount": 1766550,
+   "photos": 4,
+   "description": "Fire spread from a neighbouring flat"
+  },
+  {
+   "key": "773a91ff",
+   "claim_no": "CLM-26-06373",
+   "policy_no": "POL-5941557",
+   "claimant": "Aditya Verma",
+   "peril": "Earthquake",
+   "loss_date": "2026-08-21",
+   "reported_on": "2026-08-30",
+   "amount": 486850,
+   "photos": 9,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "5ae10869",
+   "claim_no": "CLM-26-05744",
+   "policy_no": "POL-1599893",
+   "claimant": "Saanvi Joshi",
+   "peril": "Flood",
+   "loss_date": "2026-08-08",
+   "reported_on": "2026-08-14",
+   "amount": 1046200,
+   "photos": 3,
+   "description": "Flood water damaged the furniture and the floor"
+  },
+  {
+   "key": "314dc5e6",
+   "claim_no": "CLM-26-07807",
+   "policy_no": "POL-5521112",
+   "claimant": "Reyansh Das",
+   "peril": "Accidental damage",
+   "loss_date": "2026-07-05",
+   "reported_on": "2026-07-09",
+   "amount": 294100,
+   "photos": 2,
+   "description": "Paint spilled on a new sofa"
+  },
+  {
+   "key": "2fbc520d",
+   "claim_no": "CLM-26-02015",
+   "policy_no": "POL-1174563",
+   "claimant": "Vihaan Shah",
+   "peril": "Earthquake",
+   "loss_date": "2026-08-06",
+   "reported_on": "2026-08-18",
+   "amount": 572050,
+   "photos": 11,
+   "description": "Plaster and tiles came down in the tremor"
+  },
+  {
+   "key": "118a05b0",
+   "claim_no": "CLM-26-04209",
+   "policy_no": "POL-7494686",
+   "claimant": "Navya Menon",
+   "peril": "Riot",
+   "loss_date": "2026-08-03",
+   "reported_on": "2026-08-11",
+   "amount": 167900,
+   "photos": 8,
+   "description": "Windows smashed during a street protest"
+  },
+  {
+   "key": "215949fc",
+   "claim_no": "CLM-26-09313",
+   "policy_no": "POL-2326056",
+   "claimant": "Vihaan Shah",
+   "peril": "Theft",
+   "loss_date": "2026-07-10",
+   "reported_on": "2026-07-12",
+   "amount": 130000,
+   "photos": 11,
+   "description": "Television and cash taken while the family was away",
+   "police_report": "Yes"
+  }
+ ],
+ "policies": [
+  {
+   "policy_no": "POL-9367923",
+   "holder": "Kunal Bajaj",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2025-12-11",
+   "end": "2026-12-10",
+   "premium": 12800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1655000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 165000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 710000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 220000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1260000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 105000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-11",
+     "amount": 3200,
+     "paid_on": "2025-12-18"
+    },
+    {
+     "due": "2026-03-11",
+     "amount": 3200,
+     "paid_on": "2026-03-18"
+    },
+    {
+     "due": "2026-06-11",
+     "amount": 3200,
+     "paid_on": "2026-06-18"
+    },
+    {
+     "due": "2026-09-11",
+     "amount": 3200,
+     "paid_on": "2026-09-20"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6932757",
+   "holder": "Anika Reddy",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-08-16",
+   "end": "2027-08-15",
+   "premium": 44000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 235000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 520000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 715000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-16",
+     "amount": 11000,
+     "paid_on": "2026-08-16"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9867833",
+   "holder": "Anika Reddy",
+   "product": "Home and Contents",
+   "status": "Lapsed",
+   "start": "2026-05-04",
+   "end": "2027-05-03",
+   "premium": 55600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1730000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 255000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 705000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 420000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 725000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 200000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-04",
+     "amount": 13900,
+     "paid_on": "2026-05-10"
+    },
+    {
+     "due": "2026-08-04",
+     "amount": 13900,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5941557",
+   "holder": "Aditya Verma",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-08-22",
+   "end": "2026-08-21",
+   "premium": 43200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1780000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 240000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 920000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 115000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 345000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 235000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-08-22",
+     "amount": 10800,
+     "paid_on": "2025-08-29"
+    },
+    {
+     "due": "2025-11-22",
+     "amount": 10800,
+     "paid_on": "2025-12-04"
+    },
+    {
+     "due": "2026-02-22",
+     "amount": 10800,
+     "paid_on": "2026-02-25"
+    },
+    {
+     "due": "2026-05-22",
+     "amount": 10800,
+     "paid_on": "2026-05-22"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-4278562",
+   "holder": "Neel Bhatt",
+   "product": "Home Shield Plus",
+   "status": "Lapsed",
+   "start": "2026-03-02",
+   "end": "2027-03-01",
+   "premium": 31200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 260000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 440000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 90000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 210000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1130000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-02",
+     "amount": 7800,
+     "paid_on": "2026-03-06"
+    },
+    {
+     "due": "2026-06-02",
+     "amount": 7800,
+     "paid_on": "2026-06-12"
+    },
+    {
+     "due": "2026-09-02",
+     "amount": 7800,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5130282",
+   "holder": "Krish Malhotra",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-06-09",
+   "end": "2026-06-08",
+   "premium": 28400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2035000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 945000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 510000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 45000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 210000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 340000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-06-09",
+     "amount": 7100,
+     "paid_on": "2025-06-16"
+    },
+    {
+     "due": "2025-09-09",
+     "amount": 7100,
+     "paid_on": "2025-09-09"
+    },
+    {
+     "due": "2025-12-09",
+     "amount": 7100,
+     "paid_on": "2025-12-19"
+    },
+    {
+     "due": "2026-03-09",
+     "amount": 7100,
+     "paid_on": "2026-03-19"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7180365",
+   "holder": "Tara Sethi",
+   "product": "Home Shield",
+   "status": "Lapsed",
+   "start": "2026-01-19",
+   "end": "2027-01-18",
+   "premium": 40800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1420000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 375000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 485000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-19",
+     "amount": 10200,
+     "paid_on": "2026-01-21"
+    },
+    {
+     "due": "2026-04-19",
+     "amount": 10200,
+     "paid_on": null
+    },
+    {
+     "due": "2026-07-19",
+     "amount": 10200,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7647037",
+   "holder": "Farhan Ali",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-11-23",
+   "end": "2026-11-22",
+   "premium": 64000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1260000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 490000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 90000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 325000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 220000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-11-23",
+     "amount": 16000,
+     "paid_on": "2025-12-01"
+    },
+    {
+     "due": "2026-02-23",
+     "amount": 16000,
+     "paid_on": "2026-03-03"
+    },
+    {
+     "due": "2026-05-23",
+     "amount": 16000,
+     "paid_on": "2026-05-29"
+    },
+    {
+     "due": "2026-08-23",
+     "amount": 16000,
+     "paid_on": "2026-08-31"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1493103",
+   "holder": "Arjun Patel",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-09-12",
+   "end": "2026-09-11",
+   "premium": 30400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1540000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 190000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 970000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 140000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 485000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-09-12",
+     "amount": 7600,
+     "paid_on": "2025-09-16"
+    },
+    {
+     "due": "2025-12-12",
+     "amount": 7600,
+     "paid_on": "2025-12-24"
+    },
+    {
+     "due": "2026-03-12",
+     "amount": 7600,
+     "paid_on": "2026-03-16"
+    },
+    {
+     "due": "2026-06-12",
+     "amount": 7600,
+     "paid_on": "2026-06-18"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-4787381",
+   "holder": "Pari Saxena",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-02-22",
+   "end": "2027-02-21",
+   "premium": 32000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2140000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 990000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 570000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 140000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 810000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-02-22",
+     "amount": 8000,
+     "paid_on": "2026-03-02"
+    },
+    {
+     "due": "2026-05-22",
+     "amount": 8000,
+     "paid_on": "2026-06-03"
+    },
+    {
+     "due": "2026-08-22",
+     "amount": 8000,
+     "paid_on": "2026-08-29"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3558045",
+   "holder": "Arjun Patel",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-07-18",
+   "end": "2026-07-17",
+   "premium": 15200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1405000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 205000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 335000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1315000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 465000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-07-18",
+     "amount": 3800,
+     "paid_on": "2025-07-22"
+    },
+    {
+     "due": "2025-10-18",
+     "amount": 3800,
+     "paid_on": "2025-10-19"
+    },
+    {
+     "due": "2026-01-18",
+     "amount": 3800,
+     "paid_on": "2026-01-25"
+    },
+    {
+     "due": "2026-04-18",
+     "amount": 3800,
+     "paid_on": "2026-04-26"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3481134",
+   "holder": "Farhan Ali",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2025-12-01",
+   "end": "2026-11-30",
+   "premium": 11600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2145000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 945000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 445000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 105000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 200000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-01",
+     "amount": 2900,
+     "paid_on": "2025-12-04"
+    },
+    {
+     "due": "2026-03-01",
+     "amount": 2900,
+     "paid_on": "2026-03-10"
+    },
+    {
+     "due": "2026-06-01",
+     "amount": 2900,
+     "paid_on": "2026-06-08"
+    },
+    {
+     "due": "2026-09-01",
+     "amount": 2900,
+     "paid_on": "2026-09-04"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3133273",
+   "holder": "Aditya Verma",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-01-17",
+   "end": "2027-01-16",
+   "premium": 14800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2190000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 210000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 685000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 465000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-17",
+     "amount": 3700,
+     "paid_on": "2026-01-17"
+    },
+    {
+     "due": "2026-04-17",
+     "amount": 3700,
+     "paid_on": "2026-04-18"
+    },
+    {
+     "due": "2026-07-17",
+     "amount": 3700,
+     "paid_on": "2026-07-26"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5950092",
+   "holder": "Krish Malhotra",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-02-09",
+   "end": "2027-02-08",
+   "premium": 57200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 155000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 30000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1260000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 380000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-02-09",
+     "amount": 14300,
+     "paid_on": "2026-02-15"
+    },
+    {
+     "due": "2026-05-09",
+     "amount": 14300,
+     "paid_on": "2026-05-13"
+    },
+    {
+     "due": "2026-08-09",
+     "amount": 14300,
+     "paid_on": "2026-08-12"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9668535",
+   "holder": "Meera Iyer",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-03-28",
+   "end": "2027-03-27",
+   "premium": 25600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 650000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 265000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 90000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1055000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-28",
+     "amount": 6400,
+     "paid_on": "2026-04-05"
+    },
+    {
+     "due": "2026-06-28",
+     "amount": 6400,
+     "paid_on": "2026-06-29"
+    },
+    {
+     "due": "2026-09-28",
+     "amount": 6400,
+     "paid_on": "2026-09-29"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-8156742",
+   "holder": "Riya Khanna",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-06-08",
+   "end": "2027-06-07",
+   "premium": 9600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2365000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 440000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 220000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 145000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 945000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 245000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-08",
+     "amount": 2400,
+     "paid_on": "2026-06-09"
+    },
+    {
+     "due": "2026-09-08",
+     "amount": 2400,
+     "paid_on": "2026-09-10"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-8677955",
+   "holder": "Meera Iyer",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-01-14",
+   "end": "2027-01-13",
+   "premium": 35200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2140000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 130000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 540000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 65000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 940000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 480000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-14",
+     "amount": 8800,
+     "paid_on": "2026-01-26"
+    },
+    {
+     "due": "2026-04-14",
+     "amount": 8800,
+     "paid_on": "2026-04-24"
+    },
+    {
+     "due": "2026-07-14",
+     "amount": 8800,
+     "paid_on": "2026-07-19"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6132930",
+   "holder": "Aarav Mehta",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2025-06-29",
+   "end": "2026-06-28",
+   "premium": 35200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1920000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 290000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 835000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 140000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-06-29",
+     "amount": 8800,
+     "paid_on": "2025-07-04"
+    },
+    {
+     "due": "2025-09-28",
+     "amount": 8800,
+     "paid_on": "2025-10-09"
+    },
+    {
+     "due": "2025-12-28",
+     "amount": 8800,
+     "paid_on": "2026-01-02"
+    },
+    {
+     "due": "2026-03-28",
+     "amount": 8800,
+     "paid_on": "2026-04-03"
+    },
+    {
+     "due": "2026-06-28",
+     "amount": 8800,
+     "paid_on": "2026-07-05"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2782879",
+   "holder": "Riya Khanna",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-05-05",
+   "end": "2027-05-04",
+   "premium": 20800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 190000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 305000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 565000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 40000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 430000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 425000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-05",
+     "amount": 5200,
+     "paid_on": "2026-05-10"
+    },
+    {
+     "due": "2026-08-05",
+     "amount": 5200,
+     "paid_on": "2026-08-12"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3008021",
+   "holder": "Isha Desai",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-06-02",
+   "end": "2027-06-01",
+   "premium": 44400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 960000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 240000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 815000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-02",
+     "amount": 11100,
+     "paid_on": "2026-06-12"
+    },
+    {
+     "due": "2026-09-02",
+     "amount": 11100,
+     "paid_on": "2026-09-10"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6685412",
+   "holder": "Tara Sethi",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-12-04",
+   "end": "2026-12-03",
+   "premium": 49200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2210000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 255000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 35000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 110000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1485000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 320000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-04",
+     "amount": 12300,
+     "paid_on": "2025-12-09"
+    },
+    {
+     "due": "2026-03-04",
+     "amount": 12300,
+     "paid_on": "2026-03-05"
+    },
+    {
+     "due": "2026-06-04",
+     "amount": 12300,
+     "paid_on": "2026-06-14"
+    },
+    {
+     "due": "2026-09-04",
+     "amount": 12300,
+     "paid_on": "2026-09-13"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2326056",
+   "holder": "Vihaan Shah",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-06-22",
+   "end": "2027-06-21",
+   "premium": 19200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 975000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 130000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 385000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 95000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 985000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-22",
+     "amount": 4800,
+     "paid_on": "2026-06-28"
+    },
+    {
+     "due": "2026-09-22",
+     "amount": 4800,
+     "paid_on": "2026-09-29"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9206977",
+   "holder": "Reyansh Das",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-11-25",
+   "end": "2026-11-24",
+   "premium": 62800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2245000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 240000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 275000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 550000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 155000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 665000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-11-25",
+     "amount": 15700,
+     "paid_on": "2025-11-29"
+    },
+    {
+     "due": "2026-02-25",
+     "amount": 15700,
+     "paid_on": "2026-03-06"
+    },
+    {
+     "due": "2026-05-25",
+     "amount": 15700,
+     "paid_on": "2026-06-05"
+    },
+    {
+     "due": "2026-08-25",
+     "amount": 15700,
+     "paid_on": "2026-08-25"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6510674",
+   "holder": "Farhan Ali",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-04-16",
+   "end": "2027-04-15",
+   "premium": 53600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 695000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 410000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 65000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 420000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-04-16",
+     "amount": 13400,
+     "paid_on": "2026-04-18"
+    },
+    {
+     "due": "2026-07-16",
+     "amount": 13400,
+     "paid_on": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7749644",
+   "holder": "Diya Kapoor",
+   "product": "Home Shield Plus",
+   "status": "Lapsed",
+   "start": "2026-01-10",
+   "end": "2027-01-09",
+   "premium": 36800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1960000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 645000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 355000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 235000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 885000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-10",
+     "amount": 9200,
+     "paid_on": "2026-01-15"
+    },
+    {
+     "due": "2026-04-10",
+     "amount": 9200,
+     "paid_on": null
+    },
+    {
+     "due": "2026-07-10",
+     "amount": 9200,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1873087",
+   "holder": "Kiara Bose",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-09-08",
+   "end": "2026-09-07",
+   "premium": 39600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2055000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 775000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 180000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-09-08",
+     "amount": 9900,
+     "paid_on": "2025-09-14"
+    },
+    {
+     "due": "2025-12-08",
+     "amount": 9900,
+     "paid_on": "2025-12-08"
+    },
+    {
+     "due": "2026-03-08",
+     "amount": 9900,
+     "paid_on": "2026-03-10"
+    },
+    {
+     "due": "2026-06-08",
+     "amount": 9900,
+     "paid_on": "2026-06-08"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1248444",
+   "holder": "Dev Chauhan",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2025-12-15",
+   "end": "2026-12-14",
+   "premium": 45200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 830000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 580000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 515000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 115000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 110000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 935000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-15",
+     "amount": 11300,
+     "paid_on": "2025-12-26"
+    },
+    {
+     "due": "2026-03-15",
+     "amount": 11300,
+     "paid_on": "2026-03-19"
+    },
+    {
+     "due": "2026-06-15",
+     "amount": 11300,
+     "paid_on": "2026-06-17"
+    },
+    {
+     "due": "2026-09-15",
+     "amount": 11300,
+     "paid_on": "2026-09-16"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6256499",
+   "holder": "Kabir Singh",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-05-15",
+   "end": "2027-05-14",
+   "premium": 63600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 545000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 185000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 410000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 365000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-15",
+     "amount": 15900,
+     "paid_on": "2026-05-27"
+    },
+    {
+     "due": "2026-08-15",
+     "amount": 15900,
+     "paid_on": "2026-08-15"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6482665",
+   "holder": "Saanvi Joshi",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-04-10",
+   "end": "2027-04-09",
+   "premium": 27200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 150000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 980000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 415000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 190000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1070000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 490000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-04-10",
+     "amount": 6800,
+     "paid_on": "2026-04-14"
+    },
+    {
+     "due": "2026-07-10",
+     "amount": 6800,
+     "paid_on": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-4251351",
+   "holder": "Aditya Verma",
+   "product": "Home Shield",
+   "status": "Lapsed",
+   "start": "2026-06-09",
+   "end": "2027-06-08",
+   "premium": 61200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1550000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 990000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 580000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 40000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 765000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 110000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-09",
+     "amount": 15300,
+     "paid_on": "2026-06-21"
+    },
+    {
+     "due": "2026-09-09",
+     "amount": 15300,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5786796",
+   "holder": "Krish Malhotra",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-01-28",
+   "end": "2027-01-27",
+   "premium": 34800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1555000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 680000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 175000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 145000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 165000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 960000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 240000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-28",
+     "amount": 8700,
+     "paid_on": "2026-02-04"
+    },
+    {
+     "due": "2026-04-28",
+     "amount": 8700,
+     "paid_on": "2026-04-30"
+    },
+    {
+     "due": "2026-07-28",
+     "amount": 8700,
+     "paid_on": "2026-08-03"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1930265",
+   "holder": "Kunal Bajaj",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-06-22",
+   "end": "2027-06-21",
+   "premium": 14400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1905000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 900000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 595000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 250000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1360000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 185000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-22",
+     "amount": 3600,
+     "paid_on": "2026-07-03"
+    },
+    {
+     "due": "2026-09-22",
+     "amount": 3600,
+     "paid_on": "2026-09-26"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5503520",
+   "holder": "Zoya Qureshi",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-08-26",
+   "end": "2026-08-25",
+   "premium": 38800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 615000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 470000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 885000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-08-26",
+     "amount": 9700,
+     "paid_on": "2025-09-03"
+    },
+    {
+     "due": "2025-11-26",
+     "amount": 9700,
+     "paid_on": "2025-12-08"
+    },
+    {
+     "due": "2026-02-26",
+     "amount": 9700,
+     "paid_on": "2026-02-28"
+    },
+    {
+     "due": "2026-05-26",
+     "amount": 9700,
+     "paid_on": "2026-05-31"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1568343",
+   "holder": "Vihaan Shah",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-09-16",
+   "end": "2026-09-15",
+   "premium": 53200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1200000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 470000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 535000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 925000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-09-16",
+     "amount": 13300,
+     "paid_on": "2025-09-21"
+    },
+    {
+     "due": "2025-12-16",
+     "amount": 13300,
+     "paid_on": "2025-12-16"
+    },
+    {
+     "due": "2026-03-16",
+     "amount": 13300,
+     "paid_on": "2026-03-18"
+    },
+    {
+     "due": "2026-06-16",
+     "amount": 13300,
+     "paid_on": "2026-06-26"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5860869",
+   "holder": "Diya Kapoor",
+   "product": "Home and Contents",
+   "status": "Lapsed",
+   "start": "2026-03-20",
+   "end": "2027-03-19",
+   "premium": 12400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1955000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 915000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 90000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 260000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-20",
+     "amount": 3100,
+     "paid_on": "2026-03-24"
+    },
+    {
+     "due": "2026-06-20",
+     "amount": 3100,
+     "paid_on": null
+    },
+    {
+     "due": "2026-09-20",
+     "amount": 3100,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1374308",
+   "holder": "Aarav Mehta",
+   "product": "Home and Contents",
+   "status": "Lapsed",
+   "start": "2026-01-18",
+   "end": "2027-01-17",
+   "premium": 49200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1260000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 95000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 465000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 25000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 185000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 445000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 405000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-18",
+     "amount": 12300,
+     "paid_on": "2026-01-29"
+    },
+    {
+     "due": "2026-04-18",
+     "amount": 12300,
+     "paid_on": null
+    },
+    {
+     "due": "2026-07-18",
+     "amount": 12300,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7630357",
+   "holder": "Dev Chauhan",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-02-25",
+   "end": "2027-02-24",
+   "premium": 56400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2300000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 215000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 880000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 165000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-02-25",
+     "amount": 14100,
+     "paid_on": "2026-02-26"
+    },
+    {
+     "due": "2026-05-25",
+     "amount": 14100,
+     "paid_on": "2026-06-01"
+    },
+    {
+     "due": "2026-08-25",
+     "amount": 14100,
+     "paid_on": "2026-08-25"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7494686",
+   "holder": "Navya Menon",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-03-24",
+   "end": "2027-03-23",
+   "premium": 16400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 505000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 300000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 325000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-24",
+     "amount": 4100,
+     "paid_on": "2026-03-25"
+    },
+    {
+     "due": "2026-06-24",
+     "amount": 4100,
+     "paid_on": "2026-07-01"
+    },
+    {
+     "due": "2026-09-24",
+     "amount": 4100,
+     "paid_on": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9294428",
+   "holder": "Meera Iyer",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-12-26",
+   "end": "2026-12-25",
+   "premium": 62800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2325000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 155000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 410000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 860000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 325000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-26",
+     "amount": 15700,
+     "paid_on": "2026-01-05"
+    },
+    {
+     "due": "2026-03-26",
+     "amount": 15700,
+     "paid_on": "2026-04-06"
+    },
+    {
+     "due": "2026-06-26",
+     "amount": 15700,
+     "paid_on": "2026-07-05"
+    },
+    {
+     "due": "2026-09-26",
+     "amount": 15700,
+     "paid_on": "2026-09-30"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5022796",
+   "holder": "Tara Sethi",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-06-11",
+   "end": "2026-06-10",
+   "premium": 14400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 830000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 220000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 260000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 375000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 825000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-06-11",
+     "amount": 3600,
+     "paid_on": "2025-06-19"
+    },
+    {
+     "due": "2025-09-11",
+     "amount": 3600,
+     "paid_on": "2025-09-23"
+    },
+    {
+     "due": "2025-12-11",
+     "amount": 3600,
+     "paid_on": "2025-12-19"
+    },
+    {
+     "due": "2026-03-11",
+     "amount": 3600,
+     "paid_on": "2026-03-22"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2742833",
+   "holder": "Reyansh Das",
+   "product": "Home Shield Plus",
+   "status": "Lapsed",
+   "start": "2026-04-14",
+   "end": "2027-04-13",
+   "premium": 48000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1525000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 650000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 175000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 420000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 185000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-04-14",
+     "amount": 12000,
+     "paid_on": "2026-04-17"
+    },
+    {
+     "due": "2026-07-14",
+     "amount": 12000,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2342312",
+   "holder": "Aditya Verma",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-01-25",
+   "end": "2027-01-24",
+   "premium": 38800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1910000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 95000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 955000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 125000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-25",
+     "amount": 9700,
+     "paid_on": "2026-01-27"
+    },
+    {
+     "due": "2026-04-25",
+     "amount": 9700,
+     "paid_on": "2026-04-25"
+    },
+    {
+     "due": "2026-07-25",
+     "amount": 9700,
+     "paid_on": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3234612",
+   "holder": "Meera Iyer",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-01-11",
+   "end": "2027-01-10",
+   "premium": 9600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2110000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 280000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 380000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 255000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 130000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 295000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-11",
+     "amount": 2400,
+     "paid_on": "2026-01-17"
+    },
+    {
+     "due": "2026-04-11",
+     "amount": 2400,
+     "paid_on": "2026-04-16"
+    },
+    {
+     "due": "2026-07-11",
+     "amount": 2400,
+     "paid_on": "2026-07-22"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6060838",
+   "holder": "Kunal Bajaj",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-02-20",
+   "end": "2027-02-19",
+   "premium": 16800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1615000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 315000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 340000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 115000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 190000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-02-20",
+     "amount": 4200,
+     "paid_on": "2026-03-04"
+    },
+    {
+     "due": "2026-05-20",
+     "amount": 4200,
+     "paid_on": "2026-05-21"
+    },
+    {
+     "due": "2026-08-20",
+     "amount": 4200,
+     "paid_on": "2026-08-21"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5731290",
+   "holder": "Isha Desai",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-05-25",
+   "end": "2027-05-24",
+   "premium": 18800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2265000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 115000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 690000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 320000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-25",
+     "amount": 4700,
+     "paid_on": "2026-06-04"
+    },
+    {
+     "due": "2026-08-25",
+     "amount": 4700,
+     "paid_on": "2026-09-06"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3935678",
+   "holder": "Aarav Mehta",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-07-24",
+   "end": "2027-07-23",
+   "premium": 20000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 980000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 600000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1020000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 325000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-07-24",
+     "amount": 5000,
+     "paid_on": "2026-08-03"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1174563",
+   "holder": "Vihaan Shah",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2025-11-22",
+   "end": "2026-11-21",
+   "premium": 23200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 695000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 270000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 800000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 155000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 520000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 270000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-11-22",
+     "amount": 5800,
+     "paid_on": "2025-11-30"
+    },
+    {
+     "due": "2026-02-22",
+     "amount": 5800,
+     "paid_on": "2026-02-23"
+    },
+    {
+     "due": "2026-05-22",
+     "amount": 5800,
+     "paid_on": "2026-05-22"
+    },
+    {
+     "due": "2026-08-22",
+     "amount": 5800,
+     "paid_on": "2026-08-25"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6738635",
+   "holder": "Dev Chauhan",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-09-04",
+   "end": "2027-09-03",
+   "premium": 18000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 785000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 760000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 65000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-09-04",
+     "amount": 4500,
+     "paid_on": "2026-09-14"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6001092",
+   "holder": "Dev Chauhan",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-08-26",
+   "end": "2027-08-25",
+   "premium": 39200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 290000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 310000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 915000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 300000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-26",
+     "amount": 9800,
+     "paid_on": "2026-08-27"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9675329",
+   "holder": "Saanvi Joshi",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-06-22",
+   "end": "2027-06-21",
+   "premium": 41200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2425000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 350000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 490000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 415000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 255000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-22",
+     "amount": 10300,
+     "paid_on": "2026-06-24"
+    },
+    {
+     "due": "2026-09-22",
+     "amount": 10300,
+     "paid_on": "2026-10-02"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1766924",
+   "holder": "Meera Iyer",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-03-11",
+   "end": "2027-03-10",
+   "premium": 52000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1630000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 375000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 90000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 225000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 435000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 260000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-11",
+     "amount": 13000,
+     "paid_on": "2026-03-17"
+    },
+    {
+     "due": "2026-06-11",
+     "amount": 13000,
+     "paid_on": "2026-06-15"
+    },
+    {
+     "due": "2026-09-11",
+     "amount": 13000,
+     "paid_on": "2026-09-12"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6588464",
+   "holder": "Pari Saxena",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2025-12-08",
+   "end": "2026-12-07",
+   "premium": 60800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2205000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 300000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 145000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 130000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 460000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 1000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-08",
+     "amount": 15200,
+     "paid_on": "2025-12-10"
+    },
+    {
+     "due": "2026-03-08",
+     "amount": 15200,
+     "paid_on": "2026-03-19"
+    },
+    {
+     "due": "2026-06-08",
+     "amount": 15200,
+     "paid_on": "2026-06-15"
+    },
+    {
+     "due": "2026-09-08",
+     "amount": 15200,
+     "paid_on": "2026-09-20"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-4534590",
+   "holder": "Ananya Rao",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-07-13",
+   "end": "2027-07-12",
+   "premium": 18400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 60000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 980000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 580000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 60000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1255000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 150000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-07-13",
+     "amount": 4600,
+     "paid_on": "2026-07-19"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2057643",
+   "holder": "Anika Reddy",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-01-23",
+   "end": "2027-01-22",
+   "premium": 62000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1960000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 705000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 595000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 215000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1415000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 490000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-01-23",
+     "amount": 15500,
+     "paid_on": "2026-01-26"
+    },
+    {
+     "due": "2026-04-23",
+     "amount": 15500,
+     "paid_on": "2026-05-02"
+    },
+    {
+     "due": "2026-07-23",
+     "amount": 15500,
+     "paid_on": "2026-07-24"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5578248",
+   "holder": "Yash Thakur",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-07-03",
+   "end": "2027-07-02",
+   "premium": 42800,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 135000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 980000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 505000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 120000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 200000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 500000,
+     "deductible": 10000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-07-03",
+     "amount": 10700,
+     "paid_on": "2026-07-04"
+    },
+    {
+     "due": "2026-10-03",
+     "amount": 10700,
+     "paid_on": "2026-10-09"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-8384396",
+   "holder": "Saanvi Joshi",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-08-12",
+   "end": "2027-08-11",
+   "premium": 57600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1825000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 885000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 130000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-12",
+     "amount": 14400,
+     "paid_on": "2026-08-19"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6239927",
+   "holder": "Myra Pillai",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-08-14",
+   "end": "2027-08-13",
+   "premium": 45600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1425000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 55000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 165000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 890000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 435000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-14",
+     "amount": 11400,
+     "paid_on": "2026-08-23"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2032840",
+   "holder": "Kabir Singh",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-08-27",
+   "end": "2027-08-26",
+   "premium": 43200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1050000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 205000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 430000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 25000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-27",
+     "amount": 10800,
+     "paid_on": "2026-08-31"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5521112",
+   "holder": "Reyansh Das",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-05-28",
+   "end": "2027-05-27",
+   "premium": 32400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 715000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 400000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 375000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 535000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-28",
+     "amount": 8100,
+     "paid_on": "2026-06-02"
+    },
+    {
+     "due": "2026-08-28",
+     "amount": 8100,
+     "paid_on": "2026-08-30"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-7629006",
+   "holder": "Kiara Bose",
+   "product": "Home Shield",
+   "status": "Lapsed",
+   "start": "2026-05-23",
+   "end": "2027-05-22",
+   "premium": 27200,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 260000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 795000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 375000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 25000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 205000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-23",
+     "amount": 6800,
+     "paid_on": "2026-06-04"
+    },
+    {
+     "due": "2026-08-23",
+     "amount": 6800,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3684808",
+   "holder": "Vihaan Shah",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-05-09",
+   "end": "2027-05-08",
+   "premium": 47600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2275000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 200000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 475000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 335000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 275000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-05-09",
+     "amount": 11900,
+     "paid_on": "2026-05-11"
+    },
+    {
+     "due": "2026-08-09",
+     "amount": 11900,
+     "paid_on": "2026-08-10"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3729444",
+   "holder": "Rohan Gupta",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-06-15",
+   "end": "2027-06-14",
+   "premium": 59600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1590000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 420000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1265000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-15",
+     "amount": 14900,
+     "paid_on": "2026-06-27"
+    },
+    {
+     "due": "2026-09-15",
+     "amount": 14900,
+     "paid_on": "2026-09-15"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6126602",
+   "holder": "Myra Pillai",
+   "product": "Home and Contents",
+   "status": "Lapsed",
+   "start": "2025-12-10",
+   "end": "2026-12-09",
+   "premium": 38000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2070000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 180000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 520000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 80000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1395000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-12-10",
+     "amount": 9500,
+     "paid_on": "2025-12-15"
+    },
+    {
+     "due": "2026-03-10",
+     "amount": 9500,
+     "paid_on": "2026-03-13"
+    },
+    {
+     "due": "2026-06-10",
+     "amount": 9500,
+     "paid_on": "2026-06-14"
+    },
+    {
+     "due": "2026-09-10",
+     "amount": 9500,
+     "paid_on": null
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2739937",
+   "holder": "Yash Thakur",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-06-23",
+   "end": "2027-06-22",
+   "premium": 60400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1785000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 65000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 655000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 40000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 105000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 620000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 345000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-23",
+     "amount": 15100,
+     "paid_on": "2026-07-02"
+    },
+    {
+     "due": "2026-09-23",
+     "amount": 15100,
+     "paid_on": "2026-10-05"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-9074707",
+   "holder": "Meera Iyer",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-08-26",
+   "end": "2027-08-25",
+   "premium": 13600,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2090000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 285000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 205000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1165000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 305000,
+     "deductible": 7500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-26",
+     "amount": 3400,
+     "paid_on": "2026-09-01"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-6383801",
+   "holder": "Kabir Singh",
+   "product": "Home Shield",
+   "status": "Active",
+   "start": "2026-06-12",
+   "end": "2027-06-11",
+   "premium": 38400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1360000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 595000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 560000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 50000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 955000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 185000,
+     "deductible": 5000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-12",
+     "amount": 9600,
+     "paid_on": "2026-06-13"
+    },
+    {
+     "due": "2026-09-12",
+     "amount": 9600,
+     "paid_on": "2026-09-24"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1457347",
+   "holder": "Yash Thakur",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-03-14",
+   "end": "2027-03-13",
+   "premium": 26000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 950000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 290000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 110000,
+     "deductible": 5000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 950000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 25000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-03-14",
+     "amount": 6500,
+     "paid_on": "2026-03-26"
+    },
+    {
+     "due": "2026-06-14",
+     "amount": 6500,
+     "paid_on": "2026-06-25"
+    },
+    {
+     "due": "2026-09-14",
+     "amount": 6500,
+     "paid_on": "2026-09-22"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-2613071",
+   "holder": "Tara Sethi",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2025-08-24",
+   "end": "2026-08-23",
+   "premium": 30000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 620000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Theft",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 845000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 585000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 85000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 210000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 1120000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2025-08-24",
+     "amount": 7500,
+     "paid_on": "2025-09-01"
+    },
+    {
+     "due": "2025-11-24",
+     "amount": 7500,
+     "paid_on": "2025-11-25"
+    },
+    {
+     "due": "2026-02-24",
+     "amount": 7500,
+     "paid_on": "2026-03-08"
+    },
+    {
+     "due": "2026-05-24",
+     "amount": 7500,
+     "paid_on": "2026-06-02"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-5797419",
+   "holder": "Navya Menon",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-06-10",
+   "end": "2027-06-09",
+   "premium": 24400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 1265000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 70000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 870000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 100000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": true,
+     "limit": 230000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 575000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 15000
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-06-10",
+     "amount": 6100,
+     "paid_on": "2026-06-17"
+    },
+    {
+     "due": "2026-09-10",
+     "amount": 6100,
+     "paid_on": "2026-09-12"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-1599893",
+   "holder": "Saanvi Joshi",
+   "product": "Home Shield Plus",
+   "status": "Active",
+   "start": "2026-08-08",
+   "end": "2027-08-07",
+   "premium": 32000,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 2150000,
+     "deductible": 2500
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 160000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 885000,
+     "deductible": 1000
+    },
+    {
+     "peril": "Storm",
+     "covered": true,
+     "limit": 320000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 115000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": true,
+     "limit": 780000,
+     "deductible": 10000
+    },
+    {
+     "peril": "Riot",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-08-08",
+     "amount": 8000,
+     "paid_on": "2026-08-09"
+    }
+   ]
+  },
+  {
+   "policy_no": "POL-3848468",
+   "holder": "Tara Sethi",
+   "product": "Home and Contents",
+   "status": "Active",
+   "start": "2026-04-25",
+   "end": "2027-04-24",
+   "premium": 52400,
+   "coverage": [
+    {
+     "peril": "Fire",
+     "covered": true,
+     "limit": 680000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Theft",
+     "covered": true,
+     "limit": 170000,
+     "deductible": 25000
+    },
+    {
+     "peril": "Flood",
+     "covered": true,
+     "limit": 840000,
+     "deductible": 7500
+    },
+    {
+     "peril": "Storm",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Accidental damage",
+     "covered": true,
+     "limit": 145000,
+     "deductible": 15000
+    },
+    {
+     "peril": "Water leak",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Earthquake",
+     "covered": false,
+     "limit": null,
+     "deductible": null
+    },
+    {
+     "peril": "Riot",
+     "covered": true,
+     "limit": 490000,
+     "deductible": 2500
+    }
+   ],
+   "payments": [
+    {
+     "due": "2026-04-25",
+     "amount": 13100,
+     "paid_on": "2026-04-27"
+    },
+    {
+     "due": "2026-07-25",
+     "amount": 13100,
+     "paid_on": "2026-07-25"
+    }
+   ]
+  }
+ ]
+}

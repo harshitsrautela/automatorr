@@ -1,0 +1,1479 @@
+{
+ "claim_id": "EXP-41142",
+ "fields": {
+  "claim_id": "EXP-41142"
+ },
+ "trace": [
+  {
+   "step": 2,
+   "goal": "Click on Claims link to open the claims list.",
+   "kind": "click",
+   "url": "http://localhost:5182/",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "#/claims",
+     "data-nav": "/claims"
+    },
+    "text": "Claims",
+    "xpath": "html/body/header/nav/a[2]"
+   },
+   "page_text": "Expense Desk\nTravel claims audit\n[30]<a />\n\tDashboard\n[33]<a />\n\tClaims\n[36]<a />\n\tTravel policy\nDashboard\nTravel expense claims waiting for an audit decision.\n100\nPending\nApproved\nApproved with deduction\nSent back\nRejected\n*[70]<a />\n\tGo to claims"
+  },
+  {
+   "step": 3,
+   "goal": "Type claim number EXP-41142 in the search box and open the claim.",
+   "kind": "input",
+   "url": "http://localhost:5182/#/claims",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "class": "search",
+     "id": "f71262",
+     "name": "q",
+     "placeholder": "Search by claim number or employee",
+     "autocomplete": "off"
+    },
+    "text": "Search by claim number or employee",
+    "xpath": "html/body/main/input"
+   },
+   "value": "EXP-41142",
+   "page_text": "Expense Desk\nTravel claims audit\n[30]<a />\n\tDashboard\n[33]<a />\n\tClaims\n[36]<a />\n\tTravel policy\nClaims\n|SHADOW(open)|*[94]<input type=search id=f71262 name=q placeholder=Search by claim number or employee autocomplete=off />\n*[110]<tr />\n\tClaim\n\tEmployee\n\tDestination\n\tSubmitted\n\tTotal (\u20b9)\n\tStatus\n*[118]<tr />\n\t*[119]<td />\n\t\tEXP-36367\n\t*[120]<td />\n\t\tAditya Verma\n\t*[121]<td />\n\t\tNew York\n\t*[122]<td />\n\t\t20 Oct 2026\n\t*[123]<td />\n\t\t51,041\n\t*[124]<td />\n\t\t*[125]<span />\n\t\t\tPending\n*[126]<tr />\n\t*[127]<td />\n\t\tEXP-42772\n\t*[128]<td />\n\t\tVihaan Shah\n\t*[129]<td />\n\t\tLondon\n\t*[130]<td />\n\t\t06 Oct 2026\n\t*[131]<td />\n\t\t32,335\n\t*[132]<td />\n\t\t*[133]<span />\n\t\t\tPending\n*[134]<tr />\n\t*[135]<td />\n\t\tEXP-40567\n\t*[136]<td />\n\t\tNavya Menon\n\t*[137]<td />\n\t\tUdaipur\n\t*[138]<td />\n\t\t04 Oct 2026\n\t*[139]<td />\n\t\t14,240\n\t*[140]<td />\n\t\t*[141]<span />\n\t\t\tPending\n*[142]<tr />\n\t*[143]<td />\n\t\tEXP-96879\n\t*[144]<td />\n\t\tNavya Menon\n\t*[145]<td />\n\t\tDubai\n\t*[146]<td />\n\t\t29 Sep 2026\n\t*[147]<td />\n\t\t58,160\n\t*[148]<td />\n\t\t*[149]<span />\n\t\t\tPending\n*[150]<tr />\n\t*[151]<td />\n\t\tEXP-30227\n\t*[152]<td />\n\t\tNavya Menon\n\t*[153]<td />\n\t\tPune\n\t*[154]<td />\n\t\t28 Sep 2026\n\t*[155]<td />\n\t\t35,140\n\t*[156]<td />\n\t\t*[157]<span />\n\t\t\tPending\n*[158]<tr />\n\t*[159]<td />\n\t\tEXP-70978\n\t*[160]<td />\n\t\tDiya Kapoor\n\t*[161]<td />\n\t\tLondon\n\t*[162]<td />\n\t\t28 Sep 2026\n\t*[163]<td />\n\t\t2,905\n\t*[164]<td />\n\t\t*[165]<span />\n\t\t\tPending\n*[166]<tr />\n\t*[167]<td />\n\t\tEXP-43878\n\t*[168]<td />\n\t\tReyansh Das\n\t*[169]<td />\n\t\tDubai\n\t*[170]<td />\n\t\t23 Sep 2026\n\t*[171]<td />\n\t\t21,429\n\t*[172]<td />\n\t\t*[173]<span />\n\t\t\tPending\n*[174]<tr />\n\t*[175]<td />\n\t\tEXP-84892\n\t*[176]<td />\n\t\tSaanvi Joshi\n\t*[177]<td />\n\t\tCoimbatore\n\t*[178]<td />\n\t\t19 Sep 2026\n\t*[179]<td />\n\t\t14,310\n\t*[180]<td />\n\t\t*[181]<span />\n\t\t\tPending\n*[182]<tr />\n\t*[183]<td />\n\t\tEXP-47802\n\t*[184]<td />\n\t\tArjun Patel\n\t*[185]<td />\n\t\tLondon\n\t*[186]<td />\n\t\t16 Sep 2026\n\t*[187]<td />\n\t\t46,920\n\t*[188]<td />\n\t\t*[189]<span />\n\t\t\tPending\n*[190]<tr />\n\t*[191]<td />\n\t\tEXP-62226\n\t*[192]<td />\n\t\tKrish Malhotra\n\t*[193]<td />\n\t\tKolkata\n\t*[194]<td />\n\t\t16 Sep 2026\n\t*[195]<td />\n\t\t31,160\n\t*[196]<td />\n\t\t*[197]<span />\n\t\t\tPending\nShowing 10 of 100 claims. Type in the search box to find others."
+  },
+  {
+   "step": 4,
+   "goal": "Press Enter to execute the search and filter the claims table for EXP-41142.",
+   "kind": "keys",
+   "url": "http://localhost:5182/#/claims",
+   "el": null,
+   "value": "Enter"
+  },
+  {
+   "step": 5,
+   "goal": "Click on the claim row (index 289 or 288) to open claim EXP-41142.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims",
+   "el": {
+    "node": "td",
+    "attrs": {},
+    "text": "EXP-41142",
+    "xpath": "html/body/main/div/table/tbody/tr/td[1]"
+   }
+  },
+  {
+   "step": 7,
+   "goal": "Click on the Receipts tab to inspect all receipt lines.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "role": "tab",
+     "aria-selected": "false",
+     "data-tab": "receipts"
+    },
+    "text": "Receipts",
+    "xpath": "html/body/main/div[2]/button[2]"
+   },
+   "page_text": "Expense Desk\nTravel claims audit\n[30]<a />\n\tDashboard\n[33]<a />\n\tClaims\n[36]<a />\n\tTravel policy\n*[320]<a />\n\tClaims\n/ EXP-41142\nClaim EXP-41142\nPending\n*[325]<button id=review />\n\tReview claim\n*[327]<button role=tab selected=true />\n\tSummary\n*[328]<button role=tab selected=false />\n\tReceipts\n*[329]<button role=tab selected=false />\n\tActivity\nEmployee\nOm Kulkarni\nGrade\nL1\nPurpose\nSite inspection\nDestination\nHyderabad\nTrip\n16 Jul 2026 \u2013 19 Jul 2026\nNights\nSubmitted\n13 Aug 2026\nDays from trip end to submission\n25\nAdvance paid\n\u20b95,000\nTotal claimed (in rupees)\n\u20b928,900"
+  },
+  {
+   "step": 8,
+   "goal": "Open the Travel policy section to find Hyderabad's city tier and hotel nightly limit for Grade L1.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "#/policy",
+     "data-nav": "/policy"
+    },
+    "text": "Travel policy",
+    "xpath": "html/body/header/nav/a[3]"
+   }
+  },
+  {
+   "step": 9,
+   "goal": "Open section 4 (Hotel limits per night) and section 5 (City tiers) in the Travel policy.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/policy",
+   "el": {
+    "node": "summary",
+    "attrs": {},
+    "text": "4. Hotel limits per night",
+    "xpath": "html/body/main/details[4]/summary"
+   },
+   "page_text": "Expense Desk\nTravel claims audit\n[30]<a />\n\tDashboard\n[33]<a />\n\tClaims\n[36]<a />\n\tTravel policy\nTravel policy\nOpen a section to read it.\n|SHADOW(open)|*[465]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[466]<summary expanded=false />\n\t\t1. Who this policy covers\n|SHADOW(open)|*[472]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[473]<summary expanded=false />\n\t\t2. Submission window\n|SHADOW(open)|*[479]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[480]<summary expanded=false />\n\t\t3. Receipts\n|SHADOW(open)|*[486]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[487]<summary expanded=false />\n\t\t4. Hotel limits per night\n|SHADOW(open)|*[526]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[527]<summary expanded=false />\n\t\t5. City tiers\n|SHADOW(open)|*[550]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[551]<summary expanded=false />\n\t\t6. Exchange rates\n|SHADOW(open)|*[578]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[579]<summary expanded=false />\n\t\t7. Meals and local travel\n|SHADOW(open)|*[585]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[586]<summary expanded=false />\n\t\t8. Advances"
+  },
+  {
+   "step": 9,
+   "goal": "Open section 4 (Hotel limits per night) and section 5 (City tiers) in the Travel policy.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/policy",
+   "el": {
+    "node": "summary",
+    "attrs": {},
+    "text": "5. City tiers",
+    "xpath": "html/body/main/details[5]/summary"
+   }
+  },
+  {
+   "step": 10,
+   "goal": "Go back to the claim's page and press Review claim.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/policy",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "#/claims",
+     "data-nav": "/claims",
+     "class": ""
+    },
+    "text": "Claims",
+    "xpath": "html/body/header/nav/a[2]"
+   }
+  },
+  {
+   "step": 11,
+   "goal": "Search for EXP-41142 in the claims list and open its detail page.",
+   "kind": "input",
+   "url": "http://localhost:5182/#/claims",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "class": "search",
+     "id": "f59619",
+     "name": "q",
+     "placeholder": "Search by claim number or employee",
+     "autocomplete": "off"
+    },
+    "text": "Search by claim number or employee",
+    "xpath": "html/body/main/input"
+   },
+   "value": "EXP-41142"
+  },
+  {
+   "step": 11,
+   "goal": "Search for EXP-41142 in the claims list and open its detail page.",
+   "kind": "keys",
+   "url": "http://localhost:5182/#/claims",
+   "el": null,
+   "value": "Enter"
+  },
+  {
+   "step": 12,
+   "goal": "Press Enter in the search box to filter for EXP-41142, then click its row.",
+   "kind": "input",
+   "url": "http://localhost:5182/#/claims",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "search",
+     "class": "search",
+     "id": "f59619",
+     "name": "q",
+     "placeholder": "Search by claim number or employee",
+     "autocomplete": "off",
+     "value": "EXP-41142"
+    },
+    "text": "Search by claim number or employee",
+    "xpath": "html/body/main/input"
+   },
+   "value": "EXP-41142"
+  },
+  {
+   "step": 12,
+   "goal": "Press Enter in the search box to filter for EXP-41142, then click its row.",
+   "kind": "keys",
+   "url": "http://localhost:5182/#/claims",
+   "el": null,
+   "value": "Enter"
+  },
+  {
+   "step": 13,
+   "goal": "Click on the claim row to open claim EXP-41142 details.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims",
+   "el": {
+    "node": "td",
+    "attrs": {},
+    "text": "EXP-41142",
+    "xpath": "html/body/main/div/table/tbody/tr/td[1]"
+   }
+  },
+  {
+   "step": 14,
+   "goal": "Click 'Review claim' button to open the review modal.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "id": "review"
+    },
+    "text": "Review claim",
+    "xpath": "html/body/main/div[1]/button"
+   }
+  },
+  {
+   "step": 15,
+   "goal": "Select the Approve radio button and click Next.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "radio",
+     "id": "f20814",
+     "name": "outcome",
+     "value": "approve"
+    },
+    "text": "Approve",
+    "xpath": "html/body/div[1]/div/div/fieldset/label[1]/input"
+   }
+  },
+  {
+   "step": 15,
+   "goal": "Select the Approve radio button and click Next.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "data-act": "next"
+    },
+    "text": "Next",
+    "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+   }
+  },
+  {
+   "step": 16,
+   "goal": "Input 23900 into the amount to reimburse field and click Next.",
+   "kind": "input",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "number",
+     "id": "f50324",
+     "name": "payable",
+     "min": "0",
+     "step": "1",
+     "value": ""
+    },
+    "text": "Amount to reimburse (\u20b9)",
+    "xpath": "html/body/div[1]/div/div/div[2]/input"
+   },
+   "value": "23900"
+  },
+  {
+   "step": 16,
+   "goal": "Input 23900 into the amount to reimburse field and click Next.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "data-act": "next"
+    },
+    "text": "Next",
+    "xpath": "html/body/div[1]/div/div/div[3]/button[2]"
+   }
+  },
+  {
+   "step": 17,
+   "goal": "Tick the attestation checkbox and click Submit decision.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "checkbox",
+     "id": "f29322",
+     "name": "attest",
+     "value": "on"
+    },
+    "text": "I have checked this claim against the travel policy",
+    "xpath": "html/body/div[1]/div/div/label/input"
+   }
+  },
+  {
+   "step": 17,
+   "goal": "Tick the attestation checkbox and click Submit decision.",
+   "kind": "click",
+   "url": "http://localhost:5182/#/claims/e3lcxu",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "primary",
+     "data-act": "submit",
+     "disabled": ""
+    },
+    "text": "Submit decision",
+    "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+   }
+  }
+ ],
+ "note": "the live agent's real trace on the Expense Desk (datadesk v5), 9 Oct 2026, run #56; other_branches: the live agent's real traces of two proof records in run #57 (a deduction and a rejection); row_click: run #59's first record, where the agent clicked the table row (<tr>, no text of its own); back_click: run #67-ish (11 Oct), the agent pressed Back inside the wizard",
+ "other_branches": {
+  "EXP-36367": {
+   "fields": {
+    "claim_id": "EXP-36367"
+   },
+   "trace": [
+    {
+     "step": 1,
+     "goal": "Click on 'Claims' to view the list of claims and search for EXP-36367.",
+     "kind": "click",
+     "url": "http://localhost:5182/",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "#/claims",
+       "data-nav": "/claims"
+      },
+      "text": "Claims",
+      "xpath": "html/body/header/nav/a[2]"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nLoading\u2026"
+    },
+    {
+     "step": 2,
+     "goal": "Click on the row for EXP-36367 to open the claim details.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims",
+     "el": {
+      "node": "td",
+      "attrs": {},
+      "text": "EXP-36367",
+      "xpath": "html/body/main/div/table/tbody/tr[1]/td[1]"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nClaims\n|SHADOW(open)|*[95]<input type=search id=f87301 name=q placeholder=Search by claim number or employee autocomplete=off />\n*[111]<tr />\n\tClaim\n\tEmployee\n\tDestination\n\tSubmitted\n\tTotal (\u20b9)\n\tStatus\n*[119]<tr />\n\t*[120]<td />\n\t\tEXP-36367\n\t*[121]<td />\n\t\tAditya Verma\n\t*[122]<td />\n\t\tNew York\n\t*[123]<td />\n\t\t20 Oct 2026\n\t*[124]<td />\n\t\t51,041\n\t*[125]<td />\n\t\t*[126]<span />\n\t\t\tPending\n*[127]<tr />\n\t*[128]<td />\n\t\tEXP-42772\n\t*[129]<td />\n\t\tVihaan Shah\n\t*[130]<td />\n\t\tLondon\n\t*[131]<td />\n\t\t06 Oct 2026\n\t*[132]<td />\n\t\t32,335\n\t*[133]<td />\n\t\t*[134]<span />\n\t\t\tPending\n*[135]<tr />\n\t*[136]<td />\n\t\tEXP-40567\n\t*[137]<td />\n\t\tNavya Menon\n\t*[138]<td />\n\t\tUdaipur\n\t*[139]<td />\n\t\t04 Oct 2026\n\t*[140]<td />\n\t\t14,240\n\t*[141]<td />\n\t\t*[142]<span />\n\t\t\tPending\n*[143]<tr />\n\t*[144]<td />\n\t\tEXP-96879\n\t*[145]<td />\n\t\tNavya Menon\n\t*[146]<td />\n\t\tDubai\n\t*[147]<td />\n\t\t29 Sep 2026\n\t*[148]<td />\n\t\t58,160\n\t*[149]<td />\n\t\t*[150]<span />\n\t\t\tPending\n*[151]<tr />\n\t*[152]<td />\n\t\tEXP-30227\n\t*[153]<td />\n\t\tNavya Menon\n\t*[154]<td />\n\t\tPune\n\t*[155]<td />\n\t\t28 Sep 2026\n\t*[156]<td />\n\t\t35,140\n\t*[157]<td />\n\t\t*[158]<span />\n\t\t\tPending\n*[159]<tr />\n\t*[160]<td />\n\t\tEXP-70978\n\t*[161]<td />\n\t\tDiya Kapoor\n\t*[162]<td />\n\t\tLondon\n\t*[163]<td />\n\t\t28 Sep 2026\n\t*[164]<td />\n\t\t2,905\n\t*[165]<td />\n\t\t*[166]<span />\n\t\t\tPending\n*[167]<tr />\n\t*[168]<td />\n\t\tEXP-43878\n\t*[169]<td />\n\t\tReyansh Das\n\t*[170]<td />\n\t\tDubai\n\t*[171]<td />\n\t\t23 Sep 2026\n\t*[172]<td />\n\t\t21,429\n\t*[173]<td />\n\t\t*[174]<span />\n\t\t\tPending\n*[175]<tr />\n\t*[176]<td />\n\t\tEXP-84892\n\t*[177]<td />\n\t\tSaanvi Joshi\n\t*[178]<td />\n\t\tCoimbatore\n\t*[179]<td />\n\t\t19 Sep 2026\n\t*[180]<td />\n\t\t14,310\n\t*[181]<td />\n\t\t*[182]<span />\n\t\t\tPending\n*[183]<tr />\n\t*[184]<td />\n\t\tEXP-47802\n\t*[185]<td />\n\t\tArjun Patel\n\t*[186]<td />\n\t\tLondon\n\t*[187]<td />\n\t\t16 Sep 2026\n\t*[188]<td />\n\t\t46,920\n\t*[189]<td />\n\t\t*[190]<span />\n\t\t\tPending\n*[191]<tr />\n\t*[192]<td />\n\t\tEXP-62226\n\t*[193]<td />\n\t\tKrish Malhotra\n\t*[194]<td />\n\t\tKolkata\n\t*[195]<td />\n\t\t16 Sep 2026\n\t*[196]<td />\n\t\t31,160\n\t*[197]<td />\n\t\t*[198]<span />\n\t\t\tPending\nShowing 10 of 100 claims. Type in the search box to find others."
+    },
+    {
+     "step": 3,
+     "goal": "Click on the Receipts tab to check all receipts.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "role": "tab",
+       "aria-selected": "false",
+       "data-tab": "receipts"
+      },
+      "text": "Receipts",
+      "xpath": "html/body/main/div[2]/button[2]"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\n*[279]<a />\n\tClaims\n/ EXP-36367\nClaim EXP-36367\nPending\n*[284]<button id=review />\n\tReview claim\n*[286]<button role=tab selected=true />\n\tSummary\n*[287]<button role=tab selected=false />\n\tReceipts\n*[288]<button role=tab selected=false />\n\tActivity\nEmployee\nAditya Verma\nGrade\nL2\nPurpose\nTraining\nDestination\nNew York\nTrip\n12 Aug 2026 \u2013 16 Aug 2026\nNights\nSubmitted\n20 Oct 2026\nDays from trip end to submission\n65\nAdvance paid\n\u20b90\nTotal claimed (in rupees)\n\u20b951,041"
+    },
+    {
+     "step": 4,
+     "goal": "Click 'Review claim' to open the review dialog.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "id": "review"
+      },
+      "text": "Review claim",
+      "xpath": "html/body/main/div[1]/button"
+     }
+    },
+    {
+     "step": 5,
+     "goal": "Select Reject radio button and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "radio",
+       "id": "f55630",
+       "name": "outcome",
+       "value": "reject"
+      },
+      "text": "Reject",
+      "xpath": "html/body/div[1]/div/div/fieldset/label[4]/input"
+     }
+    },
+    {
+     "step": 5,
+     "goal": "Select Reject radio button and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "next"
+      },
+      "text": "Next",
+      "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+     }
+    },
+    {
+     "step": 6,
+     "goal": "Select 'Late submission' from the reason dropdown and click Next.",
+     "kind": "select",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "select",
+      "attrs": {
+       "id": "f18653",
+       "name": "reason"
+      },
+      "text": "Reason",
+      "xpath": "html/body/div[1]/div/div/div[2]/select"
+     },
+     "value": "Late submission"
+    },
+    {
+     "step": 6,
+     "goal": "Select 'Late submission' from the reason dropdown and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "next"
+      },
+      "text": "Next",
+      "xpath": "html/body/div[1]/div/div/div[3]/button[2]"
+     }
+    },
+    {
+     "step": 7,
+     "goal": "Tick the attestation checkbox and click 'Submit decision'.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "checkbox",
+       "id": "f52885",
+       "name": "attest",
+       "value": "on"
+      },
+      "text": "I have checked this claim against the travel policy",
+      "xpath": "html/body/div[1]/div/div/label/input"
+     }
+    },
+    {
+     "step": 7,
+     "goal": "Tick the attestation checkbox and click 'Submit decision'.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/j79m5z",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "submit",
+       "disabled": ""
+      },
+      "text": "Submit decision",
+      "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+     }
+    }
+   ]
+  },
+  "EXP-80905": {
+   "fields": {
+    "claim_id": "EXP-80905"
+   },
+   "trace": [
+    {
+     "step": 1,
+     "goal": "Click on 'Claims' to view the list of expense claims.",
+     "kind": "click",
+     "url": "http://localhost:5182/",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "#/claims",
+       "data-nav": "/claims"
+      },
+      "text": "Claims",
+      "xpath": "html/body/header/nav/a[2]"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nLoading\u2026"
+    },
+    {
+     "step": 2,
+     "goal": "Type EXP-80905 into the search box and click the resulting claim row.",
+     "kind": "input",
+     "url": "http://localhost:5182/#/claims",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "search",
+       "class": "search",
+       "id": "f81487",
+       "name": "q",
+       "placeholder": "Search by claim number or employee",
+       "autocomplete": "off"
+      },
+      "text": "Search by claim number or employee",
+      "xpath": "html/body/main/input"
+     },
+     "value": "EXP-80905",
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nClaims\n|SHADOW(open)|*[95]<input type=search id=f81487 name=q placeholder=Search by claim number or employee autocomplete=off />\n*[111]<tr />\n\tClaim\n\tEmployee\n\tDestination\n\tSubmitted\n\tTotal (\u20b9)\n\tStatus\n*[119]<tr />\n\t*[120]<td />\n\t\tEXP-36367\n\t*[121]<td />\n\t\tAditya Verma\n\t*[122]<td />\n\t\tNew York\n\t*[123]<td />\n\t\t20 Oct 2026\n\t*[124]<td />\n\t\t51,041\n\t*[125]<td />\n\t\t*[126]<span />\n\t\t\tPending\n*[127]<tr />\n\t*[128]<td />\n\t\tEXP-42772\n\t*[129]<td />\n\t\tVihaan Shah\n\t*[130]<td />\n\t\tLondon\n\t*[131]<td />\n\t\t06 Oct 2026\n\t*[132]<td />\n\t\t32,335\n\t*[133]<td />\n\t\t*[134]<span />\n\t\t\tPending\n*[135]<tr />\n\t*[136]<td />\n\t\tEXP-40567\n\t*[137]<td />\n\t\tNavya Menon\n\t*[138]<td />\n\t\tUdaipur\n\t*[139]<td />\n\t\t04 Oct 2026\n\t*[140]<td />\n\t\t14,240\n\t*[141]<td />\n\t\t*[142]<span />\n\t\t\tPending\n*[143]<tr />\n\t*[144]<td />\n\t\tEXP-96879\n\t*[145]<td />\n\t\tNavya Menon\n\t*[146]<td />\n\t\tDubai\n\t*[147]<td />\n\t\t29 Sep 2026\n\t*[148]<td />\n\t\t58,160\n\t*[149]<td />\n\t\t*[150]<span />\n\t\t\tPending\n*[151]<tr />\n\t*[152]<td />\n\t\tEXP-30227\n\t*[153]<td />\n\t\tNavya Menon\n\t*[154]<td />\n\t\tPune\n\t*[155]<td />\n\t\t28 Sep 2026\n\t*[156]<td />\n\t\t35,140\n\t*[157]<td />\n\t\t*[158]<span />\n\t\t\tPending\n*[159]<tr />\n\t*[160]<td />\n\t\tEXP-70978\n\t*[161]<td />\n\t\tDiya Kapoor\n\t*[162]<td />\n\t\tLondon\n\t*[163]<td />\n\t\t28 Sep 2026\n\t*[164]<td />\n\t\t2,905\n\t*[165]<td />\n\t\t*[166]<span />\n\t\t\tPending\n*[167]<tr />\n\t*[168]<td />\n\t\tEXP-43878\n\t*[169]<td />\n\t\tReyansh Das\n\t*[170]<td />\n\t\tDubai\n\t*[171]<td />\n\t\t23 Sep 2026\n\t*[172]<td />\n\t\t21,429\n\t*[173]<td />\n\t\t*[174]<span />\n\t\t\tPending\n*[175]<tr />\n\t*[176]<td />\n\t\tEXP-84892\n\t*[177]<td />\n\t\tSaanvi Joshi\n\t*[178]<td />\n\t\tCoimbatore\n\t*[179]<td />\n\t\t19 Sep 2026\n\t*[180]<td />\n\t\t14,310\n\t*[181]<td />\n\t\t*[182]<span />\n\t\t\tPending\n*[183]<tr />\n\t*[184]<td />\n\t\tEXP-47802\n\t*[185]<td />\n\t\tArjun Patel\n\t*[186]<td />\n\t\tLondon\n\t*[187]<td />\n\t\t16 Sep 2026\n\t*[188]<td />\n\t\t46,920\n\t*[189]<td />\n\t\t*[190]<span />\n\t\t\tPending\n*[191]<tr />\n\t*[192]<td />\n\t\tEXP-62226\n\t*[193]<td />\n\t\tKrish Malhotra\n\t*[194]<td />\n\t\tKolkata\n\t*[195]<td />\n\t\t16 Sep 2026\n\t*[196]<td />\n\t\t31,160\n\t*[197]<td />\n\t\t*[198]<span />\n\t\t\tPending\nShowing 10 of 100 claims. Type in the search box to find others."
+    },
+    {
+     "step": 3,
+     "goal": "Press Enter to filter claims for EXP-80905.",
+     "kind": "keys",
+     "url": "http://localhost:5182/#/claims",
+     "el": null,
+     "value": "Enter"
+    },
+    {
+     "step": 4,
+     "goal": "Click the claim row for EXP-80905 to open the claim page.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims",
+     "el": {
+      "node": "td",
+      "attrs": {},
+      "text": "EXP-80905",
+      "xpath": "html/body/main/div/table/tbody/tr/td[1]"
+     }
+    },
+    {
+     "step": 5,
+     "goal": "Click on the Receipts tab to check categories, amounts, currencies, and receipts.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "role": "tab",
+       "aria-selected": "false",
+       "data-tab": "receipts"
+      },
+      "text": "Receipts",
+      "xpath": "html/body/main/div[2]/button[2]"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\n*[321]<a />\n\tClaims\n/ EXP-80905\nClaim EXP-80905\nPending\n*[326]<button id=review />\n\tReview claim\n*[328]<button role=tab selected=true />\n\tSummary\n*[329]<button role=tab selected=false />\n\tReceipts\n*[330]<button role=tab selected=false />\n\tActivity\nEmployee\nRohan Gupta\nGrade\nL1\nPurpose\nVendor audit\nDestination\nGuwahati\nTrip\n02 Jul 2026 \u2013 03 Jul 2026\nNights\nSubmitted\n10 Aug 2026\nDays from trip end to submission\n38\nAdvance paid\n\u20b90\nTotal claimed (in rupees)\n\u20b917,360"
+    },
+    {
+     "step": 6,
+     "goal": "Click on Travel policy tab/link to check Guwahati city tier and hotel nightly limit for Grade L1.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "#/policy",
+       "data-nav": "/policy"
+      },
+      "text": "Travel policy",
+      "xpath": "html/body/header/nav/a[3]"
+     }
+    },
+    {
+     "step": 8,
+     "goal": "Open city tiers and hotel limits sections in the Travel policy.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/policy",
+     "el": {
+      "node": "summary",
+      "attrs": {},
+      "text": "5. City tiers",
+      "xpath": "html/body/main/details[5]/summary"
+     },
+     "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nTravel policy\nOpen a section to read it.\n|SHADOW(open)|*[479]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[480]<summary expanded=false />\n\t\t1. Who this policy covers\n|SHADOW(open)|*[486]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[487]<summary expanded=false />\n\t\t2. Submission window\n|SHADOW(open)|*[493]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[494]<summary expanded=false />\n\t\t3. Receipts\n|SHADOW(open)|*[500]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[501]<summary expanded=false />\n\t\t4. Hotel limits per night\n|SHADOW(open)|*[540]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[541]<summary expanded=false />\n\t\t5. City tiers\n|SHADOW(open)|*[564]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[565]<summary expanded=false />\n\t\t6. Exchange rates\n|SHADOW(open)|*[592]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[593]<summary expanded=false />\n\t\t7. Meals and local travel\n|SHADOW(open)|*[599]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[600]<summary expanded=false />\n\t\t8. Advances"
+    },
+    {
+     "step": 8,
+     "goal": "Open city tiers and hotel limits sections in the Travel policy.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/policy",
+     "el": {
+      "node": "summary",
+      "attrs": {},
+      "text": "4. Hotel limits per night",
+      "xpath": "html/body/main/details[4]/summary"
+     }
+    },
+    {
+     "step": 9,
+     "goal": "Go back to Claims and open claim EXP-80905 to submit the review decision.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/policy",
+     "el": {
+      "node": "a",
+      "attrs": {
+       "href": "#/claims",
+       "data-nav": "/claims",
+       "class": ""
+      },
+      "text": "Claims",
+      "xpath": "html/body/header/nav/a[2]"
+     }
+    },
+    {
+     "step": 10,
+     "goal": "Type EXP-80905 in the search box to find and open the claim again.",
+     "kind": "input",
+     "url": "http://localhost:5182/#/claims",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "search",
+       "class": "search",
+       "id": "f13948",
+       "name": "q",
+       "placeholder": "Search by claim number or employee",
+       "autocomplete": "off"
+      },
+      "text": "Search by claim number or employee",
+      "xpath": "html/body/main/input"
+     },
+     "value": "EXP-80905"
+    },
+    {
+     "step": 11,
+     "goal": "Press Enter to filter claims for EXP-80905 and then click its row.",
+     "kind": "keys",
+     "url": "http://localhost:5182/#/claims",
+     "el": null,
+     "value": "Enter"
+    },
+    {
+     "step": 12,
+     "goal": "Click on the claim row for EXP-80905 to open the claim page.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims",
+     "el": {
+      "node": "td",
+      "attrs": {},
+      "text": "EXP-80905",
+      "xpath": "html/body/main/div/table/tbody/tr/td[1]"
+     }
+    },
+    {
+     "step": 13,
+     "goal": "Click Review claim button to start the review workflow.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "id": "review"
+      },
+      "text": "Review claim",
+      "xpath": "html/body/main/div[1]/button"
+     }
+    },
+    {
+     "step": 14,
+     "goal": "Select 'Approve with deduction' and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "radio",
+       "id": "f37385",
+       "name": "outcome",
+       "value": "deduct"
+      },
+      "text": "Approve with deduction",
+      "xpath": "html/body/div[1]/div/div/fieldset/label[2]/input"
+     }
+    },
+    {
+     "step": 14,
+     "goal": "Select 'Approve with deduction' and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "next"
+      },
+      "text": "Next",
+      "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+     }
+    },
+    {
+     "step": 15,
+     "goal": "Input deduction \u20b9490 and reimbursement \u20b916,870, tick 'Hotel above policy limit', and click Next.",
+     "kind": "input",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "number",
+       "id": "f45317",
+       "name": "deduction",
+       "min": "0",
+       "step": "1",
+       "value": ""
+      },
+      "text": "Deduction (\u20b9)",
+      "xpath": "html/body/div[1]/div/div/div[2]/input"
+     },
+     "value": "490"
+    },
+    {
+     "step": 15,
+     "goal": "Input deduction \u20b9490 and reimbursement \u20b916,870, tick 'Hotel above policy limit', and click Next.",
+     "kind": "input",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "number",
+       "id": "f17488",
+       "name": "payable",
+       "min": "0",
+       "step": "1",
+       "value": ""
+      },
+      "text": "Amount to reimburse (\u20b9)",
+      "xpath": "html/body/div[1]/div/div/div[3]/input"
+     },
+     "value": "16870"
+    },
+    {
+     "step": 15,
+     "goal": "Input deduction \u20b9490 and reimbursement \u20b916,870, tick 'Hotel above policy limit', and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "checkbox",
+       "id": "f40000",
+       "name": "hotel_over_limit",
+       "value": "on"
+      },
+      "text": "Hotel above policy limit",
+      "xpath": "html/body/div[1]/div/div/label/input"
+     }
+    },
+    {
+     "step": 15,
+     "goal": "Input deduction \u20b9490 and reimbursement \u20b916,870, tick 'Hotel above policy limit', and click Next.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "next"
+      },
+      "text": "Next",
+      "xpath": "html/body/div[1]/div/div/div[4]/button[2]"
+     }
+    },
+    {
+     "step": 16,
+     "goal": "Tick the policy check box and submit the decision.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "input",
+      "attrs": {
+       "type": "checkbox",
+       "id": "f87661",
+       "name": "attest",
+       "value": "on"
+      },
+      "text": "I have checked this claim against the travel policy",
+      "xpath": "html/body/div[1]/div/div/label/input"
+     }
+    },
+    {
+     "step": 16,
+     "goal": "Tick the policy check box and submit the decision.",
+     "kind": "click",
+     "url": "http://localhost:5182/#/claims/dm1yj6",
+     "el": {
+      "node": "button",
+      "attrs": {
+       "type": "button",
+       "class": "primary",
+       "data-act": "submit",
+       "disabled": ""
+      },
+      "text": "Submit decision",
+      "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+     }
+    }
+   ]
+  }
+ },
+ "row_click": {
+  "fields": {
+   "claim_id": "EXP-41142"
+  },
+  "trace": [
+   {
+    "step": 1,
+    "goal": "Click on 'Claims' to navigate to the claims list.",
+    "kind": "click",
+    "url": "http://localhost:5182/",
+    "el": {
+     "node": "a",
+     "attrs": {
+      "href": "#/claims",
+      "data-nav": "/claims"
+     },
+     "text": "Claims",
+     "xpath": "html/body/header/nav/a[2]"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nLoading\u2026"
+   },
+   {
+    "step": 2,
+    "goal": "Type claim number EXP-41142 into the search box.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "search",
+      "class": "search",
+      "id": "f45130",
+      "name": "q",
+      "placeholder": "Search by claim number or employee",
+      "autocomplete": "off"
+     },
+     "text": "Search by claim number or employee",
+     "xpath": "html/body/main/input"
+    },
+    "value": "EXP-41142",
+    "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nClaims\n|SHADOW(open)|*[95]<input type=search id=f45130 name=q placeholder=Search by claim number or employee autocomplete=off />\nLoading\u2026"
+   },
+   {
+    "step": 4,
+    "goal": "Click the claim row for EXP-41142 to open the claim details.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "tr",
+     "attrs": {
+      "class": "row",
+      "tabindex": "0",
+      "data-r": "dqjnsg",
+      "data-key": "e3lcxu"
+     },
+     "text": "",
+     "xpath": "html/body/main/div/table/tbody/tr"
+    }
+   },
+   {
+    "step": 5,
+    "goal": "Click the Receipts tab to view receipt lines.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "role": "tab",
+      "aria-selected": "false",
+      "data-tab": "receipts"
+     },
+     "text": "Receipts",
+     "xpath": "html/body/main/div[2]/button[2]"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\n*[321]<a />\n\tClaims\n/ EXP-41142\nClaim EXP-41142\nPending\n*[326]<button id=review />\n\tReview claim\n*[328]<button role=tab selected=true />\n\tSummary\n*[329]<button role=tab selected=false />\n\tReceipts\n*[330]<button role=tab selected=false />\n\tActivity\nEmployee\nOm Kulkarni\nGrade\nL1\nPurpose\nSite inspection\nDestination\nHyderabad\nTrip\n16 Jul 2026 \u2013 19 Jul 2026\nNights\nSubmitted\n13 Aug 2026\nDays from trip end to submission\n25\nAdvance paid\n\u20b95,000\nTotal claimed (in rupees)\n\u20b928,900"
+   },
+   {
+    "step": 6,
+    "goal": "Click on 'Travel policy' to find the hotel limit for Hyderabad and grade L1.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "a",
+     "attrs": {
+      "href": "#/policy",
+      "data-nav": "/policy"
+     },
+     "text": "Travel policy",
+     "xpath": "html/body/header/nav/a[3]"
+    }
+   },
+   {
+    "step": 7,
+    "goal": "Open hotel limits and city tiers sections in Travel policy.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "summary",
+     "attrs": {},
+     "text": "4. Hotel limits per night",
+     "xpath": "html/body/main/details[4]/summary"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[31]<a />\n\tDashboard\n[34]<a />\n\tClaims\n[37]<a />\n\tTravel policy\nTravel policy\nOpen a section to read it.\n|SHADOW(open)|*[466]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[467]<summary expanded=false />\n\t\t1. Who this policy covers\n|SHADOW(open)|*[473]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[474]<summary expanded=false />\n\t\t2. Submission window\n|SHADOW(open)|*[480]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[481]<summary expanded=false />\n\t\t3. Receipts\n|SHADOW(open)|*[487]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[488]<summary expanded=false />\n\t\t4. Hotel limits per night\n|SHADOW(open)|*[527]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[528]<summary expanded=false />\n\t\t5. City tiers\n|SHADOW(open)|*[551]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[552]<summary expanded=false />\n\t\t6. Exchange rates\n|SHADOW(open)|*[579]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[580]<summary expanded=false />\n\t\t7. Meals and local travel\n|SHADOW(open)|*[586]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[587]<summary expanded=false />\n\t\t8. Advances"
+   },
+   {
+    "step": 7,
+    "goal": "Open hotel limits and city tiers sections in Travel policy.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "summary",
+     "attrs": {},
+     "text": "5. City tiers",
+     "xpath": "html/body/main/details[5]/summary"
+    }
+   },
+   {
+    "step": 8,
+    "goal": "Navigate back to Claims and open claim EXP-41142 to perform the review workflow.",
+    "kind": "navigate",
+    "url": "http://localhost:5182/#/policy",
+    "el": null,
+    "value": "http://localhost:5182/#/claims"
+   },
+   {
+    "step": 9,
+    "goal": "Type claim number EXP-41142 in the search box.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "search",
+      "class": "search",
+      "id": "f69196",
+      "name": "q",
+      "placeholder": "Search by claim number or employee",
+      "autocomplete": "off"
+     },
+     "text": "Search by claim number or employee",
+     "xpath": "html/body/main/input"
+    },
+    "value": "EXP-41142"
+   },
+   {
+    "step": 11,
+    "goal": "Click the claim row for EXP-41142 to open its details page.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "tr",
+     "attrs": {
+      "class": "row",
+      "tabindex": "0",
+      "data-r": "vmtlqp",
+      "data-key": "e3lcxu"
+     },
+     "text": "",
+     "xpath": "html/body/main/div/table/tbody/tr"
+    }
+   },
+   {
+    "step": 12,
+    "goal": "Click 'Review claim' to start the decision workflow.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "id": "review"
+     },
+     "text": "Review claim",
+     "xpath": "html/body/main/div[1]/button"
+    }
+   },
+   {
+    "step": 13,
+    "goal": "Select 'Approve' radio button and click 'Next'.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "radio",
+      "id": "f57157",
+      "name": "outcome",
+      "value": "approve"
+     },
+     "text": "Approve",
+     "xpath": "html/body/div[1]/div/div/fieldset/label[1]/input"
+    }
+   },
+   {
+    "step": 13,
+    "goal": "Select 'Approve' radio button and click 'Next'.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "next"
+     },
+     "text": "Next",
+     "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+    }
+   },
+   {
+    "step": 14,
+    "goal": "Input 23900 into the amount to reimburse field and click Next.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "number",
+      "id": "f94681",
+      "name": "payable",
+      "min": "0",
+      "step": "1",
+      "value": ""
+     },
+     "text": "Amount to reimburse (\u20b9)",
+     "xpath": "html/body/div[1]/div/div/div[2]/input"
+    },
+    "value": "23900"
+   },
+   {
+    "step": 14,
+    "goal": "Input 23900 into the amount to reimburse field and click Next.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "next"
+     },
+     "text": "Next",
+     "xpath": "html/body/div[1]/div/div/div[3]/button[2]"
+    }
+   },
+   {
+    "step": 15,
+    "goal": "Tick the policy check box and submit the decision.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "checkbox",
+      "id": "f50935",
+      "name": "attest",
+      "value": "on"
+     },
+     "text": "I have checked this claim against the travel policy",
+     "xpath": "html/body/div[1]/div/div/label/input"
+    }
+   },
+   {
+    "step": 15,
+    "goal": "Tick the policy check box and submit the decision.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/e3lcxu",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "submit",
+      "disabled": ""
+     },
+     "text": "Submit decision",
+     "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+    }
+   }
+  ]
+ },
+ "back_click": {
+  "fields": {
+   "claim_id": "EXP-78591"
+  },
+  "trace": [
+   {
+    "step": 1,
+    "goal": "Click on Claims to search for claim EXP-78591.",
+    "kind": "click",
+    "url": "http://localhost:5182/",
+    "el": {
+     "node": "a",
+     "attrs": {
+      "href": "#/claims",
+      "data-nav": "/claims"
+     },
+     "text": "Claims",
+     "xpath": "html/body/header/nav/a[2]"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[55]<a />\n\tDashboard\n[58]<a />\n\tClaims\n[61]<a />\n\tTravel policy\nLoading\u2026"
+   },
+   {
+    "step": 2,
+    "goal": "Type EXP-78591 into the search box.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "search",
+      "class": "search",
+      "id": "f56445",
+      "name": "q",
+      "placeholder": "Search by claim number or employee",
+      "autocomplete": "off"
+     },
+     "text": "Search by claim number or employee",
+     "xpath": "html/body/main/input"
+    },
+    "value": "EXP-78591",
+    "page_text": "Expense Desk\nTravel claims audit\n[55]<a />\n\tDashboard\n[58]<a />\n\tClaims\n[61]<a />\n\tTravel policy\nClaims\n|SHADOW(open)|*[119]<input type=search id=f56445 name=q placeholder=Search by claim number or employee autocomplete=off />\n*[135]<tr />\n\tClaim\n\tEmployee\n\tDestination\n\tSubmitted\n\tTotal (\u20b9)\n\tStatus\n*[143]<tr />\n\t*[144]<td />\n\t\tEXP-36367\n\t*[145]<td />\n\t\tAditya Verma\n\t*[146]<td />\n\t\tNew York\n\t*[147]<td />\n\t\t20 Oct 2026\n\t*[148]<td />\n\t\t51,041\n\t*[149]<td />\n\t\t*[150]<span />\n\t\t\tRejected\n*[151]<tr />\n\t*[152]<td />\n\t\tEXP-42772\n\t*[153]<td />\n\t\tVihaan Shah\n\t*[154]<td />\n\t\tLondon\n\t*[155]<td />\n\t\t06 Oct 2026\n\t*[156]<td />\n\t\t32,335\n\t*[157]<td />\n\t\t*[158]<span />\n\t\t\tPending\n*[159]<tr />\n\t*[160]<td />\n\t\tEXP-40567\n\t*[161]<td />\n\t\tNavya Menon\n\t*[162]<td />\n\t\tUdaipur\n\t*[163]<td />\n\t\t04 Oct 2026\n\t*[164]<td />\n\t\t14,240\n\t*[165]<td />\n\t\t*[166]<span />\n\t\t\tPending\n*[167]<tr />\n\t*[168]<td />\n\t\tEXP-96879\n\t*[169]<td />\n\t\tNavya Menon\n\t*[170]<td />\n\t\tDubai\n\t*[171]<td />\n\t\t29 Sep 2026\n\t*[172]<td />\n\t\t58,160\n\t*[173]<td />\n\t\t*[174]<span />\n\t\t\tPending\n*[175]<tr />\n\t*[176]<td />\n\t\tEXP-30227\n\t*[177]<td />\n\t\tNavya Menon\n\t*[178]<td />\n\t\tPune\n\t*[179]<td />\n\t\t28 Sep 2026\n\t*[180]<td />\n\t\t35,140\n\t*[181]<td />\n\t\t*[182]<span />\n\t\t\tPending\n*[183]<tr />\n\t*[184]<td />\n\t\tEXP-70978\n\t*[185]<td />\n\t\tDiya Kapoor\n\t*[186]<td />\n\t\tLondon\n\t*[187]<td />\n\t\t28 Sep 2026\n\t*[188]<td />\n\t\t2,905\n\t*[189]<td />\n\t\t*[190]<span />\n\t\t\tPending\n*[191]<tr />\n\t*[192]<td />\n\t\tEXP-43878\n\t*[193]<td />\n\t\tReyansh Das\n\t*[194]<td />\n\t\tDubai\n\t*[195]<td />\n\t\t23 Sep 2026\n\t*[196]<td />\n\t\t21,429\n\t*[197]<td />\n\t\t*[198]<span />\n\t\t\tPending\n*[199]<tr />\n\t*[200]<td />\n\t\tEXP-84892\n\t*[201]<td />\n\t\tSaanvi Joshi\n\t*[202]<td />\n\t\tCoimbatore\n\t*[203]<td />\n\t\t19 Sep 2026\n\t*[204]<td />\n\t\t14,310\n\t*[205]<td />\n\t\t*[206]<span />\n\t\t\tPending\n*[207]<tr />\n\t*[208]<td />\n\t\tEXP-47802\n\t*[209]<td />\n\t\tArjun Patel\n\t*[210]<td />\n\t\tLondon\n\t*[211]<td />\n\t\t16 Sep 2026\n\t*[212]<td />\n\t\t46,920\n\t*[213]<td />\n\t\t*[214]<span />\n\t\t\tPending\n*[215]<tr />\n\t*[216]<td />\n\t\tEXP-62226\n\t*[217]<td />\n\t\tKrish Malhotra\n\t*[218]<td />\n\t\tKolkata\n\t*[219]<td />\n\t\t16 Sep 2026\n\t*[220]<td />\n\t\t31,160\n\t*[221]<td />\n\t\t*[222]<span />\n\t\t\tPending\nShowing 10 of 100 claims. Type in the search box to find others."
+   },
+   {
+    "step": 3,
+    "goal": "Press Enter in the search input to filter the claim list for EXP-78591.",
+    "kind": "keys",
+    "url": "http://localhost:5182/#/claims",
+    "el": null,
+    "value": "Enter"
+   },
+   {
+    "step": 4,
+    "goal": "Click the row for claim EXP-78591 to open it.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "tr",
+     "attrs": {
+      "class": "row",
+      "tabindex": "0",
+      "data-r": "tmup8y",
+      "data-key": "6wgn7a"
+     },
+     "text": "",
+     "xpath": "html/body/main/div/table/tbody/tr",
+     "inner": "EXP-78591 Ishita Nair Dubai 09 Aug 2026 17,325 Pending"
+    }
+   },
+   {
+    "step": 6,
+    "goal": "Click on the Receipts tab to inspect the receipt lines.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "role": "tab",
+      "aria-selected": "false",
+      "data-tab": "receipts"
+     },
+     "text": "Receipts",
+     "xpath": "html/body/main/div[2]/button[2]"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[55]<a />\n\tDashboard\n[58]<a />\n\tClaims\n[61]<a />\n\tTravel policy\n*[345]<a />\n\tClaims\n/ EXP-78591\nClaim EXP-78591\nPending\n*[350]<button id=review />\n\tReview claim\n*[352]<button role=tab selected=true />\n\tSummary\n*[353]<button role=tab selected=false />\n\tReceipts\n*[354]<button role=tab selected=false />\n\tActivity\nEmployee\nIshita Nair\nGrade\nL2\nPurpose\nConference\nDestination\nDubai\nTrip\n04 Jul 2026 \u2013 08 Jul 2026\nNights\nSubmitted\n09 Aug 2026\nDays from trip end to submission\n32\nAdvance paid\n\u20b90\nTotal claimed (in rupees)\n\u20b917,325"
+   },
+   {
+    "step": 8,
+    "goal": "Open Travel policy to check exchange rates, city tier of Dubai, and hotel limits.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "a",
+     "attrs": {
+      "href": "#/policy",
+      "data-nav": "/policy"
+     },
+     "text": "Travel policy",
+     "xpath": "html/body/header/nav/a[3]"
+    }
+   },
+   {
+    "step": 9,
+    "goal": "Open sections 4 (Hotel limits per night), 5 (City tiers), and 6 (Exchange rates) in the Travel policy to read hotel limits, city tier, and exchange rates.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "summary",
+     "attrs": {},
+     "text": "4. Hotel limits per night",
+     "xpath": "html/body/main/details[4]/summary"
+    },
+    "page_text": "Expense Desk\nTravel claims audit\n[55]<a />\n\tDashboard\n[58]<a />\n\tClaims\n[61]<a />\n\tTravel policy\nTravel policy\nOpen a section to read it.\n|SHADOW(open)|*[490]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[491]<summary expanded=false />\n\t\t1. Who this policy covers\n|SHADOW(open)|*[497]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[498]<summary expanded=false />\n\t\t2. Submission window\n|SHADOW(open)|*[504]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[505]<summary expanded=false />\n\t\t3. Receipts\n|SHADOW(open)|*[511]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[512]<summary expanded=false />\n\t\t4. Hotel limits per night\n|SHADOW(open)|*[551]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[552]<summary expanded=false />\n\t\t5. City tiers\n|SHADOW(open)|*[575]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[576]<summary expanded=false />\n\t\t6. Exchange rates\n|SHADOW(open)|*[603]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[604]<summary expanded=false />\n\t\t7. Meals and local travel\n|SHADOW(open)|*[610]<details compound_components=(name=Toggle Disclosure,role=button),(name=Content Area,role=region) />\n\t*[611]<summary expanded=false />\n\t\t8. Advances"
+   },
+   {
+    "step": 9,
+    "goal": "Open sections 4 (Hotel limits per night), 5 (City tiers), and 6 (Exchange rates) in the Travel policy to read hotel limits, city tier, and exchange rates.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "summary",
+     "attrs": {},
+     "text": "5. City tiers",
+     "xpath": "html/body/main/details[5]/summary"
+    }
+   },
+   {
+    "step": 9,
+    "goal": "Open sections 4 (Hotel limits per night), 5 (City tiers), and 6 (Exchange rates) in the Travel policy to read hotel limits, city tier, and exchange rates.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "summary",
+     "attrs": {},
+     "text": "6. Exchange rates",
+     "xpath": "html/body/main/details[6]/summary"
+    }
+   },
+   {
+    "step": 10,
+    "goal": "Click on Claims link to return to the claims list and open claim EXP-78591 again.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/policy",
+    "el": {
+     "node": "a",
+     "attrs": {
+      "href": "#/claims",
+      "data-nav": "/claims",
+      "class": ""
+     },
+     "text": "Claims",
+     "xpath": "html/body/header/nav/a[2]"
+    }
+   },
+   {
+    "step": 11,
+    "goal": "Input EXP-78591 into the search box and open the claim.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "search",
+      "class": "search",
+      "id": "f31753",
+      "name": "q",
+      "placeholder": "Search by claim number or employee",
+      "autocomplete": "off"
+     },
+     "text": "Search by claim number or employee",
+     "xpath": "html/body/main/input"
+    },
+    "value": "EXP-78591"
+   },
+   {
+    "step": 12,
+    "goal": "Press Enter in the search input to filter the claim list for EXP-78591.",
+    "kind": "keys",
+    "url": "http://localhost:5182/#/claims",
+    "el": null,
+    "value": "Enter"
+   },
+   {
+    "step": 13,
+    "goal": "Click the row for claim EXP-78591 to open it.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims",
+    "el": {
+     "node": "tr",
+     "attrs": {
+      "class": "row",
+      "tabindex": "0",
+      "data-r": "oeojcr",
+      "data-key": "6wgn7a"
+     },
+     "text": "",
+     "xpath": "html/body/main/div/table/tbody/tr",
+     "inner": "EXP-78591 Ishita Nair Dubai 09 Aug 2026 17,325 Pending"
+    }
+   },
+   {
+    "step": 14,
+    "goal": "Click the Receipts tab to inspect all receipt lines.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "role": "tab",
+      "aria-selected": "false",
+      "data-tab": "receipts"
+     },
+     "text": "Receipts",
+     "xpath": "html/body/main/div[2]/button[2]"
+    }
+   },
+   {
+    "step": 17,
+    "goal": "Click Review claim to proceed with the review process.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "id": "review"
+     },
+     "text": "Review claim",
+     "xpath": "html/body/main/div[1]/button"
+    }
+   },
+   {
+    "step": 18,
+    "goal": "Select Approve outcome and click Next.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "radio",
+      "id": "f81793",
+      "name": "outcome",
+      "value": "approve"
+     },
+     "text": "Approve",
+     "xpath": "html/body/div[1]/div/div/fieldset/label[1]/input",
+     "group": "Outcome"
+    }
+   },
+   {
+    "step": 18,
+    "goal": "Select Approve outcome and click Next.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "next"
+     },
+     "text": "Next",
+     "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+    }
+   },
+   {
+    "step": 19,
+    "goal": "Input 17325 into the amount to reimburse field and click Next.",
+    "kind": "input",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "number",
+      "id": "f35174",
+      "name": "payable",
+      "min": "0",
+      "step": "1",
+      "value": ""
+     },
+     "text": "Amount to reimburse (\u20b9)",
+     "xpath": "html/body/div[1]/div/div/div[2]/input"
+    },
+    "value": "17325"
+   },
+   {
+    "step": 19,
+    "goal": "Input 17325 into the amount to reimburse field and click Next.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "next"
+     },
+     "text": "Next",
+     "xpath": "html/body/div[1]/div/div/div[3]/button[2]"
+    }
+   },
+   {
+    "step": 20,
+    "goal": "Check 'I have checked this claim against the travel policy' and click Submit decision.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "input",
+     "attrs": {
+      "type": "checkbox",
+      "id": "f35937",
+      "name": "attest",
+      "value": "on"
+     },
+     "text": "I have checked this claim against the travel policy",
+     "xpath": "html/body/div[1]/div/div/label/input"
+    }
+   },
+   {
+    "step": 20,
+    "goal": "Check 'I have checked this claim against the travel policy' and click Submit decision.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "data-act": "back"
+     },
+     "text": "Back",
+     "xpath": "html/body/div[1]/div/div/div[2]/button[1]"
+    }
+   },
+   {
+    "step": 21,
+    "goal": "Click Next to go to Step 3 Confirm.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "next"
+     },
+     "text": "Next",
+     "xpath": "html/body/div[1]/div/div/div[3]/button[2]"
+    }
+   },
+   {
+    "step": 22,
+    "goal": "Click Submit decision to complete the audit.",
+    "kind": "click",
+    "url": "http://localhost:5182/#/claims/6wgn7a",
+    "el": {
+     "node": "button",
+     "attrs": {
+      "type": "button",
+      "class": "primary",
+      "data-act": "submit"
+     },
+     "text": "Submit decision",
+     "xpath": "html/body/div[1]/div/div/div[2]/button[2]"
+    }
+   }
+  ]
+ }
+}

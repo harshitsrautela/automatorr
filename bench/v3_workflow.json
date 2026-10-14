@@ -1,0 +1,35 @@
+{
+ "target_url": "http://localhost:5180",
+ "master_prompt": "Go to http://localhost:5180. You work in accounts payable. For the invoice whose number is the record's invoice_no:\n\n1. Find it on the Invoices page (use the search box). Note its vendor, PO number, quantity invoiced, unit price and due date.\n2. Open the vendor (click the vendor name) and note its payment status.\n3. Look up the PO number on the Purchase orders page. Note the PO's status, its ordered quantity and its agreed unit price.\n4. Look up the same PO number on the Goods receipts page and add up every quantity received for it. A PO can have several partial deliveries, or none.\n\nDecide using the first rule that applies:\n- Vendor is Blocked: Reject, reason \"Vendor blocked\".\n- PO not found, or its status is not Open: Reject, reason \"No open PO\".\n- Quantity invoiced is more than the total received: Place on hold, reason \"Short receipt\", note \"Invoiced X, received Y\".\n- Unit price differs from the PO's agreed unit price by more than 2% of the PO price: Place on hold, reason \"Price variance\", note \"Invoice price X, PO price Y\".\n- Otherwise: Approve for payment, with the payment date set to the invoice's due date.\n\nGo back to the invoice page, fill in the decision form, press Save decision, and press Confirm in the box that appears. Finish by saying which invoice you decided, the numbers you used and your decision.",
+ "task_prompt": "Go to http://localhost:5180. You work in accounts payable. For the invoice whose number is the record's invoice_no:\n\n1. Find it on the Invoices page (use the search box). Note its vendor, PO number, quantity invoiced, unit price and due date.\n2. Open the vendor (click the vendor name) and note its payment status.\n3. Look up the PO number on the Purchase orders page. Note the PO's status, its ordered quantity and its agreed unit price.\n4. Look up the same PO number on the Goods receipts page and add up every quantity received for it. A PO can have several partial deliveries, or none.\n\nDecide using the first rule that applies:\n- Vendor is Blocked: Reject, reason \"Vendor blocked\".\n- PO not found, or its status is not Open: Reject, reason \"No open PO\".\n- Quantity invoiced is more than the total received: Place on hold, reason \"Short receipt\", note \"Invoiced X, received Y\".\n- Unit price differs from the PO's agreed unit price by more than 2% of the PO price: Place on hold, reason \"Price variance\", note \"Invoice price X, PO price Y\".\n- Otherwise: Approve for payment, with the payment date set to the invoice's due date.\n\nGo back to the invoice page, fill in the decision form, press Save decision, and press Confirm in the box that appears. Finish by saying which invoice you decided, the numbers you used and your decision.",
+ "match_key": "invoice_no",
+ "model_name": "gemini-3.5-flash-lite",
+ "llm_secret_id": null,
+ "db_secret_id": null,
+ "use_cache": true,
+ "max_concurrency": 8,
+ "submit_url_contains": "",
+ "submit_method": "POST",
+ "verify_kind": "none",
+ "verify_config": {},
+ "reconcile": false,
+ "headless": true,
+ "name": "Tool comparison \u00b7 AP Desk 5 records",
+ "data": [
+  {
+   "invoice_no": "INV-26-5751"
+  },
+  {
+   "invoice_no": "INV-26-2820"
+  },
+  {
+   "invoice_no": "INV-26-8921"
+  },
+  {
+   "invoice_no": "INV-26-9511"
+  },
+  {
+   "invoice_no": "INV-26-7750"
+  }
+ ]
+}

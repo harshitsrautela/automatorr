@@ -1,0 +1,356 @@
+{
+ "rma": "RMA-74757",
+ "fields": {
+  "rma": "RMA-74757"
+ },
+ "trace": [
+  {
+   "step": 1,
+   "goal": "Open the Returns page.",
+   "kind": "click",
+   "url": "http://localhost:5181/",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/returns"
+    },
+    "text": "Returns",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nDashboard\n\nCustomer returns waiting for a decision.\n\n100\nPending\n0\nRefund\n0\nReplace\n0\nReject\n\nGo to returns"
+  },
+  {
+   "step": 2,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=2"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturns\n\n100 returns, 10 per page.\n\nRMA\tCustomer\tReason\tDelivered\tStatus\nRMA-70197\tKrish Malhotra\tDefective\t16 Aug 2026\tPending\nRMA-70208\tKrish Malhotra\tChanged mind\t14 Sept 2026\tPending\nRMA-70212\tVihaan Shah\tDefective\t10 Jul 2026\tPending\nRMA-70317\tAditya Verma\tChanged mind\t18 Aug 2026\tPending\nRMA-70524\tVihaan Shah\tWrong item\t05 Oct 2026\tPending\nRMA-70579\tAditya Verma\tChanged mind\t02 Oct 2026\tPending\nRMA-70595\tAditya Verma\tChanged mind\t08 Sept 2026\tPending\nRMA-70596\tKabir Singh\tChanged mind\t23 Sept 2026\tPending\nRMA-70611\tAditya Verma\tWrong item\t24 Sept 2026\tPending\nRMA-70904\tAarav Mehta\tDefective\t02 Aug 2025\tPending\n12345678910Next \u203a"
+  },
+  {
+   "step": 3,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=2",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=3"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturns\n\n100 returns, 10 per page.\n\nRMA\tCustomer\tReason\tDelivered\tStatus\nRMA-71175\tKiara Bose\tChanged mind\t30 Jul 2026\tPending\nRMA-71196\tTara Sethi\tChanged mind\t18 Sept 2026\tPending\nRMA-71519\tRohan Gupta\tChanged mind\t05 Oct 2026\tPending\nRMA-71660\tDiya Kapoor\tChanged mind\t30 Sept 2026\tPending\nRMA-71683\tTara Sethi\tWrong item\t25 Sept 2026\tPending\nRMA-71751\tAditya Verma\tDefective\t22 Feb 2026\tPending\nRMA-71752\tNavya Menon\tDefective\t15 Jul 2026\tPending\nRMA-71763\tAnanya Rao\tChanged mind\t12 Sept 2026\tPending\nRMA-71827\tReyansh Das\tChanged mind\t08 Sept 2026\tPending\nRMA-72082\tKiara Bose\tDefective\t11 Jan 2026\tPending\n\u2039 Prev12345678910Next \u203a"
+  },
+  {
+   "step": 4,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=3",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=4"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturns\n\n100 returns, 10 per page.\n\nRMA\tCustomer\tReason\tDelivered\tStatus\nRMA-72089\tKrish Malhotra\tChanged mind\t24 Sept 2026\tPending\nRMA-72142\tAarav Mehta\tChanged mind\t26 Sept 2026\tPending\nRMA-72157\tRiya Khanna\tDefective\t06 Apr 2026\tPending\nRMA-72352\tSaanvi Joshi\tChanged mind\t29 Sept 2026\tPending\nRMA-72417\tDev Chauhan\tWrong item\t14 Sept 2026\tPending\nRMA-72447\tKabir Singh\tChanged mind\t04 Oct 2026\tPending\nRMA-72508\tDev Chauhan\tDefective\t26 Oct 2025\tPending\nRMA-72565\tRiya Khanna\tChanged mind\t21 Sept 2026\tPending\nRMA-72633\tAarav Mehta\tChanged mind\t01 Aug 2026\tPending\nRMA-72749\tRohan Gupta\tChanged mind\t23 Sept 2026\tPending\n\u2039 Prev12345678910Next \u203a"
+  },
+  {
+   "step": 5,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=4",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=5"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturns\n\n100 returns, 10 per page.\n\nRMA\tCustomer\tReason\tDelivered\tStatus\nRMA-72878\tVihaan Shah\tChanged mind\t03 Oct 2026\tPending\nRMA-72977\tKabir Singh\tChanged mind\t05 Sept 2026\tPending\nRMA-72994\tTara Sethi\tWrong item\t06 Oct 2026\tPending\nRMA-73236\tKrish Malhotra\tDefective\t09 Aug 2026\tPending\nRMA-73313\tSaanvi Joshi\tDefective\t26 Mar 2026\tPending\nRMA-73470\tReyansh Das\tDefective\t27 Jan 2026\tPending\nRMA-73735\tAarav Mehta\tDefective\t16 Jun 2026\tPending\nRMA-73823\tAditya Verma\tChanged mind\t30 Sept 2026\tPending\nRMA-74016\tAditya Verma\tWrong item\t19 Sept 2026\tPending\nRMA-74074\tAarav Mehta\tDefective\t29 Jul 2026\tPending\n\u2039 Prev12345678910Next \u203a"
+  },
+  {
+   "step": 6,
+   "goal": "Open return RMA-74757.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=5",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/returns/88637011"
+    },
+    "text": "RMA-74757",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturns\n\n100 returns, 10 per page.\n\nRMA\tCustomer\tReason\tDelivered\tStatus\nRMA-74111\tIshita Nair\tChanged mind\t09 Sept 2026\tPending\nRMA-74122\tAnanya Rao\tDefective\t25 Sept 2026\tPending\nRMA-74146\tTara Sethi\tChanged mind\t23 Sept 2026\tPending\nRMA-74168\tReyansh Das\tWrong item\t12 Sept 2026\tPending\nRMA-74225\tRiya Khanna\tChanged mind\t26 Aug 2026\tPending\nRMA-74485\tRiya Khanna\tWrong item\t23 Sept 2026\tPending\nRMA-74586\tArjun Patel\tChanged mind\t03 Oct 2026\tPending\nRMA-74592\tTara Sethi\tWrong item\t20 Sept 2026\tPending\nRMA-74757\tKrish Malhotra\tChanged mind\t21 Sept 2026\tPending\nRMA-74799\tNavya Menon\tChanged mind\t03 Oct 2026\tPending\n\u2039 Prev12345678910Next \u203a"
+  },
+  {
+   "step": 7,
+   "goal": "Open order ORD-10128 to read the unit price.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/orders/ORD-10128"
+    },
+    "text": "ORD-10128",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\n\nReturns / RMA-74757\n\nReturn RMA-74757\nCustomer\nKrish Malhotra\nOrder\nORD-10128\nItem\nSKU-8649\nQuantity returned\n1\nReason\nChanged mind\nCondition\nDamaged\nDelivered on\n21 Sept 2026\nDays since delivery\n17\nNext pick-up slot\n27 Nov 2026\nStatus\nPending\nYour decision\nDecision\nChoose\u2026\nRefund\nReplace\nReject\nSave decision"
+  },
+  {
+   "step": 8,
+   "goal": "Go back to the return.",
+   "kind": "back",
+   "url": "http://localhost:5181/orders/ORD-10128",
+   "el": null
+  },
+  {
+   "step": 9,
+   "goal": "Open item SKU-8649 to see its category and whether it is final sale.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/products/SKU-8649"
+    },
+    "text": "SKU-8649",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 10,
+   "goal": "Open the Return policy to find the restocking fee for this category.",
+   "kind": "click",
+   "url": "http://localhost:5181/products/SKU-8649",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/policy"
+    },
+    "text": "Return policy",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\n\nReturns / SKU-8649\n\nHydration packs item 8649\nSKU\nSKU-8649\nCategory\nHydration packs\nFinal sale\nNo\nWarranty period (days)\n365"
+  },
+  {
+   "step": 11,
+   "goal": "Go back to the Returns list to open the return again and fill the form.",
+   "kind": "click",
+   "url": "http://localhost:5181/policy",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/returns"
+    },
+    "text": "Returns",
+    "xpath": ""
+   },
+   "page_text": "Returns Desk Warehouse returns\nDashboardReturnsReturn policy\nReturn policy\nGeneral terms\n\n1. A return request is considered open from the moment a return merchandise authorisation (RMA) number is issued and remains open until the goods are inspected at the warehouse. Inspection findings are final. Photographs taken at inspection form part of the record and may be shared with the customer on request.\n\n2. Customers are responsible for keeping the original packaging, accessories and documentation until the return has been decided. Disputes about inspection results are handled by the quality team within ten working days. The decision of the quality team is final.\n\n3. Refunds are issued to the original payment method. Cash-on-delivery orders are refunded by bank transfer after the account details are verified. Gift cards, perishable goods and made-to-order items cannot be returned. Items marked final sale on the product page are excluded from change-of-mind returns.\n\n4. Inspection findings are final. Photographs taken at inspection form part of the record and may be shared with the customer on request. A return request is considered open from the moment a return merchandise authorisation (RMA) number is issued and remains open until the goods are inspected at the warehouse.\n\n5. Items returned with signs of use beyond reasonable inspection, missing parts or unauthorised modifications are treated as damaged for the purpose of fees. Defective items are covered for the warranty period shown on the product page, counted in days from the date of delivery.\n\n6. Gift cards, perishable goods and made-to-order items cannot be returned. Items marked final sale on the product page are excluded from change-of-mind returns. Refunds are issued to the original payment method. Cash-on-delivery orders are refunded by bank transfer after the account details are verified.\n\n7. Where the wrong item was shipped the store arranges a pick-up at no cost and sends the item that was actually ordered. No restocking fee applies. The store may refuse a return where the request is made outside the return window or where the evidence provided does not match the order.\n\n8. Defective items are covered for the warranty period shown on the product page, counted in days from the date of delivery. Items returned with signs of use beyond reasonable inspection, missing parts or unauthorised modifications are treated as damaged for the purpose of fees.\n\n9. Pick-up slots are offered on weekdays between nine in the morning and six in the evening. A missed pick-up may delay the refund by up to seven working days. Returns are accepted only for items purchased directly from the store and shipped by the store's own logistics partners.\n\n10. The store may refuse a return where the request is made outside the return window or where the evidence provided does not match the order. Where the wrong item was shipped the store arranges a pick-up at no cost and sends the item that was actually ordered. No restocking fee applies.\n\n11. Disputes about inspection results are handled by the quality team within ten working days. The decision of the quality team is final. Customers are responsible for keeping the original packaging, accessories and documentation until the return has been decided.\n\n12. Returns are accepted only for items purchased directly from the store and shipped by the store's own logistics partners. Pick-up slots are offered on weekdays between nine in the morning and six in the evening. A missed pick-up may delay the refund by up to seven working days.\n\n13. A return request is considered open from the moment a return merchandise authorisation (RMA) number is issued and remains open until the goods are inspected at the warehouse. Inspection findings are final. Photographs taken at inspection form part of the record and may be shared with the customer on request.\n\n14. Customers are responsible for keeping the original packaging, accessories and documentation until the return has been decided. Disputes about inspection results are handled by the quality team within ten working days. The decision of the quality team is final.\n\n15. Refunds are issued to the original payment method. Cash-on-delivery orders are refunded by bank transfer after the account details are verified. Gift cards, perishable goods and made-to-order items cannot be returned. Items marked final sale on the product page are excluded from change-of-mind returns.\n\n16. Inspection findings are final. Photographs taken at inspection form part of the record and may be shared with the customer on request. A return request is considered open from the moment a return merchandise authorisation (RMA) number is issued and remains open until the goods are inspected at the warehouse.\n\n17. Items returned with signs of use beyond reasonable inspection, missing parts or unauthorised modifications are treated as damaged for the purpose of fees. Defective items are covered for the warranty period shown on the product page, counted in days from the date of delivery.\n\n18. Gift cards, perishable goods and made-to-order items cannot be returned. Items marked final sale on the product page are excluded from change-of-mind returns. Refunds are issued to the original payment method. Cash-on-delivery orders are refunded by bank transfer after the account details are verified.\n\n19. Where the wrong item was shipped the store arranges a pick-up at no cost and sends the item that was actually ordered. No restocking fee applies. The store may refuse a return where the request is made outside the return window or where the evidence provided does not match the order.\n\n20. Defective items are covered for the warranty period shown on the product page, counted in days from the date of delivery. Items returned with signs of use beyond reasonable inspection, missing parts or unauthorised modifications are treated as damaged for the purpose of fees.\n\n21. Pick-up slots are offered on weekdays between nine in the morning and six in the evening. A missed pick-up may delay the refund by up to seven working days. Returns are accepted only for items purchased directly from the store and shipped by the store's own logistics partners.\n\n22. The store may refuse a return where the request is made outside the return window or where the evidence provided does not match the order. Where the wrong item was shipped the store arranges a pick-up at no cost and sends the item that was actually ordered. No restocking fee applies.\n\n23. Disputes about inspection results are handled by the quality team within ten working days. The decision of the quality team is final. Customers are responsible for keeping the original packaging, accessories and documentation until the return has been decided.\n\n24. Returns are accepted only for items purchased directly from the store and shipped by the store's own logistics partners. Pick-up slots are offered on weekdays between nine in the morning and six in the evening. A missed pick-up may delay the refund by up to seven working days.\n\n25. A return request is considered open from the moment a return merchandise authorisation (RMA) number is issued and remains open until the goods are inspected at the warehouse. Inspection findings are final. Photographs taken at inspection form part of the record and may be shared with the customer on request.\n\n26. Customers are responsible for keeping the original packaging, accessories and documentation until the return has been decided. Disputes about inspection results are handled by the quality team within ten working days. The decision of the quality team is final.\n\n27. Refunds are issued to the original payment method. Cash-on-delivery orders are refunded by bank transfer after the account details are verified. Gift cards, perishable goods and made-to-order items cannot be returned. Items marked final sale on the product page are excluded from change-of-mind returns.\n\n28. Inspection findings are final. Photographs ta"
+  },
+  {
+   "step": 12,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=2"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 13,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=2",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=3"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 14,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=3",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=4"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 15,
+   "goal": "Look for RMA-74757 on the next page of the list.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=4",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "class": "",
+     "href": "/returns?page=5"
+    },
+    "text": "Next \u203a",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 16,
+   "goal": "Open return RMA-74757 to fill in the decision.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns?page=5",
+   "el": {
+    "node": "a",
+    "attrs": {
+     "href": "/returns/88637011"
+    },
+    "text": "RMA-74757",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 17,
+   "goal": "Choose Refund.",
+   "kind": "select",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "select",
+    "attrs": {
+     "id": "disposition",
+     "name": "disposition"
+    },
+    "text": "Choose\u2026\nRefund\nReplace\nReject",
+    "xpath": ""
+   },
+   "value": "Refund"
+  },
+  {
+   "step": 18,
+   "goal": "Enter the refund amount.",
+   "kind": "input",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "input",
+    "attrs": {
+     "type": "number",
+     "id": "refund_amount",
+     "name": "refund_amount",
+     "min": "0",
+     "step": "1",
+     "required": ""
+    },
+    "text": "Refund amount (\u20b9)",
+    "xpath": ""
+   },
+   "value": "850"
+  },
+  {
+   "step": 19,
+   "goal": "Open the calendar to choose the pick-up date.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "id": "pickup-open"
+    },
+    "text": "Choose date",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 20,
+   "goal": "Go to the next month in the calendar.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "id": "cal-next",
+     "title": "Next month"
+    },
+    "text": "\u203a",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 21,
+   "goal": "Choose day 27 as the pick-up date.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "class": "day"
+    },
+    "text": "27",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 22,
+   "goal": "Save the decision.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "submit",
+     "id": "save",
+     "class": "primary"
+    },
+    "text": "Save decision",
+    "xpath": ""
+   }
+  },
+  {
+   "step": 23,
+   "goal": "Confirm the decision in the dialog.",
+   "kind": "click",
+   "url": "http://localhost:5181/returns/88637011",
+   "el": {
+    "node": "button",
+    "attrs": {
+     "type": "button",
+     "id": "confirm-yes",
+     "class": "primary"
+    },
+    "text": "Confirm",
+    "xpath": ""
+   }
+  }
+ ]
+}

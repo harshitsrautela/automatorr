@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+browser-use
+supabase
+python-dotenv
+pydantic

@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>terminautomator v2</title>
+<style>
+  :root {
+    --bg-0: #05060a;
+    --glass: rgba(255, 255, 255, 0.055);
+    --glass-strong: rgba(255, 255, 255, 0.09);
+    --glass-stronger: rgba(255, 255, 255, 0.13);
+    --glass-border: rgba(255, 255, 255, 0.11);
+    --glass-border-soft: rgba(255, 255, 255, 0.07);
+    --text: #f2f4f8;
+    --muted: #9399ab;
+    --muted-2: #6b7180;
+    --accent-a: #4f7bff;
+    --accent-b: #9d5bff;
+    --accent-c: #ff6fd8;
+    --green: #35e0a8;
+    --yellow: #ffc857;
+    --red: #ff6b81;
+    --blue: #5ec8ff;
+    --purple: #b9a8ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg-0);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Soft drifting color blobs behind everything - the classic glassmorphism
+     backdrop. Fixed + blurred heavily so panels in front read as frosted
+     glass with real color coming through, not just flat translucency. */
+  .bg-blob {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(110px);
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.55;
+  }
+  .bg-blob.a {
+    width: 620px; height: 620px; top: -220px; left: -160px;
+    background: radial-gradient(circle at 30% 30%, var(--accent-a), transparent 70%);
+    animation: drift1 22s ease-in-out infinite;
+  }
+  .bg-blob.b {
+    width: 560px; height: 560px; top: 20%; right: -220px;
+    background: radial-gradient(circle at 60% 40%, var(--accent-b), transparent 70%);
+    animation: drift2 26s ease-in-out infinite;
+  }
+  .bg-blob.c {
+    width: 480px; height: 480px; bottom: -200px; left: 30%;
+    background: radial-gradient(circle at 50% 50%, var(--accent-c), transparent 70%);
+    opacity: 0.35;
+    animation: drift3 30s ease-in-out infinite;
+  }
+  @keyframes drift1 { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(40px,60px) scale(1.08); } }
+  @keyframes drift2 { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(-50px,30px) scale(0.95); } }
+  @keyframes drift3 { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(30px,-40px) scale(1.05); } }
+
+  .wrap { position: relative; z-index: 1; max-width: 1040px; margin: 0 auto; padding: 48px 20px 100px; }
+
+  .header { margin-bottom: 32px; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .brand-mark {
+    width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+    box-shadow: 0 4px 18px rgba(79, 123, 255, 0.45);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 700; color: white;
+  }
+  h1 { font-size: 21px; font-weight: 650; margin: 0; letter-spacing: -0.01em; }
+  .subtitle { color: var(--muted); font-size: 13.5px; line-height: 1.6; margin: 0; max-width: 640px; }
+  .subtitle code {
+    background: var(--glass-strong); border: 1px solid var(--glass-border-soft);
+    border-radius: 5px; padding: 1px 6px; font-size: 12.5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  .start-row { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 36px 0 40px; }
+
+  #startBtn {
+    font-size: 16.5px;
+    font-weight: 640;
+    padding: 17px 46px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+    color: white;
+    cursor: pointer;
+    letter-spacing: -0.01em;
+    box-shadow:
+      0 10px 30px rgba(79, 123, 255, 0.38),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    transition: transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.18s ease, opacity 0.2s ease;
+  }
+  #startBtn:hover:not(:disabled) {
+    transform: translateY(-2px) scale(1.015);
+    box-shadow: 0 14px 38px rgba(79, 123, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  }
+  #startBtn:active:not(:disabled) { transform: translateY(0) scale(0.99); }
+  #startBtn:disabled {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--glass-border);
+    color: var(--muted);
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+
+  #abortBtn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 24px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 107, 129, 0.4);
+    background: rgba(255, 107, 129, 0.08);
+    backdrop-filter: blur(12px);
+    color: var(--red);
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease, background 0.15s ease;
+  }
+  #abortBtn.visible { display: inline-block; opacity: 1; transform: translateY(0); }
+  #abortBtn:hover:not(:disabled) { background: rgba(255, 107, 129, 0.16); }
+  #abortBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .panel {
+    background: var(--glass);
+    backdrop-filter: blur(28px) saturate(160%);
+    -webkit-backdrop-filter: blur(28px) saturate(160%);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 22px 24px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition: box-shadow 0.4s ease, border-color 0.4s ease;
+  }
+  .panel.celebrate {
+    border-color: rgba(53, 224, 168, 0.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(53, 224, 168, 0.25), 0 0 40px rgba(53, 224, 168, 0.18);
+  }
+  .panel-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; gap: 12px; flex-wrap: wrap; }
+  .panel h2 {
+    font-size: 11.5px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted-2); margin: 0;
+  }
+  .panel-head h2 { margin: 0; }
+
+  .status-line { display: flex; align-items: center; gap: 10px; font-size: 15.5px; font-weight: 500; margin-bottom: 12px; }
+  .dot {
+    width: 9px; height: 9px; border-radius: 50%; background: var(--muted-2); flex-shrink: 0;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+  }
+  .dot.running { background: var(--yellow); box-shadow: 0 0 12px rgba(255, 200, 87, 0.7); animation: pulse 1.3s infinite; }
+  .dot.done { background: var(--green); box-shadow: 0 0 12px rgba(53, 224, 168, 0.7); }
+  .dot.error { background: var(--red); box-shadow: 0 0 12px rgba(255, 107, 129, 0.7); }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+  .elapsed {
+    margin-left: auto;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--muted);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: var(--glass-strong);
+    border: 1px solid var(--glass-border-soft);
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: none;
+    align-items: center;
+    gap: 5px;
+  }
+  .elapsed.visible { display: inline-flex; }
+  .elapsed svg { width: 11px; height: 11px; opacity: 0.75; }
+
+  .progress-bar-outer {
+    height: 7px; border-radius: 4px; background: rgba(255, 255, 255, 0.06);
+    overflow: hidden; margin-top: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+  }
+  .progress-bar-inner {
+    height: 100%; width: 0%;
+    background: linear-gradient(90deg, var(--accent-a), var(--accent-b));
+    box-shadow: 0 0 10px rgba(157, 91, 255, 0.6);
+    transition: width 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.3s ease;
+  }
+  .progress-bar-inner.error { background: linear-gradient(90deg, #ff8a6b, var(--red)); box-shadow: 0 0 10px rgba(255, 107, 129, 0.5); }
+
+  .now-card {
+    margin-top: 14px;
+    padding: 12px 14px;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid var(--glass-border-soft);
+    border-radius: 12px;
+    display: none;
+    align-items: center;
+    gap: 10px;
+    min-height: 20px;
+  }
+  .now-card.visible { display: flex; }
+  .now-card .mode-pill {
+    flex-shrink: 0;
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    padding: 3px 8px; border-radius: 20px;
+  }
+  .mode-pill.cold { background: rgba(185, 168, 255, 0.16); color: var(--purple); border: 1px solid rgba(185, 168, 255, 0.3); }
+  .mode-pill.replay { background: rgba(94, 200, 255, 0.14); color: var(--blue); border: 1px solid rgba(94, 200, 255, 0.28); }
+  .now-card .now-text { font-size: 13px; color: var(--muted); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .now-card .now-text b { color: var(--text); font-weight: 560; }
+
+  .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 12px; }
+  .stat {
+    background: var(--glass-strong);
+    border: 1px solid var(--glass-border-soft);
+    border-radius: 14px;
+    padding: 14px 16px;
+    transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat:hover { background: var(--glass-stronger); transform: translateY(-1px); }
+  .stat .num { font-size: 23px; font-weight: 700; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .stat .label { font-size: 10.5px; color: var(--muted-2); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 3px; }
+  .stat.green .num { color: var(--green); text-shadow: 0 0 20px rgba(53, 224, 168, 0.35); }
+  .stat.red .num { color: var(--red); text-shadow: 0 0 20px rgba(255, 107, 129, 0.35); }
+  .stat.blue .num { color: var(--blue); text-shadow: 0 0 20px rgba(94, 200, 255, 0.35); }
+  .stat.purple .num { color: var(--purple); text-shadow: 0 0 20px rgba(185, 168, 255, 0.35); }
+  .stat.updated { animation: statBump 0.35s ease; }
+  @keyframes statBump { 0% { transform: scale(1); } 35% { transform: scale(1.06); } 100% { transform: scale(1); } }
+
+  /* --- Reconciliation panel: hidden until a cleanup pass actually starts --- */
+  #reconcilePanel { display: none; }
+  #reconcilePanel.visible { display: block; }
+  .recon-line { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .recon-line b { color: var(--text); }
+  .recon-counts { display: flex; gap: 16px; margin-top: 10px; font-size: 12px; color: var(--muted-2); }
+  .recon-counts span b { color: var(--text); font-variant-numeric: tabular-nums; }
+  .recon-counts .fixed b { color: var(--green); }
+  .recon-counts .skipped b { color: var(--yellow); }
+
+  /* --- Live log --- */
+  .log-toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    font-size: 11px; font-weight: 600; padding: 5px 11px; border-radius: 20px;
+    background: var(--glass-strong); border: 1px solid var(--glass-border-soft);
+    color: var(--muted); cursor: pointer; user-select: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .chip:hover { background: var(--glass-stronger); }
+  .chip.active { color: var(--text); border-color: rgba(255,255,255,0.22); }
+  .chip.active[data-cat="hit"] { color: var(--green); border-color: rgba(53, 224, 168, 0.35); background: rgba(53, 224, 168, 0.08); }
+  .chip.active[data-cat="miss"] { color: var(--yellow); border-color: rgba(255, 200, 87, 0.35); background: rgba(255, 200, 87, 0.08); }
+  .chip.active[data-cat="error"] { color: var(--red); border-color: rgba(255, 107, 129, 0.35); background: rgba(255, 107, 129, 0.08); }
+  .chip.active[data-cat="step"] { color: var(--blue); border-color: rgba(94, 200, 255, 0.35); background: rgba(94, 200, 255, 0.08); }
+  .icon-btn {
+    width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center;
+    background: var(--glass-strong); border: 1px solid var(--glass-border-soft); color: var(--muted);
+    cursor: pointer; transition: background 0.15s ease, color 0.15s ease; flex-shrink: 0;
+  }
+  .icon-btn:hover { background: var(--glass-stronger); color: var(--text); }
+  .icon-btn svg { width: 14px; height: 14px; }
+  .toolbar-spacer { flex: 1; }
+  .toolbar-right { display: flex; gap: 6px; }
+
+  .log-wrap { position: relative; margin-top: 14px; }
+  #log {
+    height: 420px;
+    overflow-y: auto;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12.5px;
+    line-height: 1.7;
+    background: rgba(0, 0, 0, 0.28);
+    border: 1px solid var(--glass-border-soft);
+    border-radius: 14px;
+    padding: 6px 10px;
+  }
+  #log::-webkit-scrollbar { width: 8px; }
+  #log::-webkit-scrollbar-track { background: transparent; }
+  #log::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.12); border-radius: 8px; }
+  #log::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.2); }
+
+  .log-line {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 3px 6px; border-radius: 6px;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  .log-line:hover { background: rgba(255, 255, 255, 0.035); }
+  .log-line .icon { flex-shrink: 0; width: 14px; height: 14px; margin-top: 2.5px; }
+  .log-line .icon svg { width: 14px; height: 14px; display: block; }
+  .log-line .ts { flex-shrink: 0; color: var(--muted-2); font-size: 11px; margin-top: 1px; min-width: 56px; }
+  .log-line .tag { flex-shrink: 0; font-weight: 650; min-width: 96px; }
+  .tag.hit { color: var(--green); }
+  .tag.miss { color: var(--yellow); }
+  .tag.error { color: var(--red); }
+  .tag.step { color: var(--blue); }
+  .tag.record { color: var(--purple); }
+  .tag.batch { color: var(--muted); }
+  .log-line .msg { color: rgba(242, 244, 248, 0.88); min-width: 0; }
+  .log-empty { color: var(--muted-2); font-style: italic; padding: 10px 6px; }
+
+  .log-line.record-divider {
+    margin-top: 6px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .log-line.record-divider .msg { font-weight: 560; color: var(--text); }
+
+  .jump-btn {
+    position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%) translateY(8px);
+    background: var(--accent-a); color: white; font-size: 11.5px; font-weight: 650;
+    padding: 7px 16px; border-radius: 20px; border: none; cursor: pointer;
+    box-shadow: 0 6px 20px rgba(79, 123, 255, 0.5);
+    opacity: 0; pointer-events: none; transition: opacity 0.18s ease, transform 0.18s ease;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .jump-btn.visible { opacity: 1; pointer-events: auto; transform: translateX(-50%) translateY(0); }
+  .jump-btn svg { width: 12px; height: 12px; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 32px 14px 80px; }
+    .panel { padding: 18px 16px; border-radius: 16px; }
+    #startBtn { padding: 15px 34px; font-size: 15px; }
+    .summary-grid { grid-template-columns: repeat(2, 1fr); }
+    .log-line .tag { min-width: 76px; }
+    .log-line .ts { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="bg-blob a"></div>
+<div class="bg-blob b"></div>
+<div class="bg-blob c"></div>
+
+<div class="wrap">
+  <div class="header">
+    <div class="brand">
+      <div class="brand-mark">t</div>
+      <h1>terminautomator — v2 (cache-aware)</h1>
+    </div>
+    <p class="subtitle">Pushes every entry in <code>sample_records.json</code> into DataDesk / Supabase. First record it doesn't know how to do yet uses the live agent (Gemini); every one after that replays from cache.</p>
+  </div>
+
+  <div class="start-row">
+    <button id="startBtn">Start Batch</button>
+    <button id="abortBtn">Abort</button>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Status</h2>
+      <span class="elapsed" id="elapsed">
+        <svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.2" stroke="currentColor" stroke-width="1.3"/><path d="M8 4.6V8l2.4 1.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        <span id="elapsedText">0:00</span>
+      </span>
+    </div>
+    <div class="status-line">
+      <span class="dot" id="statusDot"></span>
+      <span id="statusText">Idle</span>
+    </div>
+    <div class="progress-bar-outer"><div class="progress-bar-inner" id="progressBar"></div></div>
+    <div class="now-card" id="nowCard">
+      <span class="mode-pill" id="nowModePill">—</span>
+      <span class="now-text" id="nowText"></span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Summary</h2>
+    <div class="summary-grid">
+      <div class="stat green"><div class="num" id="statSucceeded">0</div><div class="label">Succeeded</div></div>
+      <div class="stat red"><div class="num" id="statFailed">0</div><div class="label">Failed</div></div>
+      <div class="stat blue"><div class="num" id="statHits">0</div><div class="label">Cache Hits</div></div>
+      <div class="stat"><div class="num" id="statMisses">0</div><div class="label">Cache Misses</div></div>
+      <div class="stat"><div class="num" id="statLlm">0</div><div class="label">LLM Steps</div></div>
+      <div class="stat purple"><div class="num" id="statHitRate">—</div><div class="label">Hit Rate</div></div>
+      <div class="stat green"><div class="num" id="statAccuracy">—</div><div class="label">Field Accuracy</div></div>
+    </div>
+  </div>
+
+  <div class="panel" id="reconcilePanel">
+    <h2>Reconciliation</h2>
+    <div class="recon-line" id="reconcileText"></div>
+    <div class="progress-bar-outer"><div class="progress-bar-inner" id="reconcileBar"></div></div>
+    <div class="recon-counts">
+      <span class="fixed">Fixed: <b id="reconcileFixed">0</b></span>
+      <span class="skipped">Still open: <b id="reconcileSkipped">0</b></span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <h2>Live log</h2>
+      <div class="log-toolbar">
+        <span class="chip active" data-filter="all">All</span>
+        <span class="chip active" data-cat="hit" data-filter="hit">Hits</span>
+        <span class="chip active" data-cat="miss" data-filter="miss">Misses</span>
+        <span class="chip active" data-cat="error" data-filter="error">Errors</span>
+        <span class="chip active" data-cat="step" data-filter="step">Steps</span>
+        <span class="toolbar-spacer"></span>
+        <div class="toolbar-right">
+          <span class="icon-btn" id="copyLogBtn" title="Copy log">
+            <svg viewBox="0 0 16 16" fill="none"><rect x="5.5" y="5.5" width="8" height="8" rx="1.4" stroke="currentColor" stroke-width="1.3"/><path d="M3.5 10.5V3.9A1.4 1.4 0 0 1 4.9 2.5h6.1" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+          <span class="icon-btn" id="downloadLogBtn" title="Download log">
+            <svg viewBox="0 0 16 16" fill="none"><path d="M8 2.5v7.4M5.2 7.4L8 10.2l2.8-2.8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 12.5h10" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="log-wrap">
+      <div id="log"><div class="log-empty">Nothing yet — click Start Batch.</div></div>
+      <button class="jump-btn" id="jumpBtn">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M3.5 6.5L8 11l4.5-4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        New activity
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+const startBtn = document.getElementById('startBtn');
+const abortBtn = document.getElementById('abortBtn');
+const statusDot = document.getElementById('statusDot');
+const statusText = document.getElementById('statusText');
+const progressBar = document.getElementById('progressBar');
+const elapsedEl = document.getElementById('elapsed');
+const elapsedText = document.getElementById('elapsedText');
+const nowCard = document.getElementById('nowCard');
+const nowModePill = document.getElementById('nowModePill');
+const nowText = document.getElementById('nowText');
+const logEl = document.getElementById('log');
+const jumpBtn = document.getElementById('jumpBtn');
+const copyLogBtn = document.getElementById('copyLogBtn');
+const downloadLogBtn = document.getElementById('downloadLogBtn');
+const reconcilePanel = document.getElementById('reconcilePanel');
+const reconcileText = document.getElementById('reconcileText');
+const reconcileBar = document.getElementById('reconcileBar');
+const reconcileFixed = document.getElementById('reconcileFixed');
+const reconcileSkipped = document.getElementById('reconcileSkipped');
+const statSucceeded = document.getElementById('statSucceeded');
+const statFailed = document.getElementById('statFailed');
+const statHits = document.getElementById('statHits');
+const statMisses = document.getElementById('statMisses');
+const statLlm = document.getElementById('statLlm');
+const statHitRate = document.getElementById('statHitRate');
+const statAccuracy = document.getElementById('statAccuracy');
+const summaryPanel = statSucceeded.closest('.panel');
+
+let es = null;
+let totals = { succeeded: 0, failed: 0, hits: 0, misses: 0, llm: 0, accuracy: null };
+let logEmpty = true;
+// With up to 10 records replaying concurrently, their hit/miss/step events
+// interleave in one flat stream - tag each line with which record it
+// belongs to (from the record_start event) so the log stays readable.
+let recordIndexById = {};
+function tag(recordId) {
+  const idx = recordIndexById[recordId];
+  return idx ? `#${idx}` : (recordId || '');
+}
+// Batch-level events (e.g. the quota-exhaustion abort) carry record_id: null
+// - tag(null) correctly returns '', but every call site below assumed a
+// non-empty tag and did `${tag(id)} word`, leaving a stray leading space.
+// This keeps the label clean either way instead of fixing it at each site.
+function labelWithTag(recordId, word) {
+  const t = tag(recordId);
+  return t ? `${t} ${word}` : word;
+}
+
+// --- small inline icon set, one per log category ---
+const ICONS = {
+  hit: '<svg viewBox="0 0 16 16" fill="none"><path d="M3 8.3l3.2 3.2L13 4.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  miss: '<svg viewBox="0 0 16 16" fill="none"><path d="M8 1.8l6.3 11H1.7L8 1.8z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M8 6.4v3M8 11.2h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
+  error: '<svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.3" stroke="currentColor" stroke-width="1.3"/><path d="M5.8 5.8l4.4 4.4M10.2 5.8l-4.4 4.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>',
+  step: '<svg viewBox="0 0 16 16" fill="none"><path d="M6 3.3l5 4.7-5 4.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  record: '<svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="5.6" r="2.4" stroke="currentColor" stroke-width="1.3"/><path d="M3 13c0-2.5 2.2-4 5-4s5 1.5 5 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>',
+  batch: '<svg viewBox="0 0 16 16" fill="none"><path d="M8 2l6 3.2-6 3.2-6-3.2L8 2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M2 8.6l6 3.2 6-3.2" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M2 11.8l6 3.2 6-3.2" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>',
+};
+
+// Only these categories are toggleable via the filter chips - record/batch
+// lines are structural (batch banners, "record N started" dividers) and
+// always stay visible regardless of which chips are active.
+const FILTERABLE = new Set(['hit', 'miss', 'error', 'step']);
+let activeFilters = new Set(FILTERABLE);
+
+function setDot(state) {
+  statusDot.className = 'dot ' + state;
+}
+
+function setRunning(running) {
+  startBtn.disabled = running;
+  startBtn.textContent = running ? 'Running…' : 'Start Batch';
+  abortBtn.classList.toggle('visible', running);
+  abortBtn.disabled = false;
+  abortBtn.textContent = 'Abort';
+  if (!running) nowCard.classList.remove('visible');
+}
+
+// --- elapsed timer ---
+let batchStartedAt = null;
+let elapsedTimerId = null;
+function startElapsed() {
+  batchStartedAt = Date.now();
+  elapsedEl.classList.add('visible');
+  clearInterval(elapsedTimerId);
+  elapsedTimerId = setInterval(renderElapsed, 1000);
+  renderElapsed();
+}
+function stopElapsed() {
+  clearInterval(elapsedTimerId);
+}
+function renderElapsed() {
+  if (!batchStartedAt) return;
+  const total = Math.floor((Date.now() - batchStartedAt) / 1000);
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  elapsedText.textContent = `${m}:${String(s).padStart(2, '0')}`;
+}
+
+// --- log scroll handling: only auto-follow if the user hasn't scrolled up ---
+function isNearBottom() {
+  return logEl.scrollHeight - logEl.scrollTop - logEl.clientHeight < 60;
+}
+jumpBtn.addEventListener('click', () => {
+  logEl.scrollTop = logEl.scrollHeight;
+  jumpBtn.classList.remove('visible');
+});
+
+function applyFilters() {
+  logEl.querySelectorAll('.log-line[data-cat]').forEach((line) => {
+    const cat = line.dataset.cat;
+    if (!FILTERABLE.has(cat)) return; // record/batch lines are never filtered
+    line.style.display = activeFilters.has(cat) ? '' : 'none';
+  });
+}
+document.querySelectorAll('.chip').forEach((chip) => {
+  chip.addEventListener('click', () => {
+    if (chip.dataset.filter === 'all') {
+      activeFilters = new Set(FILTERABLE);
+    } else {
+      const cat = chip.dataset.cat;
+      if (activeFilters.has(cat)) activeFilters.delete(cat); else activeFilters.add(cat);
+    }
+    document.querySelectorAll('.chip[data-cat]').forEach((c) => {
+      c.classList.toggle('active', activeFilters.has(c.dataset.cat));
+    });
+    document.querySelector('.chip[data-filter="all"]').classList.toggle('active', activeFilters.size === FILTERABLE.size);
+    applyFilters();
+  });
+});
+
+function appendLog(catKey, tagLabel, msg, opts) {
+  opts = opts || {};
+  if (logEmpty) { logEl.innerHTML = ''; logEmpty = false; }
+
+  const wasNearBottom = isNearBottom();
+  const now = new Date();
+  const ts = now.toLocaleTimeString('en-US', { hour12: false });
+
+  const line = document.createElement('div');
+  line.className = 'log-line' + (opts.divider ? ' record-divider' : '');
+  line.dataset.cat = catKey;
+  line.dataset.plain = `[${ts}] ${tagLabel}  ${msg}`;
+
+  const icon = document.createElement('span');
+  icon.className = 'icon';
+  icon.style.color = `var(--${({ hit: 'green', miss: 'yellow', error: 'red', step: 'blue', record: 'purple', batch: 'muted' })[catKey] || 'muted'})`;
+  icon.innerHTML = ICONS[catKey] || ICONS.batch;
+
+  const tsSpan = document.createElement('span');
+  tsSpan.className = 'ts';
+  tsSpan.textContent = ts;
+
+  const tagSpan = document.createElement('span');
+  tagSpan.className = 'tag ' + catKey;
+  tagSpan.textContent = tagLabel;
+
+  const msgSpan = document.createElement('span');
+  msgSpan.className = 'msg';
+  msgSpan.textContent = msg;
+
+  line.append(icon, tsSpan, tagSpan, msgSpan);
+
+  if (FILTERABLE.has(catKey) && !activeFilters.has(catKey)) {
+    line.style.display = 'none';
+  }
+
+  logEl.appendChild(line);
+
+  if (wasNearBottom) {
+    logEl.scrollTop = logEl.scrollHeight;
+    jumpBtn.classList.remove('visible');
+  } else {
+    jumpBtn.classList.add('visible');
+  }
+}
+
+function getLogText() {
+  return [...logEl.querySelectorAll('.log-line')].map((l) => l.dataset.plain).join('\n');
+}
+copyLogBtn.addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(getLogText());
+    flashIcon(copyLogBtn);
+  } catch (err) { console.error(err); }
+});
+downloadLogBtn.addEventListener('click', () => {
+  const blob = new Blob([getLogText()], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `terminautomator-log-${Date.now()}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  flashIcon(downloadLogBtn);
+});
+function flashIcon(el) {
+  el.style.color = 'var(--green)';
+  setTimeout(() => { el.style.color = ''; }, 500);
+}
+
+function bump(el) {
+  el.parentElement.classList.remove('updated');
+  // eslint-disable-next-line no-unused-expressions
+  el.parentElement.offsetWidth; // restart the animation
+  el.parentElement.classList.add('updated');
+}
+
+function resetSummary() {
+  totals = { succeeded: 0, failed: 0, hits: 0, misses: 0, llm: 0, accuracy: null };
+  renderSummary();
+  reconcilePanel.classList.remove('visible');
+  summaryPanel.classList.remove('celebrate');
+}
+
+function renderSummary() {
+  statSucceeded.textContent = totals.succeeded;
+  statFailed.textContent = totals.failed;
+  statHits.textContent = totals.hits;
+  statMisses.textContent = totals.misses;
+  statLlm.textContent = totals.llm;
+  const hitDenom = totals.hits + totals.misses;
+  statHitRate.textContent = hitDenom ? `${((totals.hits / hitDenom) * 100).toFixed(0)}%` : '—';
+  statAccuracy.textContent = totals.accuracy === null ? '—' : `${(totals.accuracy * 100).toFixed(1)}%`;
+}
+
+function setNow(mode, html) {
+  nowCard.classList.add('visible');
+  nowModePill.textContent = mode === 'cold' ? 'Learning' : 'Replay';
+  nowModePill.className = 'mode-pill ' + (mode === 'cold' ? 'cold' : 'replay');
+  nowText.innerHTML = html;
+}
+
+function handleEvent(e) {
+  switch (e.type) {
+    case 'batch_start':
+      setDot('running'); statusText.textContent = `Running — 0 / ${e.total}`;
+      progressBar.classList.remove('error');
+      resetSummary();
+      startElapsed();
+      appendLog('batch', 'BATCH', `Starting batch of ${e.total} records.`);
+      break;
+    case 'record_start':
+      recordIndexById[e.record_id] = e.index;
+      statusText.textContent = `Running — ${e.index} / ${e.total}: ${e.name}`;
+      progressBar.style.width = `${((e.index - 1) / e.total) * 100}%`;
+      setNow(e.mode, `<b>${escapeHtml(e.name)}</b> — ${e.mode === 'cold' ? 'no cache yet, using live agent' : 'replaying from cache'}`);
+      appendLog('record', `#${e.index}/${e.total}`, `${e.name} — ${e.mode === 'cold' ? 'no cache yet, using live agent' : 'replaying from cache'}`, { divider: true });
+      break;
+    case 'step':
+      // Mode pill was already set correctly by this record's record_start -
+      // a step event only ever updates the activity text, never the mode.
+      if (e.instruction) nowText.innerHTML = `<b>${escapeHtml(e.instruction)}</b>`;
+      appendLog('step', labelWithTag(e.record_id, 'step'), e.instruction || `(step ${e.step_index})`);
+      break;
+    case 'field_hit':
+      totals.hits++; renderSummary(); bump(statHits); bump(statHitRate);
+      nowText.innerHTML = `<b>${escapeHtml(e.field)}</b> — cache hit`;
+      appendLog('hit', labelWithTag(e.record_id, 'hit'), `${e.field}`);
+      break;
+    case 'field_miss':
+      totals.misses++; renderSummary(); bump(statMisses); bump(statHitRate);
+      if (e.reason === 'circuit_open_skipped') {
+        nowText.innerHTML = `<b>${escapeHtml(e.field)}</b> — skipped (field currently failing repeatedly, left as-is)`;
+        appendLog('miss', labelWithTag(e.record_id, 'skip'), `${e.field} — circuit open, not retrying right now`);
+      } else {
+        nowText.innerHTML = `<b>${escapeHtml(e.field)}</b> — cache miss (${e.reason || 'unknown'}), falling back to live agent`;
+        appendLog('miss', labelWithTag(e.record_id, 'miss'), `${e.field} — ${e.reason || 'unknown'} — falling back to live agent`);
+      }
+      break;
+    case 'error':
+      appendLog('error', labelWithTag(e.record_id, 'error'), `${e.field ? e.field + ': ' : ''}${e.message}`);
+      break;
+    case 'record_done':
+      if (e.success) totals.succeeded++; else totals.failed++;
+      totals.llm += e.llm_steps || 0;
+      renderSummary(); bump(statSucceeded); bump(statFailed); bump(statLlm);
+      progressBar.style.width = `${(e.index / e.total) * 100}%`;
+      appendLog(
+        e.success ? 'hit' : 'error',
+        e.success ? 'done' : 'FAILED',
+        `Record ${e.index}/${e.total} (${e.record_id}) — ${e.mode}, ${e.cache_hits} hits / ${e.cache_misses} misses, ${e.llm_steps} LLM steps${e.success ? '' : ' — ' + (e.error_message || 'failed')}`
+      );
+      break;
+    case 'verification_done': {
+      totals.accuracy = e.field_accuracy;
+      renderSummary(); bump(statAccuracy);
+      const note = e.quota_exhausted
+        ? ' (stopped early — Gemini daily quota exhausted)'
+        : (e.aborted ? ' (batch was aborted)' : '');
+      appendLog('batch', 'VERIFY', `Supabase check: ${e.correct_fields}/${e.total_fields} fields correct (${(e.field_accuracy * 100).toFixed(1)}%), ${e.unmatched_records} records not found.${note}`);
+      break;
+    }
+    case 'batch_done': {
+      const failedState = e.aborted || e.quota_exhausted;
+      setDot(failedState ? 'error' : 'done');
+      progressBar.classList.toggle('error', Boolean(failedState));
+      const label = e.quota_exhausted ? 'Stopped (quota exhausted)' : (e.aborted ? 'Aborted' : 'Done');
+      statusText.textContent = `${label} — ${e.succeeded} succeeded, ${e.failed} failed`;
+      progressBar.style.width = '100%';
+      stopElapsed();
+      appendLog('batch', 'BATCH', `${label}: ${e.succeeded} succeeded, ${e.failed} failed.`);
+      setRunning(false);
+      if (!failedState && e.total > 0 && e.succeeded === e.total) {
+        summaryPanel.classList.add('celebrate');
+        setTimeout(() => summaryPanel.classList.remove('celebrate'), 2600);
+      }
+      // Deliberately NOT closing the connection here - a cleanup pass may
+      // still be about to start in the background (see
+      // reconciliation_start below) and its progress should keep showing
+      // up in this same log even though the batch itself is done and
+      // Start Batch is clickable again for a new run.
+      break;
+    }
+    case 'reconciliation_start':
+      reconcilePanel.classList.add('visible');
+      reconcilePanel.dataset.total = e.total;
+      reconcileFixed.textContent = '0';
+      reconcileSkipped.textContent = '0';
+      reconcileBar.style.width = '0%';
+      reconcileText.innerHTML = `Retrying <b>${e.total}</b> field(s) that landed incorrectly earlier, now that they may have recovered — running quietly in the background.`;
+      appendLog('batch', 'RECONCILE', `Retrying ${e.total} field(s) that landed incorrectly earlier, now that their fields may have recovered (running quietly in the background).`);
+      break;
+    case 'reconciliation_fix': {
+      const fixed = e.success ? Number(reconcileFixed.textContent) + 1 : Number(reconcileFixed.textContent);
+      const skipped = e.success ? Number(reconcileSkipped.textContent) : Number(reconcileSkipped.textContent) + 1;
+      reconcileFixed.textContent = fixed;
+      reconcileSkipped.textContent = skipped;
+      const total = Number(reconcilePanel.dataset.total) || (fixed + skipped) || 1;
+      reconcileBar.style.width = `${((fixed + skipped) / total) * 100}%`;
+      appendLog(e.success ? 'hit' : 'miss', e.success ? 'fixed' : 'still broken', `${e.record_id} / ${e.field}`);
+      break;
+    }
+    case 'reconciliation_done':
+      reconcileText.innerHTML = `Cleanup pass finished — <b>${e.fixed}</b> fixed, <b>${e.skipped}</b> still not fixable right now.`;
+      appendLog('batch', 'RECONCILE', `Cleanup pass finished: ${e.fixed} fixed, ${e.skipped} still not fixable right now.`);
+      break;
+    case 'reconciliation_error':
+      // Deliberately does NOT touch setRunning/setDot/statusText - this can
+      // fire well after a brand-new, unrelated batch has already started,
+      // and must never be mistaken for that batch dying.
+      reconcileText.innerHTML = `<span style="color:var(--red)">Cleanup pass failed — see server log.</span>`;
+      appendLog('error', 'RECONCILE', `Cleanup pass failed: ${e.message}`);
+      break;
+    case 'batch_error':
+      setDot('error'); progressBar.classList.add('error');
+      statusText.textContent = `Error: ${e.message}`;
+      stopElapsed();
+      appendLog('error', 'ERROR', e.message);
+      setRunning(false);
+      break;
+  }
+}
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function connectEvents() {
+  if (es) return;
+  es = new EventSource('/events');
+  es.onmessage = (evt) => {
+    if (!evt.data) return;
+    try { handleEvent(JSON.parse(evt.data)); } catch (err) { console.error(err); }
+  };
+  es.onerror = () => { /* EventSource auto-reconnects on its own */ };
+}
+
+startBtn.addEventListener('click', async () => {
+  setRunning(true);
+  logEl.innerHTML = ''; logEmpty = true;
+  recordIndexById = {};
+  setDot('running'); statusText.textContent = 'Starting…';
+  progressBar.classList.remove('error');
+  progressBar.style.width = '0%';
+  try {
+    const res = await fetch('/run/start', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ records_path: 'sample_records.json' }),
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body.detail || `HTTP ${res.status}`);
+    }
+    connectEvents();
+  } catch (err) {
+    setDot('error'); statusText.textContent = `Error: ${err.message}`;
+    setRunning(false);
+  }
+});
+
+abortBtn.addEventListener('click', async () => {
+  abortBtn.disabled = true;
+  abortBtn.textContent = 'Aborting…';
+  appendLog('batch', 'ABORT', 'Abort requested — records not yet started will be skipped; anything already in flight finishes first.');
+  try {
+    const res = await fetch('/run/abort', { method: 'POST' });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body.detail || `HTTP ${res.status}`);
+    }
+  } catch (err) {
+    appendLog('error', 'ERROR', `Abort request failed: ${err.message}`);
+    abortBtn.disabled = false;
+    abortBtn.textContent = 'Abort';
+  }
+});
+
+// If a batch is already running (e.g. page refresh mid-run), reflect that
+// and reconnect to the live stream instead of showing a stale idle button.
+(async () => {
+  try {
+    const res = await fetch('/status');
+    const s = await res.json();
+    if (s.state === 'running') {
+      setRunning(true); setDot('running');
+      statusText.textContent = `Running — ${s.current} / ${s.total}`;
+      resetSummary();
+      startElapsed();
+      connectEvents();
+    }
+  } catch (err) { /* backend not reachable yet - ignore */ }
+})();
+</script>
+</body>
+</html>

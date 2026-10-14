@@ -1,0 +1,5387 @@
+{
+ "today": "2026-10-09",
+ "claims": [
+  {
+   "key": "r0puyq",
+   "claim_no": "EXP-39101",
+   "employee_id": "E1006",
+   "city": "Coimbatore",
+   "trip_start": "2026-07-13",
+   "trip_end": "2026-07-15",
+   "submitted": "2026-08-20",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Coimbatore",
+     "amount": 15900,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 2 nights",
+     "amount": 7780,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 1100,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 400,
+     "currency": "INR",
+     "date": "2026-07-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-20",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-08-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "69cude",
+   "claim_no": "EXP-46657",
+   "employee_id": "E1019",
+   "city": "Kolkata",
+   "trip_start": "2026-08-09",
+   "trip_end": "2026-08-12",
+   "submitted": "2026-08-30",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Train",
+     "description": "Travel to and from Kolkata",
+     "amount": 4400,
+     "currency": "INR",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 1500,
+     "currency": "INR",
+     "date": "2026-08-10",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 3 nights",
+     "amount": 26790,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 920,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Missing"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-30",
+     "text": "Submitted by Zoya Qureshi"
+    },
+    {
+     "at": "2026-08-31",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "sv0lv8",
+   "claim_no": "EXP-52605",
+   "employee_id": "E1012",
+   "city": "Frankfurt",
+   "trip_start": "2026-07-31",
+   "trip_end": "2026-08-01",
+   "submitted": "2026-09-06",
+   "advance": 5000,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 16350,
+     "currency": "INR",
+     "date": "2026-07-31",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 9,
+     "currency": "EUR",
+     "date": "2026-07-31",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 1 night",
+     "amount": 113,
+     "currency": "EUR",
+     "date": "2026-08-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 9,
+     "currency": "EUR",
+     "date": "2026-08-01",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-06",
+     "text": "Submitted by Reyansh Das"
+    },
+    {
+     "at": "2026-09-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "vxd1zn",
+   "claim_no": "EXP-44005",
+   "employee_id": "E1021",
+   "city": "Guwahati",
+   "trip_start": "2026-06-11",
+   "trip_end": "2026-06-15",
+   "submitted": "2026-07-26",
+   "advance": 2000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Guwahati hotel, 4 nights",
+     "amount": 7610,
+     "currency": "INR",
+     "date": "2026-06-11",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Guwahati",
+     "amount": 15650,
+     "currency": "INR",
+     "date": "2026-06-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Guwahati",
+     "amount": 1650,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 440,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-26",
+     "text": "Submitted by Pari Saxena"
+    },
+    {
+     "at": "2026-07-27",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "a29gin",
+   "claim_no": "EXP-47317",
+   "employee_id": "E1002",
+   "city": "Lucknow",
+   "trip_start": "2026-08-06",
+   "trip_end": "2026-08-08",
+   "submitted": "2026-09-14",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Lucknow hotel, 2 nights",
+     "amount": 9800,
+     "currency": "INR",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Lucknow",
+     "amount": 3700,
+     "currency": "INR",
+     "date": "2026-08-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 1350,
+     "currency": "INR",
+     "date": "2026-08-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 320,
+     "currency": "INR",
+     "date": "2026-08-08",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-14",
+     "text": "Submitted by Kabir Singh"
+    },
+    {
+     "at": "2026-09-15",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "s8jd24",
+   "claim_no": "EXP-63536",
+   "employee_id": "E1015",
+   "city": "Lucknow",
+   "trip_start": "2026-08-17",
+   "trip_end": "2026-08-18",
+   "submitted": "2026-09-05",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Lucknow hotel, 1 night",
+     "amount": 3120,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 880,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Lucknow",
+     "amount": 13050,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 200,
+     "currency": "INR",
+     "date": "2026-08-18",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-05",
+     "text": "Submitted by Tara Sethi"
+    },
+    {
+     "at": "2026-09-06",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "uq9otl",
+   "claim_no": "EXP-12357",
+   "employee_id": "E1003",
+   "city": "Nashik",
+   "trip_start": "2026-08-12",
+   "trip_end": "2026-08-15",
+   "submitted": "2026-09-06",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Nashik",
+     "amount": 1850,
+     "currency": "INR",
+     "date": "2026-08-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Nashik",
+     "amount": 1300,
+     "currency": "INR",
+     "date": "2026-08-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Nashik hotel, 3 nights",
+     "amount": 6000,
+     "currency": "INR",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 360,
+     "currency": "INR",
+     "date": "2026-08-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-06",
+     "text": "Submitted by Ananya Rao"
+    },
+    {
+     "at": "2026-09-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "4b9xak",
+   "claim_no": "EXP-98550",
+   "employee_id": "E1004",
+   "city": "Frankfurt",
+   "trip_start": "2026-06-12",
+   "trip_end": "2026-06-15",
+   "submitted": "2026-07-14",
+   "advance": 2000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 3 nights",
+     "amount": 279,
+     "currency": "EUR",
+     "date": "2026-06-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 11,
+     "currency": "EUR",
+     "date": "2026-06-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 19,
+     "currency": "EUR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 1750,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Missing"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-14",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-07-15",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "t7zo7j",
+   "claim_no": "EXP-14316",
+   "employee_id": "E1020",
+   "city": "Dubai",
+   "trip_start": "2026-06-20",
+   "trip_end": "2026-06-23",
+   "submitted": "2026-08-18",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 3 nights",
+     "amount": 1134,
+     "currency": "AED",
+     "date": "2026-06-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 8000,
+     "currency": "INR",
+     "date": "2026-06-23",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 39,
+     "currency": "AED",
+     "date": "2026-06-23",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-18",
+     "text": "Submitted by Om Kulkarni"
+    },
+    {
+     "at": "2026-08-19",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "j9w4lf",
+   "claim_no": "EXP-35083",
+   "employee_id": "E1010",
+   "city": "Ahmedabad",
+   "trip_start": "2026-06-15",
+   "trip_end": "2026-06-16",
+   "submitted": "2026-06-19",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Ahmedabad",
+     "amount": 850,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 480,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Ahmedabad",
+     "amount": 2300,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Ahmedabad hotel, 1 night",
+     "amount": 3880,
+     "currency": "INR",
+     "date": "2026-06-16",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-06-19",
+     "text": "Submitted by Aditya Verma"
+    },
+    {
+     "at": "2026-06-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "caw5j4",
+   "claim_no": "EXP-81249",
+   "employee_id": "E1006",
+   "city": "Singapore",
+   "trip_start": "2026-06-11",
+   "trip_end": "2026-06-15",
+   "submitted": "2026-07-06",
+   "advance": 5000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 14,
+     "currency": "SGD",
+     "date": "2026-06-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 4 nights (company booking)",
+     "amount": 44000,
+     "currency": "INR",
+     "date": "2026-06-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 11700,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 10,
+     "currency": "SGD",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-06",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-07-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "bb0wxe",
+   "claim_no": "EXP-22220",
+   "employee_id": "E1014",
+   "city": "Guwahati",
+   "trip_start": "2026-06-14",
+   "trip_end": "2026-06-15",
+   "submitted": "2026-08-23",
+   "advance": 0,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Guwahati",
+     "amount": 17800,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Guwahati",
+     "amount": 550,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Guwahati hotel, 1 night",
+     "amount": 2650,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 680,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-23",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-08-24",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "xboe60",
+   "claim_no": "EXP-20726",
+   "employee_id": "E1007",
+   "city": "Ahmedabad",
+   "trip_start": "2026-08-09",
+   "trip_end": "2026-08-12",
+   "submitted": "2026-08-20",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Ahmedabad hotel, 3 nights",
+     "amount": 8820,
+     "currency": "INR",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Ahmedabad",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Ahmedabad",
+     "amount": 11850,
+     "currency": "INR",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-20",
+     "text": "Submitted by Meera Iyer"
+    },
+    {
+     "at": "2026-08-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "l2hcgn",
+   "claim_no": "EXP-52684",
+   "employee_id": "E1013",
+   "city": "Guwahati",
+   "trip_start": "2026-06-15",
+   "trip_end": "2026-06-18",
+   "submitted": "2026-08-11",
+   "advance": 2000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Guwahati hotel, 3 nights",
+     "amount": 8330,
+     "currency": "INR",
+     "date": "2026-06-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 560,
+     "currency": "INR",
+     "date": "2026-06-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Guwahati",
+     "amount": 15850,
+     "currency": "INR",
+     "date": "2026-06-18",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Guwahati",
+     "amount": 1700,
+     "currency": "INR",
+     "date": "2026-06-18",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-11",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-08-12",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "mxg5yz",
+   "claim_no": "EXP-47669",
+   "employee_id": "E1016",
+   "city": "Singapore",
+   "trip_start": "2026-08-04",
+   "trip_end": "2026-08-05",
+   "submitted": "2026-09-13",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 5450,
+     "currency": "INR",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 32,
+     "currency": "SGD",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 1 night",
+     "amount": 161,
+     "currency": "SGD",
+     "date": "2026-08-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-13",
+     "text": "Submitted by Dev Chauhan"
+    },
+    {
+     "at": "2026-09-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "zwn7pp",
+   "claim_no": "EXP-45024",
+   "employee_id": "E1003",
+   "city": "Frankfurt",
+   "trip_start": "2026-07-31",
+   "trip_end": "2026-08-03",
+   "submitted": "2026-08-24",
+   "advance": 2000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 14050,
+     "currency": "INR",
+     "date": "2026-07-31",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 3 nights",
+     "amount": 290,
+     "currency": "EUR",
+     "date": "2026-08-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 31,
+     "currency": "EUR",
+     "date": "2026-08-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 5,
+     "currency": "EUR",
+     "date": "2026-08-03",
+     "receipt": "Missing"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-24",
+     "text": "Submitted by Ananya Rao"
+    },
+    {
+     "at": "2026-08-25",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "bn7dbx",
+   "claim_no": "EXP-11444",
+   "employee_id": "E1001",
+   "city": "Dubai",
+   "trip_start": "2026-07-01",
+   "trip_end": "2026-07-05",
+   "submitted": "2026-08-19",
+   "advance": 10000,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 4 nights",
+     "amount": 1905,
+     "currency": "AED",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 38,
+     "currency": "AED",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 28,
+     "currency": "AED",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 6850,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-19",
+     "text": "Submitted by Diya Kapoor"
+    },
+    {
+     "at": "2026-08-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "5dv0n7",
+   "claim_no": "EXP-70069",
+   "employee_id": "E1013",
+   "city": "Dubai",
+   "trip_start": "2026-08-07",
+   "trip_end": "2026-08-09",
+   "submitted": "2026-09-07",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 2 nights",
+     "amount": 932,
+     "currency": "AED",
+     "date": "2026-08-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 2150,
+     "currency": "INR",
+     "date": "2026-08-08",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 39,
+     "currency": "AED",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-07",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-09-08",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6rjtx3",
+   "claim_no": "EXP-13497",
+   "employee_id": "E1022",
+   "city": "Delhi",
+   "trip_start": "2026-07-20",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-08-11",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Delhi hotel, 1 night",
+     "amount": 5890,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Delhi",
+     "amount": 15850,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Delhi",
+     "amount": 850,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-11",
+     "text": "Submitted by Yash Thakur"
+    },
+    {
+     "at": "2026-08-12",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2qppdo",
+   "claim_no": "EXP-98097",
+   "employee_id": "E1013",
+   "city": "London",
+   "trip_start": "2026-06-25",
+   "trip_end": "2026-06-30",
+   "submitted": "2026-07-24",
+   "advance": 5000,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 15800,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 7,
+     "currency": "GBP",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 5 nights",
+     "amount": 494,
+     "currency": "GBP",
+     "date": "2026-06-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 21,
+     "currency": "GBP",
+     "date": "2026-06-27",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-24",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-07-25",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "jz6vp6",
+   "claim_no": "EXP-89962",
+   "employee_id": "E1019",
+   "city": "Coimbatore",
+   "trip_start": "2026-07-17",
+   "trip_end": "2026-07-20",
+   "submitted": "2026-08-17",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 3 nights",
+     "amount": 19280,
+     "currency": "INR",
+     "date": "2026-07-18",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 550,
+     "currency": "INR",
+     "date": "2026-07-18",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Coimbatore",
+     "amount": 2100,
+     "currency": "INR",
+     "date": "2026-07-18",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-17",
+     "text": "Submitted by Zoya Qureshi"
+    },
+    {
+     "at": "2026-08-18",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "tutrx2",
+   "claim_no": "EXP-86480",
+   "employee_id": "E1009",
+   "city": "Frankfurt",
+   "trip_start": "2026-08-11",
+   "trip_end": "2026-08-14",
+   "submitted": "2026-09-16",
+   "advance": 0,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 18150,
+     "currency": "INR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 33,
+     "currency": "EUR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 3,
+     "currency": "EUR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-16",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-09-17",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "5sgot9",
+   "claim_no": "EXP-59537",
+   "employee_id": "E1010",
+   "city": "Jaipur",
+   "trip_start": "2026-07-17",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-09-10",
+   "advance": 5000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Jaipur",
+     "amount": 11500,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Jaipur",
+     "amount": 750,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Jaipur hotel, 4 nights",
+     "amount": 15770,
+     "currency": "INR",
+     "date": "2026-07-19",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-10",
+     "text": "Submitted by Aditya Verma"
+    },
+    {
+     "at": "2026-09-11",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "dm1yj6",
+   "claim_no": "EXP-80905",
+   "employee_id": "E1008",
+   "city": "Guwahati",
+   "trip_start": "2026-07-02",
+   "trip_end": "2026-07-03",
+   "submitted": "2026-08-10",
+   "advance": 0,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Guwahati hotel, 1 night",
+     "amount": 2490,
+     "currency": "INR",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 120,
+     "currency": "INR",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Guwahati",
+     "amount": 1850,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Guwahati",
+     "amount": 12900,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-10",
+     "text": "Submitted by Rohan Gupta"
+    },
+    {
+     "at": "2026-08-11",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "if2x7n",
+   "claim_no": "EXP-84892",
+   "employee_id": "E1009",
+   "city": "Coimbatore",
+   "trip_start": "2026-08-13",
+   "trip_end": "2026-08-15",
+   "submitted": "2026-09-19",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 2 nights",
+     "amount": 8210,
+     "currency": "INR",
+     "date": "2026-08-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-08-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Coimbatore",
+     "amount": 4900,
+     "currency": "INR",
+     "date": "2026-08-15",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-19",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-09-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2ulpe0",
+   "claim_no": "EXP-70067",
+   "employee_id": "E1011",
+   "city": "Frankfurt",
+   "trip_start": "2026-07-21",
+   "trip_end": "2026-07-25",
+   "submitted": "2026-07-29",
+   "advance": 10000,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 12850,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 4 nights",
+     "amount": 717,
+     "currency": "EUR",
+     "date": "2026-07-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 6,
+     "currency": "EUR",
+     "date": "2026-07-25",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-29",
+     "text": "Submitted by Kiara Bose"
+    },
+    {
+     "at": "2026-07-30",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "br795p",
+   "claim_no": "EXP-45982",
+   "employee_id": "E1004",
+   "city": "Indore",
+   "trip_start": "2026-06-20",
+   "trip_end": "2026-06-23",
+   "submitted": "2026-08-14",
+   "advance": 5000,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Indore",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-06-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 480,
+     "currency": "INR",
+     "date": "2026-06-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Indore",
+     "amount": 16350,
+     "currency": "INR",
+     "date": "2026-06-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Indore hotel, 3 nights",
+     "amount": 8650,
+     "currency": "INR",
+     "date": "2026-06-22",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-14",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-08-15",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "79gjjb",
+   "claim_no": "EXP-48515",
+   "employee_id": "E1002",
+   "city": "Delhi",
+   "trip_start": "2026-06-14",
+   "trip_end": "2026-06-15",
+   "submitted": "2026-06-25",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Delhi",
+     "amount": 9600,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Delhi hotel, 1 night",
+     "amount": 7000,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Delhi",
+     "amount": 1150,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 240,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-06-25",
+     "text": "Submitted by Kabir Singh"
+    },
+    {
+     "at": "2026-06-26",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "p16gs1",
+   "claim_no": "EXP-47037",
+   "employee_id": "E1001",
+   "city": "London",
+   "trip_start": "2026-06-24",
+   "trip_end": "2026-06-28",
+   "submitted": "2026-07-19",
+   "advance": 10000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 17,
+     "currency": "GBP",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 4 nights",
+     "amount": 406,
+     "currency": "GBP",
+     "date": "2026-06-25",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 2700,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 30,
+     "currency": "GBP",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-19",
+     "text": "Submitted by Diya Kapoor"
+    },
+    {
+     "at": "2026-07-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "uwxzx2",
+   "claim_no": "EXP-43080",
+   "employee_id": "E1018",
+   "city": "Lucknow",
+   "trip_start": "2026-06-24",
+   "trip_end": "2026-06-26",
+   "submitted": "2026-07-03",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Lucknow hotel, 2 nights",
+     "amount": 13320,
+     "currency": "INR",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 880,
+     "currency": "INR",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Lucknow",
+     "amount": 8500,
+     "currency": "INR",
+     "date": "2026-06-25",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-03",
+     "text": "Submitted by Neel Bhatt"
+    },
+    {
+     "at": "2026-07-04",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "8n97ys",
+   "claim_no": "EXP-70978",
+   "employee_id": "E1001",
+   "city": "London",
+   "trip_start": "2026-08-10",
+   "trip_end": "2026-08-15",
+   "submitted": "2026-09-28",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 11,
+     "currency": "GBP",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 1750,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-28",
+     "text": "Submitted by Diya Kapoor"
+    },
+    {
+     "at": "2026-09-29",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "ww39ob",
+   "claim_no": "EXP-43878",
+   "employee_id": "E1012",
+   "city": "Dubai",
+   "trip_start": "2026-08-19",
+   "trip_end": "2026-08-20",
+   "submitted": "2026-09-23",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 35,
+     "currency": "AED",
+     "date": "2026-08-19",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 17,
+     "currency": "AED",
+     "date": "2026-08-19",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 9400,
+     "currency": "INR",
+     "date": "2026-08-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 1 night",
+     "amount": 471,
+     "currency": "AED",
+     "date": "2026-08-20",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-23",
+     "text": "Submitted by Reyansh Das"
+    },
+    {
+     "at": "2026-09-24",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2wh7al",
+   "claim_no": "EXP-40567",
+   "employee_id": "E1013",
+   "city": "Udaipur",
+   "trip_start": "2026-08-10",
+   "trip_end": "2026-08-12",
+   "submitted": "2026-10-04",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Udaipur",
+     "amount": 8600,
+     "currency": "INR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Udaipur hotel, 2 nights",
+     "amount": 5290,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Udaipur",
+     "amount": 350,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-10-04",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-10-05",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "oapml0",
+   "claim_no": "EXP-91782",
+   "employee_id": "E1016",
+   "city": "Shillong",
+   "trip_start": "2026-06-10",
+   "trip_end": "2026-06-13",
+   "submitted": "2026-07-13",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Shillong",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-06-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Shillong hotel, 3 nights",
+     "amount": 5930,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 760,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Shillong",
+     "amount": 16150,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-13",
+     "text": "Submitted by Dev Chauhan"
+    },
+    {
+     "at": "2026-07-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "lzkf1o",
+   "claim_no": "EXP-14037",
+   "employee_id": "E1016",
+   "city": "Chandigarh",
+   "trip_start": "2026-07-03",
+   "trip_end": "2026-07-05",
+   "submitted": "2026-07-17",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Chandigarh",
+     "amount": 8000,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Chandigarh hotel, 2 nights",
+     "amount": 5710,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Chandigarh",
+     "amount": 450,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 640,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-17",
+     "text": "Submitted by Dev Chauhan"
+    },
+    {
+     "at": "2026-07-18",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "cmxhf0",
+   "claim_no": "EXP-96879",
+   "employee_id": "E1013",
+   "city": "Dubai",
+   "trip_start": "2026-08-04",
+   "trip_end": "2026-08-09",
+   "submitted": "2026-09-29",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 2500,
+     "currency": "INR",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 22,
+     "currency": "AED",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 25,
+     "currency": "AED",
+     "date": "2026-08-08",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 5 nights",
+     "amount": 2373,
+     "currency": "AED",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-29",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-09-30",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "80fw2h",
+   "claim_no": "EXP-54954",
+   "employee_id": "E1010",
+   "city": "Mysuru",
+   "trip_start": "2026-07-16",
+   "trip_end": "2026-07-17",
+   "submitted": "2026-08-19",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 840,
+     "currency": "INR",
+     "date": "2026-07-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Mysuru hotel, 1 night",
+     "amount": 2800,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Mysuru",
+     "amount": 600,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Mysuru",
+     "amount": 19850,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-19",
+     "text": "Submitted by Aditya Verma"
+    },
+    {
+     "at": "2026-08-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6xqt6n",
+   "claim_no": "EXP-99660",
+   "employee_id": "E1021",
+   "city": "Visakhapatnam",
+   "trip_start": "2026-07-03",
+   "trip_end": "2026-07-07",
+   "submitted": "2026-08-19",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1000,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Visakhapatnam",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Visakhapatnam hotel, 4 nights",
+     "amount": 7750,
+     "currency": "INR",
+     "date": "2026-07-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Visakhapatnam",
+     "amount": 6300,
+     "currency": "INR",
+     "date": "2026-07-07",
+     "receipt": "Missing"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-19",
+     "text": "Submitted by Pari Saxena"
+    },
+    {
+     "at": "2026-08-20",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "hha4yo",
+   "claim_no": "EXP-40976",
+   "employee_id": "E1009",
+   "city": "New York",
+   "trip_start": "2026-07-12",
+   "trip_end": "2026-07-13",
+   "submitted": "2026-07-25",
+   "advance": 10000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 10,
+     "currency": "USD",
+     "date": "2026-07-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from New York",
+     "amount": 16000,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "New York hotel, 1 night",
+     "amount": 146,
+     "currency": "USD",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in New York",
+     "amount": 18,
+     "currency": "USD",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-25",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-07-26",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2xamw3",
+   "claim_no": "EXP-16547",
+   "employee_id": "E1014",
+   "city": "Chandigarh",
+   "trip_start": "2026-08-11",
+   "trip_end": "2026-08-14",
+   "submitted": "2026-08-22",
+   "advance": 0,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Chandigarh hotel, 3 nights",
+     "amount": 12500,
+     "currency": "INR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 960,
+     "currency": "INR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Chandigarh",
+     "amount": 1300,
+     "currency": "INR",
+     "date": "2026-08-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Chandigarh",
+     "amount": 5150,
+     "currency": "INR",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-22",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-08-23",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "7mw55z",
+   "claim_no": "EXP-74887",
+   "employee_id": "E1019",
+   "city": "Dubai",
+   "trip_start": "2026-07-02",
+   "trip_end": "2026-07-05",
+   "submitted": "2026-07-25",
+   "advance": 2000,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 28,
+     "currency": "AED",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 11700,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 28,
+     "currency": "AED",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 3 nights",
+     "amount": 2048,
+     "currency": "AED",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-25",
+     "text": "Submitted by Zoya Qureshi"
+    },
+    {
+     "at": "2026-07-26",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "4iby8x",
+   "claim_no": "EXP-21295",
+   "employee_id": "E1015",
+   "city": "Dubai",
+   "trip_start": "2026-08-07",
+   "trip_end": "2026-08-12",
+   "submitted": "2026-09-13",
+   "advance": 10000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 19500,
+     "currency": "INR",
+     "date": "2026-08-08",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 27,
+     "currency": "AED",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 5 nights",
+     "amount": 2013,
+     "currency": "AED",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 27,
+     "currency": "AED",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-13",
+     "text": "Submitted by Tara Sethi"
+    },
+    {
+     "at": "2026-09-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "06rnwp",
+   "claim_no": "EXP-47982",
+   "employee_id": "E1015",
+   "city": "Singapore",
+   "trip_start": "2026-08-09",
+   "trip_end": "2026-08-13",
+   "submitted": "2026-08-16",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 21,
+     "currency": "SGD",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 10,
+     "currency": "SGD",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 13550,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 4 nights",
+     "amount": 599,
+     "currency": "SGD",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-16",
+     "text": "Submitted by Tara Sethi"
+    },
+    {
+     "at": "2026-08-17",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "jwm51s",
+   "claim_no": "EXP-10202",
+   "employee_id": "E1014",
+   "city": "Kolkata",
+   "trip_start": "2026-06-30",
+   "trip_end": "2026-07-01",
+   "submitted": "2026-07-31",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Train",
+     "description": "Travel to and from Kolkata",
+     "amount": 14900,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 1 night",
+     "amount": 5110,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 1600,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 600,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-31",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-08-01",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "27n5r4",
+   "claim_no": "EXP-45685",
+   "employee_id": "E1017",
+   "city": "Visakhapatnam",
+   "trip_start": "2026-06-17",
+   "trip_end": "2026-06-19",
+   "submitted": "2026-06-30",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Visakhapatnam",
+     "amount": 10100,
+     "currency": "INR",
+     "date": "2026-06-18",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "Visakhapatnam hotel, 2 nights",
+     "amount": 3640,
+     "currency": "INR",
+     "date": "2026-06-18",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Visakhapatnam",
+     "amount": 750,
+     "currency": "INR",
+     "date": "2026-06-19",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-06-30",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-07-01",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6xhadi",
+   "claim_no": "EXP-47869",
+   "employee_id": "E1008",
+   "city": "Indore",
+   "trip_start": "2026-06-12",
+   "trip_end": "2026-06-14",
+   "submitted": "2026-07-21",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Indore hotel, 2 nights",
+     "amount": 5960,
+     "currency": "INR",
+     "date": "2026-06-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Indore",
+     "amount": 550,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 520,
+     "currency": "INR",
+     "date": "2026-06-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Indore",
+     "amount": 3800,
+     "currency": "INR",
+     "date": "2026-06-14",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-21",
+     "text": "Submitted by Rohan Gupta"
+    },
+    {
+     "at": "2026-07-22",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "pdkn08",
+   "claim_no": "EXP-28996",
+   "employee_id": "E1016",
+   "city": "Pune",
+   "trip_start": "2026-07-11",
+   "trip_end": "2026-07-14",
+   "submitted": "2026-09-08",
+   "advance": 10000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Pune",
+     "amount": 1900,
+     "currency": "INR",
+     "date": "2026-07-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Pune",
+     "amount": 19250,
+     "currency": "INR",
+     "date": "2026-07-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Pune hotel, 3 nights",
+     "amount": 11820,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 120,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-08",
+     "text": "Submitted by Dev Chauhan"
+    },
+    {
+     "at": "2026-09-09",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "z94l6c",
+   "claim_no": "EXP-80477",
+   "employee_id": "E1017",
+   "city": "Hyderabad",
+   "trip_start": "2026-06-26",
+   "trip_end": "2026-06-30",
+   "submitted": "2026-08-09",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Train",
+     "description": "Travel to and from Hyderabad",
+     "amount": 4200,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 920,
+     "currency": "INR",
+     "date": "2026-06-28",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Hyderabad hotel, 4 nights",
+     "amount": 16090,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Hyderabad",
+     "amount": 1850,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-09",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-08-10",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "5ywyhf",
+   "claim_no": "EXP-67849",
+   "employee_id": "E1006",
+   "city": "Udaipur",
+   "trip_start": "2026-06-30",
+   "trip_end": "2026-07-03",
+   "submitted": "2026-08-17",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Udaipur hotel, 3 nights",
+     "amount": 8040,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Udaipur",
+     "amount": 450,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Udaipur",
+     "amount": 4400,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-17",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-08-18",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "b3e2x0",
+   "claim_no": "EXP-42772",
+   "employee_id": "E1004",
+   "city": "London",
+   "trip_start": "2026-08-14",
+   "trip_end": "2026-08-17",
+   "submitted": "2026-10-06",
+   "advance": 10000,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 9,
+     "currency": "GBP",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 8500,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 3 nights",
+     "amount": 218,
+     "currency": "GBP",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-10-06",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-10-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "b2hbk0",
+   "claim_no": "EXP-99684",
+   "employee_id": "E1004",
+   "city": "Lucknow",
+   "trip_start": "2026-07-16",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-07-27",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Lucknow",
+     "amount": 4950,
+     "currency": "INR",
+     "date": "2026-07-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Lucknow hotel, 5 nights",
+     "amount": 15090,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 400,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-27",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-07-28",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "9cdywk",
+   "claim_no": "EXP-63637",
+   "employee_id": "E1018",
+   "city": "Pune",
+   "trip_start": "2026-06-28",
+   "trip_end": "2026-07-03",
+   "submitted": "2026-09-04",
+   "advance": 2000,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Pune hotel, 5 nights",
+     "amount": 44880,
+     "currency": "INR",
+     "date": "2026-06-29",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Pune",
+     "amount": 1100,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Pune",
+     "amount": 13400,
+     "currency": "INR",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-04",
+     "text": "Submitted by Neel Bhatt"
+    },
+    {
+     "at": "2026-09-05",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "urz3ho",
+   "claim_no": "EXP-35660",
+   "employee_id": "E1014",
+   "city": "Nashik",
+   "trip_start": "2026-07-24",
+   "trip_end": "2026-07-28",
+   "submitted": "2026-08-04",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Train",
+     "description": "Travel to and from Nashik",
+     "amount": 7950,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Nashik",
+     "amount": 1700,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1040,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Nashik hotel, 4 nights",
+     "amount": 10980,
+     "currency": "INR",
+     "date": "2026-07-28",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-04",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-08-05",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "pb3t0c",
+   "claim_no": "EXP-82807",
+   "employee_id": "E1005",
+   "city": "Dubai",
+   "trip_start": "2026-06-24",
+   "trip_end": "2026-06-29",
+   "submitted": "2026-08-06",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 5 nights",
+     "amount": 2352,
+     "currency": "AED",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 26,
+     "currency": "AED",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 23,
+     "currency": "AED",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 7150,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-06",
+     "text": "Submitted by Ishita Nair"
+    },
+    {
+     "at": "2026-08-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "l3xbp8",
+   "claim_no": "EXP-96256",
+   "employee_id": "E1018",
+   "city": "Delhi",
+   "trip_start": "2026-07-03",
+   "trip_end": "2026-07-06",
+   "submitted": "2026-08-01",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Delhi",
+     "amount": 17900,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Delhi hotel, 3 nights",
+     "amount": 27340,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Delhi",
+     "amount": 550,
+     "currency": "INR",
+     "date": "2026-07-06",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-01",
+     "text": "Submitted by Neel Bhatt"
+    },
+    {
+     "at": "2026-08-02",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "n4va3i",
+   "claim_no": "EXP-44766",
+   "employee_id": "E1009",
+   "city": "Coimbatore",
+   "trip_start": "2026-07-23",
+   "trip_end": "2026-07-28",
+   "submitted": "2026-08-09",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 300,
+     "currency": "INR",
+     "date": "2026-07-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Coimbatore",
+     "amount": 2750,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 5 nights",
+     "amount": 20000,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 520,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-09",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-08-10",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "s7ml5y",
+   "claim_no": "EXP-93437",
+   "employee_id": "E1004",
+   "city": "Indore",
+   "trip_start": "2026-07-13",
+   "trip_end": "2026-07-17",
+   "submitted": "2026-08-31",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Indore hotel, 4 nights",
+     "amount": 11900,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Indore",
+     "amount": 900,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1040,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Indore",
+     "amount": 7000,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-31",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-09-01",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "upj2nv",
+   "claim_no": "EXP-32547",
+   "employee_id": "E1009",
+   "city": "Chennai",
+   "trip_start": "2026-07-16",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-07-26",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Chennai",
+     "amount": 300,
+     "currency": "INR",
+     "date": "2026-07-16",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Chennai",
+     "amount": 9300,
+     "currency": "INR",
+     "date": "2026-07-19",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Chennai hotel, 5 nights",
+     "amount": 27460,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-26",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-07-27",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "e3lcxu",
+   "claim_no": "EXP-41142",
+   "employee_id": "E1020",
+   "city": "Hyderabad",
+   "trip_start": "2026-07-16",
+   "trip_end": "2026-07-19",
+   "submitted": "2026-08-13",
+   "advance": 5000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Hyderabad",
+     "amount": 1650,
+     "currency": "INR",
+     "date": "2026-07-18",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Hyderabad hotel, 3 nights",
+     "amount": 11750,
+     "currency": "INR",
+     "date": "2026-07-19",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Hyderabad",
+     "amount": 15500,
+     "currency": "INR",
+     "date": "2026-07-19",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-13",
+     "text": "Submitted by Om Kulkarni"
+    },
+    {
+     "at": "2026-08-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "3bh32n",
+   "claim_no": "EXP-44570",
+   "employee_id": "E1021",
+   "city": "Bengaluru",
+   "trip_start": "2026-08-16",
+   "trip_end": "2026-08-17",
+   "submitted": "2026-09-01",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Bengaluru",
+     "amount": 1400,
+     "currency": "INR",
+     "date": "2026-08-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 840,
+     "currency": "INR",
+     "date": "2026-08-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Bengaluru",
+     "amount": 11450,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Bengaluru hotel, 1 night",
+     "amount": 3610,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-01",
+     "text": "Submitted by Pari Saxena"
+    },
+    {
+     "at": "2026-09-02",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6hl44n",
+   "claim_no": "EXP-92231",
+   "employee_id": "E1011",
+   "city": "Pune",
+   "trip_start": "2026-07-03",
+   "trip_end": "2026-07-07",
+   "submitted": "2026-07-29",
+   "advance": 2000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Pune",
+     "amount": 400,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 720,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "Pune hotel, 4 nights",
+     "amount": 35780,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Pune",
+     "amount": 4100,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-29",
+     "text": "Submitted by Kiara Bose"
+    },
+    {
+     "at": "2026-07-30",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "qds3qn",
+   "claim_no": "EXP-77800",
+   "employee_id": "E1000",
+   "city": "Kolkata",
+   "trip_start": "2026-06-24",
+   "trip_end": "2026-06-25",
+   "submitted": "2026-07-26",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 1 night",
+     "amount": 5220,
+     "currency": "INR",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-06-24",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Kolkata",
+     "amount": 15950,
+     "currency": "INR",
+     "date": "2026-06-25",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-26",
+     "text": "Submitted by Aarav Mehta"
+    },
+    {
+     "at": "2026-07-27",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6wgn7a",
+   "claim_no": "EXP-78591",
+   "employee_id": "E1005",
+   "city": "Dubai",
+   "trip_start": "2026-07-04",
+   "trip_end": "2026-07-08",
+   "submitted": "2026-08-09",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 16750,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 17,
+     "currency": "AED",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 8,
+     "currency": "AED",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-09",
+     "text": "Submitted by Ishita Nair"
+    },
+    {
+     "at": "2026-08-10",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "vapbi6",
+   "claim_no": "EXP-52865",
+   "employee_id": "E1021",
+   "city": "Frankfurt",
+   "trip_start": "2026-07-13",
+   "trip_end": "2026-07-18",
+   "submitted": "2026-08-22",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 4,
+     "currency": "EUR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 9750,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 5 nights",
+     "amount": 496,
+     "currency": "EUR",
+     "date": "2026-07-16",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-22",
+     "text": "Submitted by Pari Saxena"
+    },
+    {
+     "at": "2026-08-23",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "kia81j",
+   "claim_no": "EXP-72695",
+   "employee_id": "E1015",
+   "city": "Lucknow",
+   "trip_start": "2026-07-10",
+   "trip_end": "2026-07-15",
+   "submitted": "2026-07-20",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-07-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Lucknow",
+     "amount": 9550,
+     "currency": "INR",
+     "date": "2026-07-14",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-20",
+     "text": "Submitted by Tara Sethi"
+    },
+    {
+     "at": "2026-07-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "v2wex0",
+   "claim_no": "EXP-38341",
+   "employee_id": "E1008",
+   "city": "Singapore",
+   "trip_start": "2026-08-03",
+   "trip_end": "2026-08-05",
+   "submitted": "2026-09-04",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 2 nights",
+     "amount": 268,
+     "currency": "SGD",
+     "date": "2026-08-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 7,
+     "currency": "SGD",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 2300,
+     "currency": "INR",
+     "date": "2026-08-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 19,
+     "currency": "SGD",
+     "date": "2026-08-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-04",
+     "text": "Submitted by Rohan Gupta"
+    },
+    {
+     "at": "2026-09-05",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "fjla9k",
+   "claim_no": "EXP-16243",
+   "employee_id": "E1005",
+   "city": "Singapore",
+   "trip_start": "2026-08-06",
+   "trip_end": "2026-08-10",
+   "submitted": "2026-08-15",
+   "advance": 10000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 4 nights",
+     "amount": 705,
+     "currency": "SGD",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 30,
+     "currency": "SGD",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 32,
+     "currency": "SGD",
+     "date": "2026-08-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 17600,
+     "currency": "INR",
+     "date": "2026-08-09",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-15",
+     "text": "Submitted by Ishita Nair"
+    },
+    {
+     "at": "2026-08-16",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "sa1dyj",
+   "claim_no": "EXP-92329",
+   "employee_id": "E1019",
+   "city": "Indore",
+   "trip_start": "2026-06-29",
+   "trip_end": "2026-06-30",
+   "submitted": "2026-07-05",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Indore hotel, 1 night",
+     "amount": 6810,
+     "currency": "INR",
+     "date": "2026-06-29",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1080,
+     "currency": "INR",
+     "date": "2026-06-29",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Indore",
+     "amount": 700,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Indore",
+     "amount": 10900,
+     "currency": "INR",
+     "date": "2026-06-30",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-05",
+     "text": "Submitted by Zoya Qureshi"
+    },
+    {
+     "at": "2026-07-06",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "z5wz1k",
+   "claim_no": "EXP-81940",
+   "employee_id": "E1009",
+   "city": "Chandigarh",
+   "trip_start": "2026-08-14",
+   "trip_end": "2026-08-19",
+   "submitted": "2026-09-07",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 480,
+     "currency": "INR",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Chandigarh",
+     "amount": 1850,
+     "currency": "INR",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Chandigarh",
+     "amount": 1300,
+     "currency": "INR",
+     "date": "2026-08-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Chandigarh hotel, 5 nights",
+     "amount": 19810,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-07",
+     "text": "Submitted by Saanvi Joshi"
+    },
+    {
+     "at": "2026-09-08",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "0f9l7b",
+   "claim_no": "EXP-86576",
+   "employee_id": "E1007",
+   "city": "Indore",
+   "trip_start": "2026-06-24",
+   "trip_end": "2026-06-27",
+   "submitted": "2026-08-03",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Indore hotel, 3 nights",
+     "amount": 8910,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Indore",
+     "amount": 2000,
+     "currency": "INR",
+     "date": "2026-06-26",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Indore",
+     "amount": 14700,
+     "currency": "INR",
+     "date": "2026-06-27",
+     "receipt": "Missing"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-03",
+     "text": "Submitted by Meera Iyer"
+    },
+    {
+     "at": "2026-08-04",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "jcbtnw",
+   "claim_no": "EXP-24574",
+   "employee_id": "E1000",
+   "city": "Jaipur",
+   "trip_start": "2026-07-10",
+   "trip_end": "2026-07-14",
+   "submitted": "2026-09-11",
+   "advance": 10000,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Jaipur hotel, 4 nights",
+     "amount": 15800,
+     "currency": "INR",
+     "date": "2026-07-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Jaipur",
+     "amount": 10400,
+     "currency": "INR",
+     "date": "2026-07-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Jaipur",
+     "amount": 1500,
+     "currency": "INR",
+     "date": "2026-07-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 240,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-11",
+     "text": "Submitted by Aarav Mehta"
+    },
+    {
+     "at": "2026-09-12",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "mp64wv",
+   "claim_no": "EXP-75595",
+   "employee_id": "E1004",
+   "city": "New York",
+   "trip_start": "2026-08-07",
+   "trip_end": "2026-08-12",
+   "submitted": "2026-09-05",
+   "advance": 2000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "New York hotel, 5 nights",
+     "amount": 502,
+     "currency": "USD",
+     "date": "2026-08-08",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 9,
+     "currency": "USD",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from New York",
+     "amount": 7550,
+     "currency": "INR",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in New York",
+     "amount": 33,
+     "currency": "USD",
+     "date": "2026-08-12",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-05",
+     "text": "Submitted by Vihaan Shah"
+    },
+    {
+     "at": "2026-09-06",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "anl5o4",
+   "claim_no": "EXP-47802",
+   "employee_id": "E1006",
+   "city": "London",
+   "trip_start": "2026-07-22",
+   "trip_end": "2026-07-25",
+   "submitted": "2026-09-16",
+   "advance": 5000,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 10800,
+     "currency": "INR",
+     "date": "2026-07-22",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 10,
+     "currency": "GBP",
+     "date": "2026-07-23",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 3 nights",
+     "amount": 296,
+     "currency": "GBP",
+     "date": "2026-07-24",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 38,
+     "currency": "GBP",
+     "date": "2026-07-25",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-16",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-09-17",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2reuls",
+   "claim_no": "EXP-38419",
+   "employee_id": "E1015",
+   "city": "Hyderabad",
+   "trip_start": "2026-07-09",
+   "trip_end": "2026-07-10",
+   "submitted": "2026-07-20",
+   "advance": 0,
+   "purpose": "Client visit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Hyderabad",
+     "amount": 650,
+     "currency": "INR",
+     "date": "2026-07-09",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1200,
+     "currency": "INR",
+     "date": "2026-07-09",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Hyderabad",
+     "amount": 4100,
+     "currency": "INR",
+     "date": "2026-07-10",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-20",
+     "text": "Submitted by Tara Sethi"
+    },
+    {
+     "at": "2026-07-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "yw0myh",
+   "claim_no": "EXP-57554",
+   "employee_id": "E1006",
+   "city": "Coimbatore",
+   "trip_start": "2026-08-03",
+   "trip_end": "2026-08-05",
+   "submitted": "2026-08-31",
+   "advance": 10000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 2 nights",
+     "amount": 7900,
+     "currency": "INR",
+     "date": "2026-08-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 800,
+     "currency": "INR",
+     "date": "2026-08-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Coimbatore",
+     "amount": 18200,
+     "currency": "INR",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-31",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-09-01",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "eu6zam",
+   "claim_no": "EXP-53830",
+   "employee_id": "E1005",
+   "city": "Kolkata",
+   "trip_start": "2026-07-19",
+   "trip_end": "2026-07-23",
+   "submitted": "2026-08-10",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Train",
+     "description": "Travel to and from Kolkata",
+     "amount": 2950,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 400,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-10",
+     "text": "Submitted by Ishita Nair"
+    },
+    {
+     "at": "2026-08-11",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2adc1s",
+   "claim_no": "EXP-19748",
+   "employee_id": "E1019",
+   "city": "Frankfurt",
+   "trip_start": "2026-08-04",
+   "trip_end": "2026-08-07",
+   "submitted": "2026-08-09",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 9,
+     "currency": "EUR",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 3050,
+     "currency": "INR",
+     "date": "2026-08-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 3 nights",
+     "amount": 496,
+     "currency": "EUR",
+     "date": "2026-08-07",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-09",
+     "text": "Submitted by Zoya Qureshi"
+    },
+    {
+     "at": "2026-08-10",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "u0sp2q",
+   "claim_no": "EXP-32741",
+   "employee_id": "E1020",
+   "city": "London",
+   "trip_start": "2026-07-02",
+   "trip_end": "2026-07-03",
+   "submitted": "2026-07-25",
+   "advance": 0,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 20,
+     "currency": "GBP",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 15300,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 1 night",
+     "amount": 48,
+     "currency": "GBP",
+     "date": "2026-07-03",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 23,
+     "currency": "GBP",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-25",
+     "text": "Submitted by Om Kulkarni"
+    },
+    {
+     "at": "2026-07-26",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "4ddzin",
+   "claim_no": "EXP-48527",
+   "employee_id": "E1017",
+   "city": "Kochi",
+   "trip_start": "2026-07-26",
+   "trip_end": "2026-07-29",
+   "submitted": "2026-08-02",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Kochi",
+     "amount": 1050,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Kochi hotel, 3 nights",
+     "amount": 8960,
+     "currency": "INR",
+     "date": "2026-07-28",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Kochi",
+     "amount": 4600,
+     "currency": "INR",
+     "date": "2026-07-28",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-02",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-08-03",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "l8anxt",
+   "claim_no": "EXP-74935",
+   "employee_id": "E1020",
+   "city": "Ahmedabad",
+   "trip_start": "2026-07-28",
+   "trip_end": "2026-07-31",
+   "submitted": "2026-09-05",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Ahmedabad",
+     "amount": 17050,
+     "currency": "INR",
+     "date": "2026-07-28",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Ahmedabad hotel, 3 nights",
+     "amount": 9150,
+     "currency": "INR",
+     "date": "2026-07-29",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Ahmedabad",
+     "amount": 1150,
+     "currency": "INR",
+     "date": "2026-07-29",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1000,
+     "currency": "INR",
+     "date": "2026-07-29",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-05",
+     "text": "Submitted by Om Kulkarni"
+    },
+    {
+     "at": "2026-09-06",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "qkuggz",
+   "claim_no": "EXP-59064",
+   "employee_id": "E1022",
+   "city": "Kolkata",
+   "trip_start": "2026-07-01",
+   "trip_end": "2026-07-06",
+   "submitted": "2026-07-23",
+   "advance": 5000,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 5 nights",
+     "amount": 27190,
+     "currency": "INR",
+     "date": "2026-07-01",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 1250,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Kolkata",
+     "amount": 10900,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 160,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-23",
+     "text": "Submitted by Yash Thakur"
+    },
+    {
+     "at": "2026-07-24",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "2yp7z7",
+   "claim_no": "EXP-52442",
+   "employee_id": "E1003",
+   "city": "London",
+   "trip_start": "2026-08-01",
+   "trip_end": "2026-08-02",
+   "submitted": "2026-08-14",
+   "advance": 10000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 14600,
+     "currency": "INR",
+     "date": "2026-08-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 1 night",
+     "amount": 143,
+     "currency": "GBP",
+     "date": "2026-08-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 30,
+     "currency": "GBP",
+     "date": "2026-08-01",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 23,
+     "currency": "GBP",
+     "date": "2026-08-02",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-14",
+     "text": "Submitted by Ananya Rao"
+    },
+    {
+     "at": "2026-08-15",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "mr8p3w",
+   "claim_no": "EXP-51482",
+   "employee_id": "E1001",
+   "city": "Dubai",
+   "trip_start": "2026-07-20",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-09-01",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 3450,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 1 night",
+     "amount": 454,
+     "currency": "AED",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 14,
+     "currency": "AED",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 20,
+     "currency": "AED",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-01",
+     "text": "Submitted by Diya Kapoor"
+    },
+    {
+     "at": "2026-09-02",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "bskfze",
+   "claim_no": "EXP-56374",
+   "employee_id": "E1017",
+   "city": "Bengaluru",
+   "trip_start": "2026-07-03",
+   "trip_end": "2026-07-08",
+   "submitted": "2026-07-31",
+   "advance": 2000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1080,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Bengaluru",
+     "amount": 1650,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Bengaluru hotel, 5 nights",
+     "amount": 19880,
+     "currency": "INR",
+     "date": "2026-07-06",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Bengaluru",
+     "amount": 15000,
+     "currency": "INR",
+     "date": "2026-07-08",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-31",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-08-01",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "0a9sah",
+   "claim_no": "EXP-62865",
+   "employee_id": "E1005",
+   "city": "Frankfurt",
+   "trip_start": "2026-06-27",
+   "trip_end": "2026-06-28",
+   "submitted": "2026-08-03",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Frankfurt",
+     "amount": 18350,
+     "currency": "INR",
+     "date": "2026-06-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 24,
+     "currency": "EUR",
+     "date": "2026-06-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Frankfurt hotel, 1 night",
+     "amount": 169,
+     "currency": "EUR",
+     "date": "2026-06-28",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Frankfurt",
+     "amount": 34,
+     "currency": "EUR",
+     "date": "2026-06-28",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-03",
+     "text": "Submitted by Ishita Nair"
+    },
+    {
+     "at": "2026-08-04",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "jcynwe",
+   "claim_no": "EXP-67017",
+   "employee_id": "E1018",
+   "city": "Coimbatore",
+   "trip_start": "2026-07-01",
+   "trip_end": "2026-07-05",
+   "submitted": "2026-07-13",
+   "advance": 0,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Coimbatore",
+     "amount": 4250,
+     "currency": "INR",
+     "date": "2026-07-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 160,
+     "currency": "INR",
+     "date": "2026-07-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 4 nights",
+     "amount": 25820,
+     "currency": "INR",
+     "date": "2026-07-04",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 300,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-13",
+     "text": "Submitted by Neel Bhatt"
+    },
+    {
+     "at": "2026-07-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "vtujzk",
+   "claim_no": "EXP-88285",
+   "employee_id": "E1000",
+   "city": "London",
+   "trip_start": "2026-07-20",
+   "trip_end": "2026-07-21",
+   "submitted": "2026-08-01",
+   "advance": 2000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 38,
+     "currency": "GBP",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 17550,
+     "currency": "INR",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 1 night",
+     "amount": 89,
+     "currency": "GBP",
+     "date": "2026-07-21",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-01",
+     "text": "Submitted by Aarav Mehta"
+    },
+    {
+     "at": "2026-08-02",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "z5d6u1",
+   "claim_no": "EXP-30227",
+   "employee_id": "E1013",
+   "city": "Pune",
+   "trip_start": "2026-07-16",
+   "trip_end": "2026-07-20",
+   "submitted": "2026-09-28",
+   "advance": 5000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Pune hotel, 4 nights",
+     "amount": 21930,
+     "currency": "INR",
+     "date": "2026-07-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Pune",
+     "amount": 900,
+     "currency": "INR",
+     "date": "2026-07-16",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 560,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Pune",
+     "amount": 11750,
+     "currency": "INR",
+     "date": "2026-07-20",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-28",
+     "text": "Submitted by Navya Menon"
+    },
+    {
+     "at": "2026-09-29",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "8wxoa8",
+   "claim_no": "EXP-46692",
+   "employee_id": "E1017",
+   "city": "Kolkata",
+   "trip_start": "2026-08-14",
+   "trip_end": "2026-08-17",
+   "submitted": "2026-09-05",
+   "advance": 10000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Kolkata",
+     "amount": 14700,
+     "currency": "INR",
+     "date": "2026-08-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 3 nights",
+     "amount": 12510,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 300,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-05",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-09-06",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "6coc4i",
+   "claim_no": "EXP-28895",
+   "employee_id": "E1011",
+   "city": "Chennai",
+   "trip_start": "2026-07-15",
+   "trip_end": "2026-07-18",
+   "submitted": "2026-08-20",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Chennai",
+     "amount": 1650,
+     "currency": "INR",
+     "date": "2026-07-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Chennai",
+     "amount": 5200,
+     "currency": "INR",
+     "date": "2026-07-17",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-20",
+     "text": "Submitted by Kiara Bose"
+    },
+    {
+     "at": "2026-08-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "8too4m",
+   "claim_no": "EXP-67347",
+   "employee_id": "E1000",
+   "city": "Coimbatore",
+   "trip_start": "2026-07-11",
+   "trip_end": "2026-07-13",
+   "submitted": "2026-08-08",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Flight",
+     "description": "Travel to and from Coimbatore",
+     "amount": 9500,
+     "currency": "INR",
+     "date": "2026-07-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Coimbatore",
+     "amount": 1850,
+     "currency": "INR",
+     "date": "2026-07-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Coimbatore hotel, 2 nights",
+     "amount": 8550,
+     "currency": "INR",
+     "date": "2026-07-13",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-08",
+     "text": "Submitted by Aarav Mehta"
+    },
+    {
+     "at": "2026-08-09",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "v85u4g",
+   "claim_no": "EXP-63003",
+   "employee_id": "E1006",
+   "city": "Singapore",
+   "trip_start": "2026-07-25",
+   "trip_end": "2026-07-28",
+   "submitted": "2026-08-18",
+   "advance": 0,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Singapore",
+     "amount": 22,
+     "currency": "SGD",
+     "date": "2026-07-25",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 4,
+     "currency": "SGD",
+     "date": "2026-07-25",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Singapore",
+     "amount": 6450,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Singapore hotel, 3 nights",
+     "amount": 577,
+     "currency": "SGD",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-18",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-08-19",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "j79m5z",
+   "claim_no": "EXP-36367",
+   "employee_id": "E1010",
+   "city": "New York",
+   "trip_start": "2026-08-12",
+   "trip_end": "2026-08-16",
+   "submitted": "2026-10-20",
+   "advance": 0,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in New York",
+     "amount": 34,
+     "currency": "USD",
+     "date": "2026-08-14",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "New York hotel, 4 nights",
+     "amount": 493,
+     "currency": "USD",
+     "date": "2026-08-15",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from New York",
+     "amount": 7300,
+     "currency": "INR",
+     "date": "2026-08-16",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-10-20",
+     "text": "Submitted by Aditya Verma"
+    },
+    {
+     "at": "2026-10-21",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "bhz6zq",
+   "claim_no": "EXP-59425",
+   "employee_id": "E1006",
+   "city": "Guwahati",
+   "trip_start": "2026-07-25",
+   "trip_end": "2026-07-27",
+   "submitted": "2026-08-21",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Guwahati hotel, 2 nights",
+     "amount": 5900,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Guwahati",
+     "amount": 700,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 920,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Guwahati",
+     "amount": 13750,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-21",
+     "text": "Submitted by Arjun Patel"
+    },
+    {
+     "at": "2026-08-22",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "ylw1zc",
+   "claim_no": "EXP-62226",
+   "employee_id": "E1014",
+   "city": "Kolkata",
+   "trip_start": "2026-08-17",
+   "trip_end": "2026-08-19",
+   "submitted": "2026-09-16",
+   "advance": 2000,
+   "purpose": "Vendor audit",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Kolkata hotel, 2 nights",
+     "amount": 10930,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Missing"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Kolkata",
+     "amount": 1650,
+     "currency": "INR",
+     "date": "2026-08-17",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Kolkata",
+     "amount": 18300,
+     "currency": "INR",
+     "date": "2026-08-18",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 280,
+     "currency": "INR",
+     "date": "2026-08-19",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-16",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-09-17",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "1yjbu6",
+   "claim_no": "EXP-64720",
+   "employee_id": "E1014",
+   "city": "London",
+   "trip_start": "2026-08-02",
+   "trip_end": "2026-08-06",
+   "submitted": "2026-09-13",
+   "advance": 10000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in London",
+     "amount": 9,
+     "currency": "GBP",
+     "date": "2026-08-02",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "London hotel, 4 nights",
+     "amount": 458,
+     "currency": "GBP",
+     "date": "2026-08-03",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from London",
+     "amount": 12850,
+     "currency": "INR",
+     "date": "2026-08-04",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-13",
+     "text": "Submitted by Krish Malhotra"
+    },
+    {
+     "at": "2026-09-14",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "70879y",
+   "claim_no": "EXP-66484",
+   "employee_id": "E1017",
+   "city": "Lucknow",
+   "trip_start": "2026-07-07",
+   "trip_end": "2026-07-09",
+   "submitted": "2026-07-11",
+   "advance": 5000,
+   "purpose": "Site inspection",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Lucknow hotel, 2 nights",
+     "amount": 5620,
+     "currency": "INR",
+     "date": "2026-07-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Lucknow",
+     "amount": 18300,
+     "currency": "INR",
+     "date": "2026-07-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 1040,
+     "currency": "INR",
+     "date": "2026-07-08",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Lucknow",
+     "amount": 1400,
+     "currency": "INR",
+     "date": "2026-07-09",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-07-11",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-07-12",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "klka7g",
+   "claim_no": "EXP-27777",
+   "employee_id": "E1003",
+   "city": "Chennai",
+   "trip_start": "2026-07-24",
+   "trip_end": "2026-07-28",
+   "submitted": "2026-08-23",
+   "advance": 0,
+   "purpose": "Team offsite",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Chennai hotel, 4 nights",
+     "amount": 16560,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Chennai",
+     "amount": 5450,
+     "currency": "INR",
+     "date": "2026-07-26",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Chennai",
+     "amount": 1600,
+     "currency": "INR",
+     "date": "2026-07-27",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-08-23",
+     "text": "Submitted by Ananya Rao"
+    },
+    {
+     "at": "2026-08-24",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "qzmbxn",
+   "claim_no": "EXP-74722",
+   "employee_id": "E1011",
+   "city": "Pune",
+   "trip_start": "2026-07-05",
+   "trip_end": "2026-07-08",
+   "submitted": "2026-09-06",
+   "advance": 5000,
+   "purpose": "Training",
+   "lines": [
+    {
+     "category": "Meals",
+     "description": "Meals in Pune",
+     "amount": 950,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Train",
+     "description": "Travel to and from Pune",
+     "amount": 16550,
+     "currency": "INR",
+     "date": "2026-07-05",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Hotel",
+     "description": "Pune hotel, 3 nights",
+     "amount": 26630,
+     "currency": "INR",
+     "date": "2026-07-07",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 240,
+     "currency": "INR",
+     "date": "2026-07-08",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-06",
+     "text": "Submitted by Kiara Bose"
+    },
+    {
+     "at": "2026-09-07",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  },
+  {
+   "key": "rasr2y",
+   "claim_no": "EXP-57401",
+   "employee_id": "E1017",
+   "city": "Dubai",
+   "trip_start": "2026-08-08",
+   "trip_end": "2026-08-11",
+   "submitted": "2026-09-12",
+   "advance": 2000,
+   "purpose": "Conference",
+   "lines": [
+    {
+     "category": "Hotel",
+     "description": "Dubai hotel, 3 nights",
+     "amount": 1187,
+     "currency": "AED",
+     "date": "2026-08-10",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Flight",
+     "description": "Travel to and from Dubai",
+     "amount": 4050,
+     "currency": "INR",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Meals",
+     "description": "Meals in Dubai",
+     "amount": 39,
+     "currency": "AED",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    },
+    {
+     "category": "Taxi",
+     "description": "Airport and local travel",
+     "amount": 7,
+     "currency": "AED",
+     "date": "2026-08-11",
+     "receipt": "Attached"
+    }
+   ],
+   "activity": [
+    {
+     "at": "2026-09-12",
+     "text": "Submitted by Riya Khanna"
+    },
+    {
+     "at": "2026-09-13",
+     "text": "Manager approved, sent to finance"
+    }
+   ]
+  }
+ ],
+ "employees": [
+  {
+   "id": "E1000",
+   "name": "Aarav Mehta",
+   "grade": "L2"
+  },
+  {
+   "id": "E1001",
+   "name": "Diya Kapoor",
+   "grade": "L2"
+  },
+  {
+   "id": "E1002",
+   "name": "Kabir Singh",
+   "grade": "L3"
+  },
+  {
+   "id": "E1003",
+   "name": "Ananya Rao",
+   "grade": "L1"
+  },
+  {
+   "id": "E1004",
+   "name": "Vihaan Shah",
+   "grade": "L1"
+  },
+  {
+   "id": "E1005",
+   "name": "Ishita Nair",
+   "grade": "L2"
+  },
+  {
+   "id": "E1006",
+   "name": "Arjun Patel",
+   "grade": "L2"
+  },
+  {
+   "id": "E1007",
+   "name": "Meera Iyer",
+   "grade": "L1"
+  },
+  {
+   "id": "E1008",
+   "name": "Rohan Gupta",
+   "grade": "L1"
+  },
+  {
+   "id": "E1009",
+   "name": "Saanvi Joshi",
+   "grade": "L2"
+  },
+  {
+   "id": "E1010",
+   "name": "Aditya Verma",
+   "grade": "L2"
+  },
+  {
+   "id": "E1011",
+   "name": "Kiara Bose",
+   "grade": "L4"
+  },
+  {
+   "id": "E1012",
+   "name": "Reyansh Das",
+   "grade": "L2"
+  },
+  {
+   "id": "E1013",
+   "name": "Navya Menon",
+   "grade": "L2"
+  },
+  {
+   "id": "E1014",
+   "name": "Krish Malhotra",
+   "grade": "L2"
+  },
+  {
+   "id": "E1015",
+   "name": "Tara Sethi",
+   "grade": "L1"
+  },
+  {
+   "id": "E1016",
+   "name": "Dev Chauhan",
+   "grade": "L1"
+  },
+  {
+   "id": "E1017",
+   "name": "Riya Khanna",
+   "grade": "L1"
+  },
+  {
+   "id": "E1018",
+   "name": "Neel Bhatt",
+   "grade": "L4"
+  },
+  {
+   "id": "E1019",
+   "name": "Zoya Qureshi",
+   "grade": "L4"
+  },
+  {
+   "id": "E1020",
+   "name": "Om Kulkarni",
+   "grade": "L1"
+  },
+  {
+   "id": "E1021",
+   "name": "Pari Saxena",
+   "grade": "L1"
+  },
+  {
+   "id": "E1022",
+   "name": "Yash Thakur",
+   "grade": "L2"
+  },
+  {
+   "id": "E1023",
+   "name": "Myra Pillai",
+   "grade": "L2"
+  }
+ ],
+ "policy": {
+  "limits": {
+   "Tier 1": {
+    "L1": 4000,
+    "L2": 5500,
+    "L3": 7000,
+    "L4": 9000
+   },
+   "Tier 2": {
+    "L1": 3000,
+    "L2": 4000,
+    "L3": 5000,
+    "L4": 6500
+   },
+   "Tier 3": {
+    "L1": 2000,
+    "L2": 2800,
+    "L3": 3500,
+    "L4": 4500
+   },
+   "International": {
+    "L1": 9000,
+    "L2": 11000,
+    "L3": 13000,
+    "L4": 16000
+   }
+  },
+  "tiers": {
+   "Tier 1": [
+    "Mumbai",
+    "Delhi",
+    "Bengaluru",
+    "Chennai",
+    "Hyderabad",
+    "Kolkata",
+    "Pune"
+   ],
+   "Tier 2": [
+    "Jaipur",
+    "Lucknow",
+    "Kochi",
+    "Indore",
+    "Chandigarh",
+    "Ahmedabad",
+    "Coimbatore"
+   ],
+   "Tier 3": [
+    "Nashik",
+    "Mysuru",
+    "Udaipur",
+    "Shillong",
+    "Guwahati",
+    "Visakhapatnam"
+   ],
+   "International": [
+    "Dubai",
+    "Singapore",
+    "London",
+    "Frankfurt",
+    "New York"
+   ]
+  },
+  "rates": {
+   "INR": 1,
+   "USD": 83,
+   "EUR": 90,
+   "GBP": 105,
+   "AED": 23,
+   "SGD": 62
+  },
+  "window_days": 45
+ }
+}

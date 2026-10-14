@@ -1,0 +1,579 @@
+{
+  "tool": "skyvern",
+  "skyvern_version": "1.0.55",
+  "model": "gemini-3.5-flash-lite (Skyvern LLM_KEY=GEMINI_3.5_FLASH_LITE via bench proxy)",
+  "workflow_permanent_id": "wpid_584989128840445664",
+  "config": {
+    "block": "task",
+    "run_with": "code",
+    "code_version": null,
+    "max_steps": 40
+  },
+  "started_at": "2026-10-13T10:16:35.987Z",
+  "records": [
+    {
+      "invoice_no": "INV-26-5751",
+      "start": "2026-10-13T10:16:35.991Z",
+      "script_before": [],
+      "run_id": "wr_584989128840445670",
+      "run_end": "2026-10-13T10:27:23.697Z",
+      "end": "2026-10-13T10:27:43.747Z",
+      "seconds": 667.8,
+      "run_seconds": 647.7,
+      "status": "failed",
+      "output": {
+        "decide_invoice_output": {
+          "task_id": "tsk_584989133135412978",
+          "status": "failed",
+          "extracted_information": null,
+          "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The user has successfully navigated through the steps to view the invoice, vendor, purchase orders, and goods receipts across multiple loops, but has reached the step limit of 41 before filling out the decision form, saving the decision, confirming it, and providing the final summary text required by the goal.",
+          "errors": [
+            {
+              "error_code": "REACH_MAX_STEPS",
+              "reasoning": "The agent has reached the maximum number of steps.",
+              "error_type": "SYSTEM_DEFINED_ERROR"
+            }
+          ],
+          "failure_category": [
+            {
+              "category": "MAX_STEPS_EXCEEDED",
+              "confidence_float": 1.0,
+              "reasoning": "The agent performed multiple repetitive loops gathering information and ran out of steps before completing the final decision and form submission."
+            },
+            {
+              "category": "LLM_REASONING_ERROR",
+              "confidence_float": 0.8,
+              "reasoning": "The agent repeatedly revisited the same pages instead of progressing to fill out the decision form and finalize the task."
+            }
+          ],
+          "downloaded_files": [],
+          "downloaded_file_urls": null,
+          "downloaded_file_artifact_ids": null,
+          "task_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/39_0_stp_584991800310103308/2026-10-13T10:27:21.594736_a_584991903389318474_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/39_0_stp_584991800310103308/2026-10-13T10:27:21.513866_a_584991851849710896_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/38_0_stp_584991748770495716/2026-10-13T10:27:08.160546_a_584991800310103304_screenshot_action.png"
+          ],
+          "workflow_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/39_0_stp_584991800310103308/2026-10-13T10:27:21.594736_a_584991903389318474_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/39_0_stp_584991800310103308/2026-10-13T10:27:21.513866_a_584991851849710896_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584989133135412978/38_0_stp_584991748770495716/2026-10-13T10:27:08.160546_a_584991800310103304_screenshot_action.png"
+          ],
+          "task_screenshot_artifact_ids": [
+            "a_584991903389318474",
+            "a_584991851849710896",
+            "a_584991800310103304"
+          ],
+          "workflow_screenshot_artifact_ids": [
+            "a_584991903389318474",
+            "a_584991851849710896",
+            "a_584991800310103304"
+          ]
+        },
+        "extracted_information": []
+      },
+      "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The user has successfully navigated through the steps to view the invoice, vendor, purchase orders, and goods receipts across multiple loops, but has reached the step limit of 41 before filling out the decision form, saving the decision, confirming it, and providing the final summary text required by the goal.",
+      "errors": [
+        {
+          "error_code": "REACH_MAX_STEPS",
+          "reasoning": "The agent has reached the maximum number of steps.",
+          "error_type": "SYSTEM_DEFINED_ERROR"
+        }
+      ],
+      "script_run": null,
+      "execution_mode": "ai",
+      "skyvern": {
+        "workflow_run": {
+          "status": "failed",
+          "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The user has successfully navigated through the steps to view the invoice, vendor, purchase orders, and goods receipts across multiple loops, but has reached the step limit of 41 before filling out the decision form, saving the decision, confirming it, and providing the final summary text required by the goal.",
+          "run_with": "code",
+          "ai_fallback": null,
+          "code_gen": null,
+          "script_run": null,
+          "started_at": "2026-10-13 10:16:36.014144",
+          "finished_at": "2026-10-13 10:27:21.608602"
+        },
+        "child_workflow_runs": 0,
+        "blocks": [
+          {
+            "label": "decide_invoice",
+            "block_type": "task",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The user has successfully navigated through the steps to view the invoice, vendor, purchase orders, and goods receipts across multiple loops, but has reached the step limit of 41 before filling out the decision form, saving the decision, confirming it, and providing the final summary text required by the goal.",
+            "script_run": "null",
+            "llm_cost": 0.00033099999999999997
+          }
+        ],
+        "tasks": [
+          {
+            "task_id": "tsk_584989133135412978",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The user has successfully navigated through the steps to view the invoice, vendor, purchase orders, and goods receipts across multiple loops, but has reached the step limit of 41 before filling out the decision form, saving the decision, confirming it, and providing the final summary text required by the goal.",
+            "extracted_information": null,
+            "max_steps_per_run": 40,
+            "started_at": "2026-10-13 10:16:36.039396",
+            "finished_at": "2026-10-13 10:27:21.504669"
+          }
+        ],
+        "steps": 41,
+        "tokens": {
+          "in": 308854,
+          "out": 20960,
+          "reasoning": 0
+        },
+        "skyvern_step_cost_usd": 0.144507,
+        "actions": [
+          {
+            "action_type": "click",
+            "status": "completed",
+            "created_by": null,
+            "n": 29
+          },
+          {
+            "action_type": "input_text",
+            "status": "completed",
+            "created_by": null,
+            "n": 12
+          }
+        ],
+        "action_count": 41,
+        "skyvern_llm_request_artifacts": 81,
+        "task_v2_planner_thoughts": 0,
+        "script_fallback_episodes": 0
+      },
+      "proxy_calls": {
+        "all": 83,
+        "ok": 83,
+        "tokens_in": 314742,
+        "tokens_out": 21440,
+        "statuses": [
+          200
+        ]
+      },
+      "script_after": [],
+      "cached_script_used": false
+    },
+    {
+      "invoice_no": "INV-26-2820",
+      "start": "2026-10-13T10:27:43.759Z",
+      "script_before": [],
+      "run_id": "wr_584991997878599008",
+      "run_end": "2026-10-13T10:33:28.771Z",
+      "end": "2026-10-13T10:33:48.832Z",
+      "seconds": 365.1,
+      "run_seconds": 345.0,
+      "status": "failed",
+      "output": {
+        "decide_invoice_output": {
+          "task_id": "tsk_584991997878599020",
+          "status": "failed",
+          "extracted_information": null,
+          "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent navigated back and forth between pages multiple times across the 41 steps, gathering information about the invoice, vendor, purchase order, and goods receipts, but failed to make and save the final decision before reaching the step limit.",
+          "errors": [
+            {
+              "error_code": "REACH_MAX_STEPS",
+              "reasoning": "The agent has reached the maximum number of steps.",
+              "error_type": "SYSTEM_DEFINED_ERROR"
+            }
+          ],
+          "failure_category": [
+            {
+              "category": "MAX_STEPS_EXCEEDED",
+              "confidence_float": 1.0,
+              "reasoning": "The agent exhausted the 41-step limit while repeatedly navigating between pages instead of completing the decision form and submitting it."
+            },
+            {
+              "category": "LLM_REASONING_ERROR",
+              "confidence_float": 0.8,
+              "reasoning": "The agent got stuck in a repetitive loop of checking and re-checking pages rather than making progress towards submitting the decision."
+            }
+          ],
+          "downloaded_files": [],
+          "downloaded_file_urls": null,
+          "downloaded_file_artifact_ids": null,
+          "task_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/39_0_stp_584993393742969728/2026-10-13T10:33:27.286543_a_584993475347348414_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/39_0_stp_584993393742969728/2026-10-13T10:33:27.212944_a_584993428102708132_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/38_0_stp_584993350793296728/2026-10-13T10:33:15.180855_a_584993393742969724_screenshot_action.png"
+          ],
+          "workflow_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/39_0_stp_584993393742969728/2026-10-13T10:33:27.286543_a_584993475347348414_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/39_0_stp_584993393742969728/2026-10-13T10:33:27.212944_a_584993428102708132_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584991997878599020/38_0_stp_584993350793296728/2026-10-13T10:33:15.180855_a_584993393742969724_screenshot_action.png"
+          ],
+          "task_screenshot_artifact_ids": [
+            "a_584993475347348414",
+            "a_584993428102708132",
+            "a_584993393742969724"
+          ],
+          "workflow_screenshot_artifact_ids": [
+            "a_584993475347348414",
+            "a_584993428102708132",
+            "a_584993393742969724"
+          ]
+        },
+        "extracted_information": []
+      },
+      "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent navigated back and forth between pages multiple times across the 41 steps, gathering information about the invoice, vendor, purchase order, and goods receipts, but failed to make and save the final decision before reaching the step limit.",
+      "errors": [
+        {
+          "error_code": "REACH_MAX_STEPS",
+          "reasoning": "The agent has reached the maximum number of steps.",
+          "error_type": "SYSTEM_DEFINED_ERROR"
+        }
+      ],
+      "script_run": null,
+      "execution_mode": "ai",
+      "skyvern": {
+        "workflow_run": {
+          "status": "failed",
+          "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent navigated back and forth between pages multiple times across the 41 steps, gathering information about the invoice, vendor, purchase order, and goods receipts, but failed to make and save the final decision before reaching the step limit.",
+          "run_with": "code",
+          "ai_fallback": null,
+          "code_gen": null,
+          "script_run": null,
+          "started_at": "2026-10-13 10:27:43.825533",
+          "finished_at": "2026-10-13 10:33:27.296374"
+        },
+        "child_workflow_runs": 0,
+        "blocks": [
+          {
+            "label": "decide_invoice",
+            "block_type": "task",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent navigated back and forth between pages multiple times across the 41 steps, gathering information about the invoice, vendor, purchase order, and goods receipts, but failed to make and save the final decision before reaching the step limit.",
+            "script_run": "null",
+            "llm_cost": 0
+          }
+        ],
+        "tasks": [
+          {
+            "task_id": "tsk_584991997878599020",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent navigated back and forth between pages multiple times across the 41 steps, gathering information about the invoice, vendor, purchase order, and goods receipts, but failed to make and save the final decision before reaching the step limit.",
+            "extracted_information": null,
+            "max_steps_per_run": 40,
+            "started_at": "2026-10-13 10:27:43.851511",
+            "finished_at": "2026-10-13 10:33:27.203823"
+          }
+        ],
+        "steps": 41,
+        "tokens": {
+          "in": 308632,
+          "out": 20338,
+          "reasoning": 0
+        },
+        "skyvern_step_cost_usd": 0.140139,
+        "actions": [
+          {
+            "action_type": "click",
+            "status": "completed",
+            "created_by": null,
+            "n": 30
+          },
+          {
+            "action_type": "input_text",
+            "status": "completed",
+            "created_by": null,
+            "n": 10
+          }
+        ],
+        "action_count": 40,
+        "skyvern_llm_request_artifacts": 81,
+        "task_v2_planner_thoughts": 0,
+        "script_fallback_episodes": 0
+      },
+      "proxy_calls": {
+        "all": 82,
+        "ok": 82,
+        "tokens_in": 313691,
+        "tokens_out": 20719,
+        "statuses": [
+          200
+        ]
+      },
+      "script_after": [],
+      "cached_script_used": false
+    },
+    {
+      "invoice_no": "INV-26-8921",
+      "start": "2026-10-13T10:33:48.843Z",
+      "script_before": [],
+      "run_id": "wr_584993565541661652",
+      "run_end": "2026-10-13T10:40:12.816Z",
+      "end": "2026-10-13T10:40:32.876Z",
+      "seconds": 404.0,
+      "run_seconds": 384.0,
+      "status": "failed",
+      "output": {
+        "decide_invoice_output": {
+          "task_id": "tsk_584993565541661664",
+          "status": "failed",
+          "extracted_information": null,
+          "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent successfully gathered all necessary information across the invoices, vendors, purchase orders, and goods receipts pages, and has returned to the invoice detail page. However, it ran out of steps before selecting the final decision in the dropdown, clicking 'Save decision', and confirming.",
+          "errors": [
+            {
+              "error_code": "REACH_MAX_STEPS",
+              "reasoning": "The agent has reached the maximum number of steps.",
+              "error_type": "SYSTEM_DEFINED_ERROR"
+            }
+          ],
+          "failure_category": [
+            {
+              "category": "MAX_STEPS_EXCEEDED",
+              "confidence_float": 1.0,
+              "reasoning": "The task reached the 41-step limit just before filling out and saving the final decision form."
+            }
+          ],
+          "downloaded_files": [],
+          "downloaded_file_urls": null,
+          "downloaded_file_artifact_ids": null,
+          "task_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/39_0_stp_584995150384593396/2026-10-13T10:40:12.201293_a_584995214809102898_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/39_0_stp_584995150384593396/2026-10-13T10:40:12.127703_a_584995184744331800_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/38_0_stp_584995120319822284/2026-10-13T10:40:03.681556_a_584995150384593392_screenshot_action.png"
+          ],
+          "workflow_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/39_0_stp_584995150384593396/2026-10-13T10:40:12.201293_a_584995214809102898_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/39_0_stp_584995150384593396/2026-10-13T10:40:12.127703_a_584995184744331800_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584993565541661664/38_0_stp_584995120319822284/2026-10-13T10:40:03.681556_a_584995150384593392_screenshot_action.png"
+          ],
+          "task_screenshot_artifact_ids": [
+            "a_584995214809102898",
+            "a_584995184744331800",
+            "a_584995150384593392"
+          ],
+          "workflow_screenshot_artifact_ids": [
+            "a_584995214809102898",
+            "a_584995184744331800",
+            "a_584995150384593392"
+          ]
+        },
+        "extracted_information": []
+      },
+      "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent successfully gathered all necessary information across the invoices, vendors, purchase orders, and goods receipts pages, and has returned to the invoice detail page. However, it ran out of steps before selecting the final decision in the dropdown, clicking 'Save decision', and confirming.",
+      "errors": [
+        {
+          "error_code": "REACH_MAX_STEPS",
+          "reasoning": "The agent has reached the maximum number of steps.",
+          "error_type": "SYSTEM_DEFINED_ERROR"
+        }
+      ],
+      "script_run": null,
+      "execution_mode": "ai",
+      "skyvern": {
+        "workflow_run": {
+          "status": "failed",
+          "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent successfully gathered all necessary information across the invoices, vendors, purchase orders, and goods receipts pages, and has returned to the invoice detail page. However, it ran out of steps before selecting the final decision in the dropdown, clicking 'Save decision', and confirming.",
+          "run_with": "code",
+          "ai_fallback": null,
+          "code_gen": null,
+          "script_run": null,
+          "started_at": "2026-10-13 10:33:48.876199",
+          "finished_at": "2026-10-13 10:40:12.211707"
+        },
+        "child_workflow_runs": 0,
+        "blocks": [
+          {
+            "label": "decide_invoice",
+            "block_type": "task",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent successfully gathered all necessary information across the invoices, vendors, purchase orders, and goods receipts pages, and has returned to the invoice detail page. However, it ran out of steps before selecting the final decision in the dropdown, clicking 'Save decision', and confirming.",
+            "script_run": "null",
+            "llm_cost": 0
+          }
+        ],
+        "tasks": [
+          {
+            "task_id": "tsk_584993565541661664",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent successfully gathered all necessary information across the invoices, vendors, purchase orders, and goods receipts pages, and has returned to the invoice detail page. However, it ran out of steps before selecting the final decision in the dropdown, clicking 'Save decision', and confirming.",
+            "extracted_information": null,
+            "max_steps_per_run": 40,
+            "started_at": "2026-10-13 10:33:48.896055",
+            "finished_at": "2026-10-13 10:40:12.118995"
+          }
+        ],
+        "steps": 41,
+        "tokens": {
+          "in": 308965,
+          "out": 20409,
+          "reasoning": 0
+        },
+        "skyvern_step_cost_usd": 0.140966,
+        "actions": [
+          {
+            "action_type": "click",
+            "status": "completed",
+            "created_by": null,
+            "n": 29
+          },
+          {
+            "action_type": "input_text",
+            "status": "completed",
+            "created_by": null,
+            "n": 11
+          }
+        ],
+        "action_count": 40,
+        "skyvern_llm_request_artifacts": 81,
+        "task_v2_planner_thoughts": 0,
+        "script_fallback_episodes": 0
+      },
+      "proxy_calls": {
+        "all": 82,
+        "ok": 82,
+        "tokens_in": 314011,
+        "tokens_out": 20787,
+        "statuses": [
+          200
+        ]
+      },
+      "script_after": [],
+      "cached_script_used": false
+    },
+    {
+      "invoice_no": "INV-26-9511",
+      "start": "2026-10-13T10:40:32.891Z",
+      "script_before": [],
+      "run_id": "wr_584995300708448840",
+      "run_end": "2026-10-13T10:46:20.745Z",
+      "end": "2026-10-13T10:46:40.812Z",
+      "seconds": 367.9,
+      "run_seconds": 347.9,
+      "status": "failed",
+      "output": {
+        "decide_invoice_output": {
+          "task_id": "tsk_584995300708448852",
+          "status": "failed",
+          "extracted_information": null,
+          "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent repeatedly navigates back and forth between the invoices page and vendor details without progressing to check purchase orders, goods receipts, or filling out the decision form. The task limit of 41 steps was reached due to repetitive navigation loops.",
+          "errors": [
+            {
+              "error_code": "REACH_MAX_STEPS",
+              "reasoning": "The agent has reached the maximum number of steps.",
+              "error_type": "SYSTEM_DEFINED_ERROR"
+            }
+          ],
+          "failure_category": [
+            {
+              "category": "MAX_STEPS_EXCEEDED",
+              "confidence_float": 1.0,
+              "reasoning": "The agent got stuck in a repetitive loop of searching for the invoice and checking the vendor details repeatedly until the maximum step limit of 41 was reached."
+            },
+            {
+              "category": "LLM_REASONING_ERROR",
+              "confidence_float": 0.9,
+              "reasoning": "The agent failed to proceed with the remaining steps of the user goal (checking POs and Goods Receipts, then submitting the decision) and instead repeated previous steps multiple times."
+            }
+          ],
+          "downloaded_files": [],
+          "downloaded_file_urls": null,
+          "downloaded_file_artifact_ids": null,
+          "task_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/39_0_stp_584996722342623336/2026-10-13T10:46:19.691900_a_584996791062100134_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/39_0_stp_584996722342623336/2026-10-13T10:46:19.631201_a_584996756702361740_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/38_0_stp_584996692277852224/2026-10-13T10:46:09.867533_a_584996722342623332_screenshot_action.png"
+          ],
+          "workflow_screenshots": [
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/39_0_stp_584996722342623336/2026-10-13T10:46:19.691900_a_584996791062100134_screenshot_final.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/39_0_stp_584996722342623336/2026-10-13T10:46:19.631201_a_584996756702361740_screenshot_action.png",
+            "file:///v5-skyvern/data/artifacts/o_584938594157256462/tsk_584995300708448852/38_0_stp_584996692277852224/2026-10-13T10:46:09.867533_a_584996722342623332_screenshot_action.png"
+          ],
+          "task_screenshot_artifact_ids": [
+            "a_584996791062100134",
+            "a_584996756702361740",
+            "a_584996722342623332"
+          ],
+          "workflow_screenshot_artifact_ids": [
+            "a_584996791062100134",
+            "a_584996756702361740",
+            "a_584996722342623332"
+          ]
+        },
+        "extracted_information": []
+      },
+      "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent repeatedly navigates back and forth between the invoices page and vendor details without progressing to check purchase orders, goods receipts, or filling out the decision form. The task limit of 41 steps was reached due to repetitive navigation loops.",
+      "errors": [
+        {
+          "error_code": "REACH_MAX_STEPS",
+          "reasoning": "The agent has reached the maximum number of steps.",
+          "error_type": "SYSTEM_DEFINED_ERROR"
+        }
+      ],
+      "script_run": null,
+      "execution_mode": "ai",
+      "skyvern": {
+        "workflow_run": {
+          "status": "failed",
+          "failure_reason": "task block failed. failure reason: Reached the maximum steps (40). Possible failure reasons: The agent repeatedly navigates back and forth between the invoices page and vendor details without progressing to check purchase orders, goods receipts, or filling out the decision form. The task limit of 41 steps was reached due to repetitive navigation loops.",
+          "run_with": "code",
+          "ai_fallback": null,
+          "code_gen": null,
+          "script_run": null,
+          "started_at": "2026-10-13 10:40:32.916900",
+          "finished_at": "2026-10-13 10:46:19.701801"
+        },
+        "child_workflow_runs": 0,
+        "blocks": [
+          {
+            "label": "decide_invoice",
+            "block_type": "task",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent repeatedly navigates back and forth between the invoices page and vendor details without progressing to check purchase orders, goods receipts, or filling out the decision form. The task limit of 41 steps was reached due to repetitive navigation loops.",
+            "script_run": "null",
+            "llm_cost": 0
+          }
+        ],
+        "tasks": [
+          {
+            "task_id": "tsk_584995300708448852",
+            "status": "failed",
+            "failure_reason": "Reached the maximum steps (40). Possible failure reasons: The agent repeatedly navigates back and forth between the invoices page and vendor details without progressing to check purchase orders, goods receipts, or filling out the decision form. The task limit of 41 steps was reached due to repetitive navigation loops.",
+            "extracted_information": null,
+            "max_steps_per_run": 40,
+            "started_at": "2026-10-13 10:40:32.933659",
+            "finished_at": "2026-10-13 10:46:19.622988"
+          }
+        ],
+        "steps": 41,
+        "tokens": {
+          "in": 307106,
+          "out": 20755,
+          "reasoning": 0
+        },
+        "skyvern_step_cost_usd": 0.138527,
+        "actions": [
+          {
+            "action_type": "click",
+            "status": "completed",
+            "created_by": null,
+            "n": 32
+          },
+          {
+            "action_type": "input_text",
+            "status": "completed",
+            "created_by": null,
+            "n": 8
+          }
+        ],
+        "action_count": 40,
+        "skyvern_llm_request_artifacts": 81,
+        "task_v2_planner_thoughts": 0,
+        "script_fallback_episodes": 0
+      },
+      "proxy_calls": {
+        "all": 84,
+        "ok": 82,
+        "tokens_in": 311938,
+        "tokens_out": 21125,
+        "statuses": [
+          200,
+          429
+        ]
+      },
+      "script_after": [],
+      "cached_script_used": false
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+ "RMA-74592": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-3056",
+  "pickup_date": "2026-10-20"
+ },
+ "RMA-76115": {
+  "disposition": "Refund",
+  "refund_amount": 14400,
+  "pickup_date": "2026-11-02"
+ },
+ "RMA-71763": {
+  "disposition": "Refund",
+  "refund_amount": 8520,
+  "pickup_date": "2026-11-08"
+ },
+ "RMA-74146": {
+  "disposition": "Refund",
+  "refund_amount": 5280,
+  "pickup_date": "2026-10-19"
+ },
+ "RMA-74957": {
+  "disposition": "Refund",
+  "refund_amount": 8436,
+  "pickup_date": "2026-12-19"
+ },
+ "RMA-78993": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-5399",
+  "pickup_date": "2026-10-14"
+ },
+ "RMA-79828": {
+  "disposition": "Refund",
+  "refund_amount": 6240,
+  "pickup_date": "2026-10-27"
+ },
+ "RMA-77394": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-78447": {
+  "disposition": "Refund",
+  "refund_amount": 1840,
+  "pickup_date": "2026-11-03"
+ },
+ "RMA-79539": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-2750",
+  "pickup_date": "2026-11-03"
+ },
+ "RMA-75991": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-71827": {
+  "disposition": "Refund",
+  "refund_amount": 8475,
+  "pickup_date": "2026-10-14"
+ },
+ "RMA-75413": {
+  "disposition": "Refund",
+  "refund_amount": 5560,
+  "pickup_date": "2026-10-20"
+ },
+ "RMA-76977": {
+  "disposition": "Refund",
+  "refund_amount": 1872,
+  "pickup_date": "2026-11-09"
+ },
+ "RMA-70595": {
+  "disposition": "Refund",
+  "refund_amount": 544,
+  "pickup_date": "2026-12-13"
+ },
+ "RMA-72749": {
+  "disposition": "Refund",
+  "refund_amount": 704,
+  "pickup_date": "2026-10-26"
+ },
+ "RMA-78808": {
+  "disposition": "Refund",
+  "refund_amount": 2320,
+  "pickup_date": "2026-12-20"
+ },
+ "RMA-72142": {
+  "disposition": "Refund",
+  "refund_amount": 3120,
+  "pickup_date": "2026-10-24"
+ },
+ "RMA-71175": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-72417": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-2853",
+  "pickup_date": "2026-10-24"
+ },
+ "RMA-73236": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-75352": {
+  "disposition": "Refund",
+  "refund_amount": 5304,
+  "pickup_date": "2026-11-11"
+ },
+ "RMA-70611": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-2292",
+  "pickup_date": "2026-11-22"
+ },
+ "RMA-71660": {
+  "disposition": "Refund",
+  "refund_amount": 2680,
+  "pickup_date": "2026-12-19"
+ },
+ "RMA-74168": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-7004",
+  "pickup_date": "2026-10-29"
+ },
+ "RMA-74111": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-74799": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-77710": {
+  "disposition": "Refund",
+  "refund_amount": 2394,
+  "pickup_date": "2026-12-18"
+ },
+ "RMA-73823": {
+  "disposition": "Refund",
+  "refund_amount": 2744,
+  "pickup_date": "2026-11-08"
+ },
+ "RMA-72089": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-75619": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-72878": {
+  "disposition": "Refund",
+  "refund_amount": 1696,
+  "pickup_date": "2026-12-04"
+ },
+ "RMA-79470": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-3074",
+  "pickup_date": "2026-11-08"
+ },
+ "RMA-70197": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-75892": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-7421",
+  "pickup_date": "2026-10-25"
+ },
+ "RMA-76973": {
+  "disposition": "Refund",
+  "refund_amount": 8000,
+  "pickup_date": "2026-11-03"
+ },
+ "RMA-78681": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-7448",
+  "pickup_date": "2026-12-20"
+ },
+ "RMA-70524": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-1233",
+  "pickup_date": "2026-11-14"
+ },
+ "RMA-70212": {
+  "disposition": "Refund",
+  "refund_amount": 2580,
+  "pickup_date": "2026-11-24"
+ },
+ "RMA-75817": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-78024": {
+  "disposition": "Refund",
+  "refund_amount": 2130,
+  "pickup_date": "2026-10-26"
+ },
+ "RMA-76094": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-5596",
+  "pickup_date": "2026-12-11"
+ },
+ "RMA-73470": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-76495": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-1734",
+  "pickup_date": "2026-11-10"
+ },
+ "RMA-79682": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-75329": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-9444",
+  "pickup_date": "2026-11-26"
+ },
+ "RMA-76510": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-6769",
+  "pickup_date": "2026-12-12"
+ },
+ "RMA-79257": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-8784",
+  "pickup_date": "2026-11-08"
+ },
+ "RMA-73735": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-74757": {
+  "disposition": "Refund",
+  "refund_amount": 850,
+  "pickup_date": "2026-11-27"
+ },
+ "RMA-71519": {
+  "disposition": "Refund",
+  "refund_amount": 3192,
+  "pickup_date": "2026-11-28"
+ },
+ "RMA-70317": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-72994": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-7365",
+  "pickup_date": "2026-12-06"
+ },
+ "RMA-70596": {
+  "disposition": "Refund",
+  "refund_amount": 5964,
+  "pickup_date": "2026-10-24"
+ },
+ "RMA-78518": {
+  "disposition": "Refund",
+  "refund_amount": 4260,
+  "pickup_date": "2026-10-13"
+ },
+ "RMA-76277": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-2531",
+  "pickup_date": "2026-10-18"
+ },
+ "RMA-74586": {
+  "disposition": "Refund",
+  "refund_amount": 6720,
+  "pickup_date": "2026-10-27"
+ },
+ "RMA-72977": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-78775": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-72352": {
+  "disposition": "Refund",
+  "refund_amount": 2180,
+  "pickup_date": "2026-11-16"
+ },
+ "RMA-72157": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-78390": {
+  "disposition": "Refund",
+  "refund_amount": 15600,
+  "pickup_date": "2026-10-26"
+ },
+ "RMA-78911": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-3392",
+  "pickup_date": "2026-11-18"
+ },
+ "RMA-72082": {
+  "disposition": "Refund",
+  "refund_amount": 3560,
+  "pickup_date": "2026-11-13"
+ },
+ "RMA-77501": {
+  "disposition": "Refund",
+  "refund_amount": 1320,
+  "pickup_date": "2026-12-07"
+ },
+ "RMA-74225": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-76167": {
+  "disposition": "Refund",
+  "refund_amount": 7680,
+  "pickup_date": "2026-12-18"
+ },
+ "RMA-78522": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-77946": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-8124",
+  "pickup_date": "2026-11-22"
+ },
+ "RMA-74485": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-2015",
+  "pickup_date": "2026-11-16"
+ },
+ "RMA-73313": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-79000": {
+  "disposition": "Refund",
+  "refund_amount": 4320,
+  "pickup_date": "2026-12-01"
+ },
+ "RMA-79039": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-74122": {
+  "disposition": "Refund",
+  "refund_amount": 6400,
+  "pickup_date": "2026-11-28"
+ },
+ "RMA-75802": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-79103": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-70208": {
+  "disposition": "Refund",
+  "refund_amount": 1984,
+  "pickup_date": "2026-11-05"
+ },
+ "RMA-76206": {
+  "disposition": "Refund",
+  "refund_amount": 2376,
+  "pickup_date": "2026-11-18"
+ },
+ "RMA-74074": {
+  "disposition": "Refund",
+  "refund_amount": 480,
+  "pickup_date": "2026-12-02"
+ },
+ "RMA-79540": {
+  "disposition": "Refund",
+  "refund_amount": 1560,
+  "pickup_date": "2026-11-17"
+ },
+ "RMA-79197": {
+  "disposition": "Refund",
+  "refund_amount": 8151,
+  "pickup_date": "2026-11-11"
+ },
+ "RMA-78107": {
+  "disposition": "Reject",
+  "reason": "Final sale"
+ },
+ "RMA-71752": {
+  "disposition": "Refund",
+  "refund_amount": 7800,
+  "pickup_date": "2026-10-23"
+ },
+ "RMA-78151": {
+  "disposition": "Refund",
+  "refund_amount": 2784,
+  "pickup_date": "2026-11-16"
+ },
+ "RMA-71196": {
+  "disposition": "Refund",
+  "refund_amount": 7440,
+  "pickup_date": "2026-11-09"
+ },
+ "RMA-76455": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-8643",
+  "pickup_date": "2026-11-08"
+ },
+ "RMA-77011": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-70904": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-78068": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-8791",
+  "pickup_date": "2026-11-19"
+ },
+ "RMA-78595": {
+  "disposition": "Refund",
+  "refund_amount": 1300,
+  "pickup_date": "2026-10-19"
+ },
+ "RMA-75968": {
+  "disposition": "Refund",
+  "refund_amount": 2800,
+  "pickup_date": "2026-10-24"
+ },
+ "RMA-76602": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-5872",
+  "pickup_date": "2026-11-27"
+ },
+ "RMA-74016": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-1405",
+  "pickup_date": "2026-12-07"
+ },
+ "RMA-72565": {
+  "disposition": "Refund",
+  "refund_amount": 1728,
+  "pickup_date": "2026-10-14"
+ },
+ "RMA-71683": {
+  "disposition": "Replace",
+  "replacement_sku": "SKU-5621",
+  "pickup_date": "2026-10-19"
+ },
+ "RMA-72447": {
+  "disposition": "Refund",
+  "refund_amount": 544,
+  "pickup_date": "2026-11-01"
+ },
+ "RMA-70579": {
+  "disposition": "Refund",
+  "refund_amount": 4200,
+  "pickup_date": "2026-10-13"
+ },
+ "RMA-71751": {
+  "disposition": "Reject",
+  "reason": "Out of warranty"
+ },
+ "RMA-72633": {
+  "disposition": "Reject",
+  "reason": "Outside window"
+ },
+ "RMA-72508": {
+  "disposition": "Refund",
+  "refund_amount": 11040,
+  "pickup_date": "2026-10-26"
+ }
+}

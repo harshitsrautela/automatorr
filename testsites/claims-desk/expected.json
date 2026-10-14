@@ -1,0 +1,402 @@
+{
+ "CLM-26-08494": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-08293": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-04208": {
+  "outcome": "Approve",
+  "payout": 21400
+ },
+ "CLM-26-06610": {
+  "outcome": "Approve",
+  "payout": 110050
+ },
+ "CLM-26-01149": {
+  "outcome": "Approve",
+  "payout": 32450
+ },
+ "CLM-26-01991": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-01975": {
+  "outcome": "Approve partially",
+  "payout": 947500
+ },
+ "CLM-26-05332": {
+  "outcome": "Approve",
+  "payout": 60000
+ },
+ "CLM-26-09917": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-02554": {
+  "outcome": "Approve",
+  "payout": 11400
+ },
+ "CLM-26-05542": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-02583": {
+  "outcome": "Approve partially",
+  "payout": 2364000
+ },
+ "CLM-26-01667": {
+  "outcome": "Approve",
+  "payout": 6500
+ },
+ "CLM-26-07403": {
+  "outcome": "Approve partially",
+  "payout": 122500
+ },
+ "CLM-26-03214": {
+  "outcome": "Approve",
+  "payout": 125750
+ },
+ "CLM-26-03395": {
+  "outcome": "Approve partially",
+  "payout": 185000
+ },
+ "CLM-26-04730": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-09615": {
+  "outcome": "Approve partially",
+  "payout": 212500
+ },
+ "CLM-26-06975": {
+  "outcome": "Approve",
+  "payout": 11600
+ },
+ "CLM-26-06014": {
+  "outcome": "Approve",
+  "payout": 718700
+ },
+ "CLM-26-03219": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-09710": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-01492": {
+  "outcome": "Approve partially",
+  "payout": 145000
+ },
+ "CLM-26-09270": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-09816": {
+  "outcome": "Approve partially",
+  "payout": 1400000
+ },
+ "CLM-26-09026": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-07401": {
+  "outcome": "Approve partially",
+  "payout": 299000
+ },
+ "CLM-26-07536": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-03354": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-09261": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-03836": {
+  "outcome": "Approve partially",
+  "payout": 325000
+ },
+ "CLM-26-05750": {
+  "outcome": "Approve",
+  "payout": 171350
+ },
+ "CLM-26-06064": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-06042": {
+  "outcome": "Approve",
+  "payout": 324900
+ },
+ "CLM-26-07571": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-04543": {
+  "outcome": "Approve",
+  "payout": 944400
+ },
+ "CLM-26-06661": {
+  "outcome": "Approve",
+  "payout": 59250
+ },
+ "CLM-26-03795": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-08802": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-01104": {
+  "outcome": "Approve",
+  "payout": 21250
+ },
+ "CLM-26-08936": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-01022": {
+  "outcome": "Approve partially",
+  "payout": 2255000
+ },
+ "CLM-26-08588": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-08071": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-09526": {
+  "outcome": "Approve partially",
+  "payout": 105000
+ },
+ "CLM-26-09634": {
+  "outcome": "Approve",
+  "payout": 158800
+ },
+ "CLM-26-01528": {
+  "outcome": "Approve",
+  "payout": 48950
+ },
+ "CLM-26-02099": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-04442": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-04909": {
+  "outcome": "Approve partially",
+  "payout": 2364000
+ },
+ "CLM-26-08175": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-04898": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-06963": {
+  "outcome": "Approve",
+  "payout": 187000
+ },
+ "CLM-26-03145": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-01045": {
+  "outcome": "Approve partially",
+  "payout": 160000
+ },
+ "CLM-26-09681": {
+  "outcome": "Approve",
+  "payout": 535350
+ },
+ "CLM-26-01682": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-06114": {
+  "outcome": "Approve partially",
+  "payout": 150000
+ },
+ "CLM-26-06367": {
+  "outcome": "Approve",
+  "payout": 1282600
+ },
+ "CLM-26-05287": {
+  "outcome": "Approve partially",
+  "payout": 202500
+ },
+ "CLM-26-07932": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-02195": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-01847": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-03030": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-07783": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-07511": {
+  "outcome": "Approve partially",
+  "payout": 619000
+ },
+ "CLM-26-07020": {
+  "outcome": "Approve",
+  "payout": 497250
+ },
+ "CLM-26-01068": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-04753": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-05120": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-07996": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-09239": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-04950": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-02336": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-04444": {
+  "outcome": "Approve",
+  "payout": 119650
+ },
+ "CLM-26-08616": {
+  "outcome": "Approve",
+  "payout": 284650
+ },
+ "CLM-26-04872": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-03322": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-09431": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-09555": {
+  "outcome": "Approve",
+  "payout": 160000
+ },
+ "CLM-26-05951": {
+  "outcome": "Request information",
+  "document": "Police report"
+ },
+ "CLM-26-05121": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-08035": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-03024": {
+  "outcome": "Approve",
+  "payout": 31250
+ },
+ "CLM-26-07369": {
+  "outcome": "Approve",
+  "payout": 284000
+ },
+ "CLM-26-05294": {
+  "outcome": "Approve",
+  "payout": 81800
+ },
+ "CLM-26-09985": {
+  "outcome": "Approve",
+  "payout": 11650
+ },
+ "CLM-26-04475": {
+  "outcome": "Approve",
+  "payout": 289000
+ },
+ "CLM-26-09829": {
+  "outcome": "Approve",
+  "payout": 517650
+ },
+ "CLM-26-08487": {
+  "outcome": "Decline",
+  "reason": "No cover on loss date"
+ },
+ "CLM-26-09006": {
+  "outcome": "Approve",
+  "payout": 8700
+ },
+ "CLM-26-04889": {
+  "outcome": "Approve partially",
+  "payout": 485000
+ },
+ "CLM-26-02497": {
+  "outcome": "Approve partially",
+  "payout": 1630000
+ },
+ "CLM-26-06701": {
+  "outcome": "Approve",
+  "payout": 1764050
+ },
+ "CLM-26-06373": {
+  "outcome": "Approve partially",
+  "payout": 340000
+ },
+ "CLM-26-05744": {
+  "outcome": "Approve partially",
+  "payout": 884000
+ },
+ "CLM-26-07807": {
+  "outcome": "Decline",
+  "reason": "Peril not covered"
+ },
+ "CLM-26-02015": {
+  "outcome": "Approve partially",
+  "payout": 519000
+ },
+ "CLM-26-04209": {
+  "outcome": "Approve partially",
+  "payout": 115000
+ },
+ "CLM-26-09313": {
+  "outcome": "Approve",
+  "payout": 122500
+ }
+}

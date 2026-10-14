@@ -1,0 +1,18 @@
+Go to http://localhost:5180. You work in accounts payable. For the invoice whose number is the record's invoice_no:
+
+1. Find it on the Invoices page (use the search box). Note its vendor, PO number, quantity invoiced, unit price and due date.
+2. Open the vendor (click the vendor name) and note its payment status.
+3. Look up the PO number on the Purchase orders page. Note the PO's status, its ordered quantity and its agreed unit price.
+4. Look up the same PO number on the Goods receipts page and add up every quantity received for it. A PO can have several partial deliveries, or none.
+
+Decide using the first rule that applies:
+- Vendor is Blocked: Reject, reason "Vendor blocked".
+- PO not found, or its status is not Open: Reject, reason "No open PO".
+- Quantity invoiced is more than the total received: Place on hold, reason "Short receipt", note "Invoiced X, received Y".
+- Unit price differs from the PO's agreed unit price by more than 2% of the PO price: Place on hold, reason "Price variance", note "Invoice price X, PO price Y".
+- Otherwise: Approve for payment, with the payment date set to the invoice's due date.
+
+Go back to the invoice page, fill in the decision form, press Save decision, and press Confirm in the box that appears. Finish by saying which invoice you decided, the numbers you used and your decision.
+
+DATA for this record:
+  - invoice_no = INV-26-7750

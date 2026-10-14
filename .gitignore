@@ -1,0 +1,44 @@
+# Secrets: never commit real credentials. Only the *.example files are kept.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/storage/master.key
+**/storage/app.sqlite3*
+
+# Virtual environments and dependencies
+venv/
+.venv/
+**/venv/
+**/node_modules/
+**/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated at runtime
+**/storage/cache.sqlite3
+**/storage/results.json
+**/docs/Logs.md
+
+# Tool-comparison runs (bench and v4 to v7): local state, logs and outputs
+bench/logs/
+v4-stagehand/cache/
+v5-skyvern/data/
+v6-webwright/outputs/
+v6-webwright/artifacts/
+
+# Local tooling
+.claude/
+.DS_Store
+
+# Test-site runtime state
+testsites/**/data/state.json
+testsites/**/.pid
+testsites/**/.server.log
+
+# Third-party checkout used by the tool comparison (clone it per v6-webwright/README.md)
+v6-webwright/webwright/
