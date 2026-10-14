@@ -8,6 +8,9 @@ if [ "$1" = "stop" ]; then
   echo "stopped"; exit 0
 fi
 for site in ap-desk returns-desk expense-desk claims-desk; do
-  (cd "$site" && nohup node server.js > .server.log 2>&1 & echo $! > .pid)
+  cd "$site" || exit 1
+  nohup node server.js > .server.log 2>&1 &
+  echo $! > .pid
+  cd ..
 done
 echo "AP Desk http://localhost:5180, Returns Desk :5181, Expense Desk :5182, Claims Desk :5183"
